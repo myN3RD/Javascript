@@ -1,0 +1,7 @@
+String Interpolation:   var myName = 'Tobias';
+                        var myCity = 'Porto';
+                        console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+                        
+                        My name is Tobias. My favorite city is Porto.
+                        
+                        
