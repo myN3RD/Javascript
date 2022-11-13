@@ -15,3 +15,19 @@ In JavaScript, the filter() method allows us to filter through an array - iterat
 that fit certain criteria, into a new array.
                         
                         
+return   return;      The return statement stops the execution of a function and will not further continue the funtion
+
+         return = 0;  Can also have a value
+         
+    function getRectArea(width, height) {
+    if (width > 0 && height > 0) {
+    return width * height;
+    }
+    return 0;
+    }
+
+    console.log(getRectArea(3, 4));
+    // expected output: 12
+
+    console.log(getRectArea(-3, 4));
+    // expected output: 0
