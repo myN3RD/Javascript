@@ -35,7 +35,7 @@ return   return;      The return statement stops the execution of a function and
     
     
     
-throw statement
+throw statement         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
 
 Example: Please input a number between 5 and 10:
 
