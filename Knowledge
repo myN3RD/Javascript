@@ -31,3 +31,19 @@ return   return;      The return statement stops the execution of a function and
 
     console.log(getRectArea(-3, 4));
     // expected output: 0
+    
+    
+    
+    
+throw statement
+
+Example: Please input a number between 5 and 10:
+
+                  ghjgh     Test Input
+
+                  Input not a number
+
+
+                  if(x == "")  throw "is Empty";
+                      if(isNaN(x)) throw "not a number";
+                      if(x > 10)   throw "too high";
