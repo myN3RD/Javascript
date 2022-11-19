@@ -57,3 +57,8 @@ C	      Create  	  POST	          INSERT
 R	      Read	      GET	            SELECT
 U	      Update    	PATCH/PUT(if you have id or uuid)	UPDATE
 D	      Delete	    DELETE	        DELETE
+
+_____________________________________________________
+
+
+? is if statement ,  : is else statement in a single line
