@@ -4,11 +4,17 @@ String Interpolation:   var myName = 'Tobias';
                         
                         My name is Tobias. My favorite city is Porto.
                         
-                        
-                        
-                        
-METHODS
 
+CLASSES
+
+- The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
+!- in classes we have to use arrow function inside of a function (to refer to the overall class)
+
+                     
+                        
+CLASSES  & >  METHODS
+
+constructor() The constructor method is a special method for creating and initializing an object created with a class.
 filter()      https://www.w3schools.com/jsref/jsref_filter.asp
 
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
