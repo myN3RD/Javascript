@@ -113,4 +113,8 @@ console.log(sliceAt140.length);
 console.log(sliceAt140);                    
 
 
+// First Letter Big and all others small
+var myName = 'toBIaS';
+var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
+console.log(myName);
 
