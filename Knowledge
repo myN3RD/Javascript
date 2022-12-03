@@ -69,7 +69,7 @@ _____________________________________________________
 
 ? is if statement ,  : is else statement in a single line
 
-
+_____________________________________
 
 DATA TYPES
 
@@ -97,5 +97,20 @@ Naming:
 myVar
 my_var
 myVar123
+
+______________________________________
+
+FUNCTIONS
+
+slice                 var name = Tobias;
+                      name.slice(0,1);  -> from 0 to 1 BUT not including charakter at 1
+                      
+// slicing at 140 charakters
+
+var sliceAt140 = 'hahhhhlloossskssksskshjdhsjhssdjssshajshdkjahsdggahdgjasgjdgsahhdgahsdghasjgdjshagjsahhajshdkasshjfhjkdhfassssssjhjshjkahsjhdajshdsajdhadgajdgakjsgdasgdsagdkjgjsajdgasjdgsajdgsajdgasjdgajsdgkaskskksksksdgssssssss';
+var sliceAt140 = sliceAt140.slice(0,140);
+console.log(sliceAt140.length);
+console.log(sliceAt140);                    
+
 
 
