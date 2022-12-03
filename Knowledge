@@ -92,4 +92,10 @@ Keyword Name   Value
  ↓       ↓       ↓
 var  myName = "Tobias";
 
+Naming:
+
+myVar
+my_var
+myVar123
+
 
