@@ -68,3 +68,13 @@ _____________________________________________________
 
 
 ? is if statement ,  : is else statement in a single line
+
+
+
+DATA TYPES
+
+String = a String of Charakters
+Numbers = 123
+Booleon = true false
+
+-> with typeof(); -> we can find out what data type we have
