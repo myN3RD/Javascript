@@ -118,3 +118,7 @@ var myName = 'toBIaS';
 var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
 console.log(myName);
 
+
+NUMBERS
+
+Operators:
