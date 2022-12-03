@@ -78,3 +78,16 @@ Numbers = 123
 Booleon = true false
 
 -> with typeof(); -> we can find out what data type we have
+
+
+VARIABLES
+
+var
+let
+const
+
+Syntax:
+
+Keyword Name   Value
+ ↓       ↓       ↓
+var  myName = "Tobias"
