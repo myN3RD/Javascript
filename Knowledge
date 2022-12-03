@@ -80,7 +80,7 @@ Booleon = true false
 -> with typeof(); -> we can find out what data type we have
 
 
-VARIABLES
+VARIABLES (are like boxes with a package inside)
 
 var = variable -> you can reassign a new value what is inside the keyword
 let =
