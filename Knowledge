@@ -82,12 +82,14 @@ Booleon = true false
 
 VARIABLES
 
-var
-let
-const
+var = variable -> you can reassign a new value what is inside the keyword
+let =
+const = constant ->
 
 Syntax:
 
 Keyword Name   Value
  ↓       ↓       ↓
-var  myName = "Tobias"
+var  myName = "Tobias";
+
+
