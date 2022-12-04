@@ -1,3 +1,8 @@
+alert();          Showing the User
+console.log();    Showing the developer
+
+______________________________________________
+
 String Interpolation:   var myName = 'Tobias';
                         var myCity = 'Porto';
                         console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
@@ -102,6 +107,7 @@ ______________________________________
 
 FUNCTIONS
 
+Creating a function:
 
 Keyword   Name
  ↓         ↓ 
@@ -112,6 +118,10 @@ function doThis() {
 }
 
 -> if we call the function everything between the {} will be executed
+
+CALL the function:
+
+doThis();
 
 
 
