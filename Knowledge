@@ -102,6 +102,14 @@ ______________________________________
 
 FUNCTIONS
 
+function doThis() {
+  serie of instruction
+  ...
+  ...
+}
+
+
+
 slice                 var name = Tobias;
                       name.slice(0,1);  -> from 0 to 1 BUT not including charakter at 1
                       
