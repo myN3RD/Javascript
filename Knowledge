@@ -108,6 +108,10 @@ function doThis() {
   ...
 }
 
+-> if we call the function everything between the {} will be executed
+
+
+
 
 
 slice                 var name = Tobias;
