@@ -109,9 +109,9 @@ FUNCTIONS
 
 Creating a function:
 
-Keyword   Name
- ↓         ↓ 
-function doThis() {
+Keyword   Name  Input
+ ↓         ↓    ↓ 
+function doThis( ) {
   serie of instruction
   ...
   ...
@@ -122,6 +122,8 @@ function doThis() {
 CALL the function:
 
 doThis();
+
+
 
 
 
