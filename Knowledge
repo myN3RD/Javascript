@@ -102,6 +102,9 @@ ______________________________________
 
 FUNCTIONS
 
+
+Keyword   Name
+ ↓         ↓ 
 function doThis() {
   serie of instruction
   ...
