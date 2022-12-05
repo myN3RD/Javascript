@@ -21,6 +21,7 @@ CLASSES  & >  METHODS
 
 constructor() The constructor method is a special method for creating and initializing an object created with a class.
 filter()      https://www.w3schools.com/jsref/jsref_filter.asp
+.querySelector() The Document method querySelector() returns the first Element within the document that matches the specified selector
 
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
 that fit certain criteria, into a new array.
