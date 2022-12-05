@@ -172,6 +172,15 @@ LOOPS
 
 while = is a checking a condition -> infinite loop until it turns from true to false
 
+var i = 1;
+
+while (i<2) {
+  console.log(i);
+  i++;
+}
+
+
+
 for   = 
     Start End  Change
       ↓    ↓    ↓ 
