@@ -170,6 +170,10 @@ ____________________________
 
 LOOPS 
 
+FAB: bei for loops hat man ja meistens eine menge
+     while nutzt man, solange ein "zustand" noch nicht erreicht ist und den erst herstellen muss
+     
+
 while = is a checking a condition -> infinite loop until it turns from true to false
 
 var i = 1;
