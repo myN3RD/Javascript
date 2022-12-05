@@ -150,6 +150,7 @@ NUMBERS
 
 Operators:
 
+__________________________
 
 IF and ELSE Statments
 
@@ -164,3 +165,10 @@ if () {
 } else {
 }
 
+____________________________
+
+
+LOOPS 
+
+while = is a checking a condition -> infinite loop until it turns from true to false
+for   = 
