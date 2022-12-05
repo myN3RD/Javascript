@@ -171,4 +171,10 @@ ____________________________
 LOOPS 
 
 while = is a checking a condition -> infinite loop until it turns from true to false
+
 for   = 
+    Start End  Change
+      ↓    ↓    ↓ 
+for (i=0; i<5; i++;) {
+  // do something
+}
