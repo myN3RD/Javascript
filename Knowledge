@@ -198,3 +198,5 @@ ______________________________
 jQUERY
 
 jQuery is a library for Javascript
+
+$() -> select one or all items
