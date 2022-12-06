@@ -204,5 +204,16 @@ $() -> select one or all items
 
 Event Listener:
 - will be called whenever the specified event is delivered to the target
+                                        .click
+                                        .keypress
+                                        .
 
 element.addEventListener("click", function(){ alert("Hello World!"); });
+
+
+// Eventlistener for keydown event
+
+$(document).keydown(function(event) {
+    $("h1").text(event.key);
+    console.log(event.key);
+});
