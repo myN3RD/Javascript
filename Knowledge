@@ -220,4 +220,4 @@ $(document).keydown(function(event) {
 
 
 Animations:
-.animate({})
+$().animate({})
