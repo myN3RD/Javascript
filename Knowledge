@@ -200,3 +200,9 @@ jQUERY
 jQuery is a library for Javascript
 
 $() -> select one or all items
+
+
+Event Listener:
+- will be called whenever the specified event is delivered to the target
+
+element.addEventListener("click", function(){ alert("Hello World!"); });
