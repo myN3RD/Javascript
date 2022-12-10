@@ -10,14 +10,14 @@ String Interpolation:   var myName = 'Tobias';
                         My name is Tobias. My favorite city is Porto.
                         
 
-CLASSES
+      CLASSES
 
 - The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
 !- in classes we have to use arrow function inside of a function (to refer to the overall class)
 
                      
                         
-CLASSES  & >  METHODS
+      CLASSES  & >  METHODS
 
 constructor() The constructor method is a special method for creating and initializing an object created with a class.
 filter()      https://www.w3schools.com/jsref/jsref_filter.asp
@@ -61,7 +61,7 @@ Example: Please input a number between 5 and 10:
                       if(x > 10)   throw "too high";
 ______________________________________________________
 
-CRUD Operarions
+      CRUD Operarions
 
 
 LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
@@ -77,7 +77,7 @@ _____________________________________________________
 
 _____________________________________
 
-DATA TYPES
+      DATA TYPES
 
 String = a String of Charakters
 Numbers = 123
@@ -106,7 +106,7 @@ myVar123
 
 ______________________________________
 
-FUNCTIONS
+      FUNCTIONS
 
 Creating a function:
 
@@ -147,7 +147,7 @@ var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).t
 console.log(myName);
 
 
-NUMBERS
+      NUMBERS
 
 Operators:
 
@@ -169,7 +169,7 @@ if () {
 ____________________________
 
 
-LOOPS 
+      LOOPS 
 
 FAB: bei for loops hat man ja meistens eine menge
      while nutzt man, solange ein "zustand" noch nicht erreicht ist und den erst herstellen muss
@@ -195,9 +195,13 @@ for (i=0; i<5; i++;) {
 
 ______________________________
 
-jQUERY
+      jQUERY
 
 jQuery is a library for Javascript
+
+https://developers.google.com/speed/libraries/
+
+
 
 $() -> select one or all items
 
