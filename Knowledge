@@ -28,6 +28,7 @@ filter()      https://www.w3schools.com/jsref/jsref_filter.asp
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
 that fit certain criteria, into a new array.
 
+______________________________________________
 
 
       RETURN STATEMENT
@@ -89,9 +90,25 @@ D	      Delete	    DELETE	        DELETE
 _____________________________________________________
 
 
-? is if statement ,  : is else statement in a single line
+      IF and ELSE STATEMENTS
+      
+? is a if statement ,  : is a else statement in a single line
 
-_____________________________________
+IF and ELSE Statments
+
+&& AND
+|| OR
+!  NOT or the opposite
+
+
+if () {
+} else if {
+} else if {
+} else {
+}
+
+______________________________________________
+
 
       DATA TYPES
 
@@ -101,8 +118,10 @@ Booleon = true false
 
 -> with typeof(); -> we can find out what data type we have
 
+______________________________________________
 
-VARIABLES (are like boxes with a package inside)
+
+      VARIABLES (are like boxes with a package inside)
 
 var = variable -> you can reassign a new value what is inside the keyword
 let =
@@ -120,7 +139,7 @@ myVar
 my_var
 myVar123
 
-______________________________________
+______________________________________________
 
       FUNCTIONS
 
@@ -144,8 +163,6 @@ doThis();
 
 
 
-
-
 slice                 var name = Tobias;
                       name.slice(0,1);  -> from 0 to 1 BUT not including charakter at 1
                       
@@ -162,27 +179,14 @@ var myName = 'toBIaS';
 var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
 console.log(myName);
 
+______________________________________________
+
 
       NUMBERS
 
 Operators:
 
-__________________________
-
-IF and ELSE Statments
-
-&& AND
-|| OR
-!  NOT or the opposite
-
-
-if () {
-} else if {
-} else if {
-} else {
-}
-
-____________________________
+______________________________________________
 
 
       LOOPS 
