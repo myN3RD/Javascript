@@ -245,3 +245,16 @@ $(document).keydown(function(event) {
 
 Animations:
 $().animate({})
+
+
+
+______________________________________________
+
+      COUNTER
+      
+      
+const s = date.getSeconds();
+const procent100 = 60;                                         // Wichtig und richtig
+var currentPercentS = Math.floor(s / procent100 * 100);
+console.log(s);
+console.log(currentPercentS + "% of 1 Minute");
