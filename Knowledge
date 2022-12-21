@@ -129,6 +129,12 @@ var = variable -> you can reassign a new value what is inside the keyword
 let =
 const = constant ->
 
+
+Variables inside a function are all LOCAL
+
+Variables outside a function are all GLOBAL
+
+
 Syntax:
 
 Keyword Name   Value
