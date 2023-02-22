@@ -1,0 +1,23 @@
+            JS UNIT TESTING
+            _______________
+            
+"writing code that tests the main code"
+
+"its no replacement for manual testing"
+
+
+
+  __________APPLICATION__________
+  |                             |
+  |    UNIT             UNIT    |
+  |                             |
+  |    UNIT             UNIT    |
+  
+  
+  UNIT: e.g., a function, class, a component
+  
+  
+  -> we test all the single units -> if all units are working -> the app is working
+  
+  -----> BACKED UP WITH INTEGRATION TESTS <-----
+  
