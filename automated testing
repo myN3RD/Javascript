@@ -14,10 +14,15 @@
   |    UNIT             UNIT    |
   
   
-  UNIT: e.g., a function, class, a component
+UNIT: e.g., a function, class, a component
   
   
-  -> we test all the single units -> if all units are working -> the app is working
+-> we test all the single units -> if all units are working -> the app is working
   
-  -----> BACKED UP WITH INTEGRATION TESTS <-----
+ 
+-----> BACKED UP WITH INTEGRATION TESTS <-----
+
+
+
+UNIT Testing            INTEGRATION Testing            END-TO-END (E2N) Testing      
   
