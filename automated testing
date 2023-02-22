@@ -5,6 +5,8 @@
 
 "its no replacement for manual testing"
 
+FOR JS or TS Projects
+
 
 
   __________APPLICATION__________
@@ -25,5 +27,32 @@ UNIT: e.g., a function, class, a component
 
 
 
-UNIT Testing      +      INTEGRATION Testing      +      END-TO-END (E2N) Testing      
+UNIT Testing      +      INTEGRATION Testing      +      END-TO-END (E2N) Testing  
+
+
+
+
+
+
+
+
+
+
+            A TESTING SETUP
+            _______________
+
+we need a   Test Runner        +       Assertion Library
+          (for executing)             (Used to define expected outcomes)
+          
+          
+Jest & Vitest
+
+
+npm install -D vitest
+npm install --save-dev vitest
+
+
+
+"scripts": {
+    "test": "vitest --globals"
   
