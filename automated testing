@@ -24,5 +24,6 @@ UNIT: e.g., a function, class, a component
 
 
 
-UNIT Testing            INTEGRATION Testing            END-TO-END (E2N) Testing      
+
+UNIT Testing      +      INTEGRATION Testing      +      END-TO-END (E2N) Testing      
   
