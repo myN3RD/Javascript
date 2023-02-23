@@ -28,6 +28,13 @@ filter()      https://www.w3schools.com/jsref/jsref_filter.asp
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
 that fit certain criteria, into a new array.
 
+
+
+reduce method
+
+"we started with many things and REDUCED it down to one thing"
+
+optional add start value  0
 ______________________________________________
 
 
