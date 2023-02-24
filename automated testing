@@ -79,4 +79,23 @@ test('should yield a correct sum if an array of numeric string values is provide
 
     
 npm test
+
+
+
+
+            CHECKING FOR ERRORS
+            ___________________
+            
+     we cant RETURN errors -> we have to throw
+     
+     
+
+// testing for errors
+test('should throw an error if no value is passed into the function', () => {
+  const resultFunction = () => {
+    add();
+  }; // we cant RETURN errors -> we have to throw
+  // expect(resultFunction).not.toThrow(); // not propertie is like !=
+  expect(resultFunction).toThrow();
+});
   
