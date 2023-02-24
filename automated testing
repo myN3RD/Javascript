@@ -67,6 +67,13 @@ npm install --save-dev vitest
 create a file xxx.test.js
 
 use "it" or "test" keyword
+
+SYNTAX:
+test('should yield a correct sum if an array of numeric string values is provided', () => {
+
+});
+
+
     
 npm test
   
