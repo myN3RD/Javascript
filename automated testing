@@ -63,6 +63,9 @@ npm install --save-dev vitest
             AAA Pattern - Arrange, Act, Assert
             __________________________________
 
+allways write more then one test per unit (for different szenarios) - the amout always depends on own decision
+
+
 
 create a file xxx.test.js
 
