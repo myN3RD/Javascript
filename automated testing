@@ -118,3 +118,12 @@ keyword is * describe *
 
 
 import { test, expect, describe } from 'vitest';
+
+
+describe('validateNumber()', () => {
+ x
+ x          all the test which belongs to this
+ x
+ x          all the test which belongs to this
+ x
+});
