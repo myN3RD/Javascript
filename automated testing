@@ -104,3 +104,17 @@ NOTE
 we could have mutiple expect (-tations) in one test
 
 BUT also seperate them -> so for each test we have one expect()
+
+
+
+
+            "TEST SUITES"
+            _____________
+
+
+if we use a a lot of test and want to make clear all the differences, we use -> "TEST SUITES"
+
+keyword is * describe *
+
+
+import { test, expect, describe } from 'vitest';
