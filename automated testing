@@ -99,3 +99,8 @@ test('should throw an error if no value is passed into the function', () => {
   expect(resultFunction).toThrow();
 });
   
+  
+NOTE
+we could have mutiple expect (-tations) in one test
+
+BUT also seperate them -> so for each test we have one expect()
