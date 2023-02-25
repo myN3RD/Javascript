@@ -3,9 +3,11 @@
             
 "writing code that tests the main code"
 
-"its no replacement for manual testing"
+"it's no replacement for manual testing"
 
-FOR JS or TS Projects
+for JS or TS Projects
+
+the general syntax for backend and frontend for tests is the same!
 
 
 
