@@ -9,6 +9,10 @@ for JS or TS Projects
 
 the general syntax for backend and frontend for tests is the same!
 
+            ONLY TEST YOUR OWN CODE -> no 3 party, api's, queryselector, getElementBy... , fetch() etc.
+            
+            
+
 
 
   __________APPLICATION__________
@@ -22,6 +26,8 @@ UNIT: e.g., a function, class, a component
   
   
 -> we test all the single units
+
+-> one test should only test one thing
   
  
 -----> BACKED UP WITH INTEGRATION TESTS <-----
@@ -67,6 +73,7 @@ npm install --save-dev vitest
 
 allways write more then one test per unit (for different szenarios) - the amout always depends on own decision
 
+-> one test should only test one thing
 
 
 create a file xxx.test.js
