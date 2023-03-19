@@ -127,10 +127,12 @@ Booleon = true false
 
 -> with typeof(); -> we can find out what data type we have
 
-______________________________________________
 
 
-      VARIABLES (are like boxes with a package inside)
+
+        VARIABLES (are like boxes with a package inside)
+        ________________________________________________
+        
 
 var = variable -> you can reassign a new value what is inside the keyword
 let =
@@ -154,9 +156,25 @@ myVar
 my_var
 myVar123
 
-______________________________________________
 
-      FUNCTIONS
+
+          OBJECTS
+          _______
+          
+          
+const object = {
+  num: 5          // => thats a PROPERTIE (inside of the object) with a VALUE
+};     
+
+console.log(object.num);    //  . -> access PROPERTIE inside of an object
+          
+          
+
+
+
+          FUNCTIONS
+          _________
+          
 
 Creating a function:
 
