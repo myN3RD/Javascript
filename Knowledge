@@ -9,17 +9,23 @@ String Interpolation:   var myName = 'Tobias';
                         
                         My name is Tobias. My favorite city is Porto.
                         
-______________________________________________
+
+
 
 
       CLASSES
+      _______
+      
 
 - The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
 !- in classes we have to use arrow function inside of a function (to refer to the overall class)
 
-                     
+            
+            
                         
       CLASSES  & >  METHODS
+      _____________________
+      
 
 constructor() The constructor method is a special method for creating and initializing an object created with a class.
 filter()      https://www.w3schools.com/jsref/jsref_filter.asp
@@ -35,11 +41,13 @@ reduce method
 "we started with many things and REDUCED it down to one thing"
 
 optional add start value  0
-______________________________________________
 
 
-      RETURN STATEMENT
-      
+
+
+       RETURN STATEMENT
+       ________________
+       
                         
 return   return;                                    The return statement stops the execution of a function and will not further continue the funtion
 
@@ -69,6 +77,7 @@ Redirect:
     
     
       THROW STATEMENTS   
+      ________________
       
     
 throw statement         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
@@ -83,9 +92,13 @@ Example: Please input a number between 5 and 10:
                   if(x == "")  throw "is Empty";
                       if(isNaN(x)) throw "not a number";
                       if(x > 10)   throw "too high";
-______________________________________________________
 
-      CRUD Operarions
+
+
+
+
+        CRUD Operarations
+        _______________
 
 
 LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
@@ -94,10 +107,13 @@ R	      Read	      GET	            SELECT
 U	      Update    	PATCH/PUT(if you have id or uuid)	UPDATE
 D	      Delete	    DELETE	        DELETE
 
-_____________________________________________________
 
 
-      IF and ELSE STATEMENTS
+
+
+         IF and ELSE STATEMENTS
+         ______________________
+        
       
 ? is a if statement ,  : is a else statement in a single line
 
@@ -116,10 +132,13 @@ if () {
 
 when we have more than 5 statements , its recommended to use then a   SWITCH statement
 
-______________________________________________
 
 
-      DATA TYPES
+
+
+
+         DATA TYPES
+         __________
 
 String = a String of Charakters
 Numbers = 123
@@ -130,9 +149,9 @@ Booleon = true false
 
 
 
-        VARIABLES (are like boxes with a package inside)
-        ________________________________________________
-        
+         VARIABLES (are like boxes with a package inside)
+         ________________________________________________
+          
 
 var = variable -> you can reassign a new value what is inside the keyword
 let =
@@ -255,7 +274,7 @@ for (i=0; i<5; i++;) {
 }
 
 for (let i=0; i<5; i++;) {
-  // do something
+  console.log(i);
 }
 
 
