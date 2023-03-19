@@ -219,14 +219,20 @@ ______________________________________________
 
 Operators:
 
-______________________________________________
 
 
-      LOOPS 
+
+         LOOPS 
+         _____
+         
 
 FAB: bei for loops hat man ja meistens eine menge
      while nutzt man, solange ein "zustand" noch nicht erreicht ist und den erst herstellen muss
-     
+
+
+
+while loop
+__________
 
 while = is a checking a condition -> infinite loop until it turns from true to false
 
@@ -239,16 +245,25 @@ while (i<2) {
 
 
 
-for   = 
+for loop
+________
+
     Start End  Change
       ↓    ↓    ↓ 
 for (i=0; i<5; i++;) {
   // do something
 }
 
-______________________________
+for (let i=0; i<5; i++;) {
+  // do something
+}
 
-      jQUERY
+
+
+
+
+          jQUERY
+          ______
 
 jQuery is a library for Javascript
 
@@ -281,10 +296,11 @@ $().animate({})
 
 
 
-______________________________________________
 
-      COUNTER
-      
+
+
+          COUNTER
+          _______  
       
 const s = date.getSeconds();
 const procent100 = 60;                                         // Wichtig und richtig
