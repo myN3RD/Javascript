@@ -281,6 +281,16 @@ for (let i=0; i<5; i++;) {
 
 
 
+          ARRAYS
+          ______
+
+//     i = index:0, 1, 2    // i is the positon in the of the item in the array
+var dataArray = [4, 15, 34];
+
+
+
+
+
           jQUERY
           ______
 
