@@ -285,7 +285,14 @@ for (let i=0; i<5; i++;) {
           ______
 
 //     i = index:0, 1, 2    // i is the positon in the of the item in the array
-var dataArray = [4, 15, 34];
+var dataArray = [4, 15, 34];  // array without objects
+
+// array with objects inside of the array
+var dataArray = [
+  {width: 25, height: 4, fill: 'red'},
+  {width: 25, height: 15, fill: 'red'},
+  {width: 25, height: 34, fill: 'red'}
+];
 
 
 
