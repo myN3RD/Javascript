@@ -231,10 +231,34 @@ var myName = 'toBIaS';
 var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
 console.log(myName);
 
-______________________________________________
 
 
-      NUMBERS
+
+
+ARROW FUNCTION
+______________
+
+
+fetch(url)
+  .then(res => res.json())
+  .then(json => console.log(json));
+  
+ 
+ 
+ // thats the same without an arrow function
+.attr('fill', function(data){return d.fill;}
+
+// as arrow function
+.attr('fill', data => data.fill)
+  
+
+
+
+
+
+          NUMBERS
+          _______
+          
 
 Operators:
 
