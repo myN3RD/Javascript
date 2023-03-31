@@ -263,6 +263,11 @@ fetch(url)
 Operators:
 
 
+Random Number:
+
+(Math.floor(Math.random()*100) + d.properties.mag))
+
+
 
 
          LOOPS 
