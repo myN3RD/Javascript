@@ -135,8 +135,6 @@ when we have more than 5 statements , its recommended to use then a   SWITCH sta
 
 
 
-
-
          DATA TYPES
          __________
 
@@ -174,6 +172,7 @@ Naming:
 myVar
 my_var
 myVar123
+
 
 
 
