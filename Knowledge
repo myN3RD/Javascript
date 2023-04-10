@@ -1,11 +1,17 @@
 alert();          Showing the User
 console.log();    Showing the developer
 
+
+open console in chrome shortcut
+option + cmd + j
+
+
+
 ______________________________________________
 
 String Interpolation:   var myName = 'Tobias';
                         var myCity = 'Porto';
-                        console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+                        console.log(`My name is ${myName}. My favorite city is ${myCity}.`);      // with the ``we can use ... directly
                         
                         My name is Tobias. My favorite city is Porto.
                         
@@ -13,45 +19,48 @@ String Interpolation:   var myName = 'Tobias';
 
 
 
-      CLASSES
-      _______
+          CLASSES
+          _______
       
 
-- The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
+The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
 !- in classes we have to use arrow function inside of a function (to refer to the overall class)
 
             
             
                         
-      CLASSES  & >  METHODS
-      _____________________
+          CLASSES  & >  METHODS
+          _____________________
       
 
-constructor() The constructor method is a special method for creating and initializing an object created with a class.
-filter()      https://www.w3schools.com/jsref/jsref_filter.asp
-.querySelector() The Document method querySelector() returns the first Element within the document that matches the specified selector
+constructor()   -> The constructor method is a special method for creating and initializing an object created with a class.
+filter()        -> https://www.w3schools.com/jsref/jsref_filter.asp
 
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
 that fit certain criteria, into a new array.
 
+.querySelector()-> The Document method querySelector() returns the first Element within the document that matches the specified selector
 
 
-reduce method
+reduce method   -> "we started with many things and REDUCED it down to one thing"
 
-"we started with many things and REDUCED it down to one thing"
-
-optional add start value  0
+optional add start value 0
 
 
 
 
-       RETURN STATEMENT
-       ________________
-       
+          RETURN STATEMENT
+          ________________
+
+
+ The return statement stops the execution of a function and will not further continue the function.
                         
-return   return;                                    The return statement stops the execution of a function and will not further continue the funtion
+         return;  
+         
+         or
 
          return = 0;  Can also have a value
+         
          
     function getRectArea(width, height) {
     if (width > 0 && height > 0) {
