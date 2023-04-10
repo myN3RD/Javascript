@@ -1,5 +1,19 @@
-alert();          Showing the Clint in the Browser
-console.log();    Showing the developer
+PROGRAMMING LEANGUAGE: BUILDING WEB APPLICATIONS
+
+HTML is for         NOUNS               <p></p>        means  parapgraph
+CSS is for          ADJECTIVES          p {color: red} means the paragraph is  red
+JAVASCRIPT is for   VERBS               p.hide();      means  hide  the paragraph
+
+
+
+JS for FRONTEND
+JS + Node.js for BACKEND 
+
+
+
+
+alert();          Showing to the Clint in the Browser
+console.log();    Showing to the developer
 
 
 open console in chrome shortcut
