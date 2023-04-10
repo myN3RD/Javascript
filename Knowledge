@@ -21,6 +21,11 @@ option + cmd + j
 
 
 
+GOES ALWAYS into the END of the Body of the HTML File
+<script></script>
+
+
+
 
           STRING INTERPOLATION
           ____________________
