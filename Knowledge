@@ -1,4 +1,4 @@
-alert();          Showing the User
+alert();          Showing the Clint in the Browser
 console.log();    Showing the developer
 
 
@@ -7,15 +7,17 @@ option + cmd + j
 
 
 
-______________________________________________
 
-String Interpolation:   var myName = 'Tobias';
-                        var myCity = 'Porto';
-                        console.log(`My name is ${myName}. My favorite city is ${myCity}.`);      // with the ``we can use ... directly
-                        
-                        My name is Tobias. My favorite city is Porto.
-                        
+          STRING INTERPOLATION
+          ____________________
 
+
+var myName = 'Tobias';
+var myCity = 'Porto';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);      // with the ``we can use ... directly
+                        
+My name is Tobias. My favorite city is Porto.
+                        
 
 
 
@@ -53,7 +55,7 @@ optional add start value 0
           ________________
 
 
- The return statement stops the execution of a function and will not further continue the function.
+The return statement stops the execution of a function and will not further continue the function.
                         
          return;  
          
@@ -85,8 +87,8 @@ Redirect:
     
     
     
-      THROW STATEMENTS   
-      ________________
+          THROW STATEMENTS   
+          ________________
       
     
 throw statement         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
@@ -106,8 +108,8 @@ Example: Please input a number between 5 and 10:
 
 
 
-        CRUD Operarations
-        _______________
+          CRUD Operarations
+          _______________
 
 
 LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
@@ -120,8 +122,8 @@ D	      Delete	    DELETE	        DELETE
 
 
 
-         IF and ELSE STATEMENTS
-         ______________________
+          IF and ELSE STATEMENTS
+          ______________________
         
       
 ? is a if statement ,  : is a else statement in a single line
