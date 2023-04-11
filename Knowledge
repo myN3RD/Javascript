@@ -169,6 +169,8 @@ when we have more than 5 statements , its recommended to use then a   SWITCH sta
          __________
 
 
+The 7 primitive Data Types:  (all other things are Objects) 
+
 String = a String of Charakters -> a string/sequence of charakters -> '' or ""
 Numbers = 123
 Booleon = true or false
