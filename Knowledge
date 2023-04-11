@@ -180,16 +180,20 @@ Booleon = true false
 
          VARIABLES (are like boxes with a package inside (or which hold an object inside))
          _________
-          
+
+
+Ways to declare a Variable:
 
 var = variable -> you can reassign a new value what is inside the keyword
-let = modern ddeclaring of an variable
-const = constant ->
+let = modern ddeclaring of an variable -> can be reassigned in the future
+const = constant -> can not be reassigned, its a Constant
+
 
 
 Variables inside a function are all LOCAL
 
 Variables outside a function are all GLOBAL
+
 
 
 Syntax:
