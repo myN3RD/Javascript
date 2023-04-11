@@ -165,15 +165,23 @@ when we have more than 5 statements , its recommended to use then a   SWITCH sta
 
 
 
-         DATA TYPES
+         DATA TYPES (Values have a type, NOT the variables)
          __________
 
 
 String = a String of Charakters
 Numbers = 123
 Booleon = true false
+____________________ MOST IMPORTANT DATA TYPES
+
+4.
+5.
+6.
+7.
+
 
 -> with typeof(); -> we can find out what data type we have
+-> console.log(typeof(PI));
 
 
 
@@ -198,12 +206,12 @@ Variables outside a function are all GLOBAL
 
 Syntax:
 
-Keyword Name   Value              ->      we store values in variables
- ↓       ↓       ↓
-var  myName = "Tobias";     
+Keyword Name    Value          ->       we store values in variables
+ ↓       ↓        ↓
+var   myName = "Tobias";     
 
 
-console.log(myName);          -> shows us which value is inside the "box"
+console.log(myName);           ->       shows us which value is inside the "box"
 
 
 Naming:
