@@ -208,6 +208,8 @@ myVar
 my_var
 myVar123
 
+123myVar -> in js var names cant start with numbers!
+
 
 
 
