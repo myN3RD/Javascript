@@ -195,8 +195,8 @@ SAME -> console.log(typeof(PI));
 
 Ways to declare a Variable:
 
-var = variable -> you can reassign a new value what is inside the keyword
-let = modern ddeclaring of an variable -> can be reassigned in the future
+var = variable -> you can reassign a new value what is inside the keyword       // should be completelly avoided
+let = modern ddeclaring of an variable -> can be reassigned in the future       // should be only used if we rly wanna reassing a value later
 
 Example:
 
@@ -207,7 +207,7 @@ test = 'successfull';
 console.log(test);  -> successfull
 
 
-const = constant -> can not be reassigned, its a Constant
+const = constant -> can not be reassigned, its a Constant                       // should be used aas much as possible
 
 
 
