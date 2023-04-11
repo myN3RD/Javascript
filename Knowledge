@@ -183,7 +183,8 @@ ____________________ MOST IMPORTANT DATA TYPES
 
 
 -> with typeof(); -> we can find out what data type we have
--> console.log(typeof(PI));
+-> console.log(typeof PI);
+SAME -> console.log(typeof(PI));
 
 
 
