@@ -168,6 +168,7 @@ when we have more than 5 statements , its recommended to use then a   SWITCH sta
          DATA TYPES
          __________
 
+
 String = a String of Charakters
 Numbers = 123
 Booleon = true false
@@ -177,12 +178,12 @@ Booleon = true false
 
 
 
-         VARIABLES (are like boxes with a package inside)
-         ________________________________________________
+         VARIABLES (are like boxes with a package inside (or which hold an object inside))
+         _________
           
 
 var = variable -> you can reassign a new value what is inside the keyword
-let =
+let = modern ddeclaring of an variable
 const = constant ->
 
 
@@ -193,9 +194,13 @@ Variables outside a function are all GLOBAL
 
 Syntax:
 
-Keyword Name   Value
+Keyword Name   Value              ->      we store values in variables
  ↓       ↓       ↓
-var  myName = "Tobias";
+var  myName = "Tobias";     
+
+
+console.log(myName);          -> shows us which value is inside the "box"
+
 
 Naming:
 
