@@ -142,7 +142,7 @@ D	      Delete	    DELETE	        DELETE
 
 
 
-          IF and ELSE STATEMENTS
+          IF and ELSE STATEMENTS (for taking decisions)
           ______________________
         
       
@@ -152,16 +152,33 @@ IF and ELSE Statments
 
 && AND
 || OR
-!  NOT or the opposite
+!  NOT or the Opposite
 
 
-if () {
+Syntax:
+
+    condition is always a booleon
+if (condition) {
 } else if {
 } else if {
 } else {
 }
 
-when we have more than 5 statements , its recommended to use then a   SWITCH statement
+when we have more than 5 statements , its recommended to use then a -> SWITCH statement
+
+
+
+const age = 19;
+// bigger that or equal
+const isOldEnough = age >= 18;
+
+   //condition
+if (isOldEnough) {
+  console.log('Sarah can make a driving licence 🚗');
+} else {
+  console.log('Sarah is not old enough to make a car license!')
+};
+
 
 
 
