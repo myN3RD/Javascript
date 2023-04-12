@@ -12,8 +12,9 @@ JS + Node.js for BACKEND
 
 
 
-alert();          Showing to the Clint in the Browser
-console.log();    Showing to the developer
+alert();                      Showing to the Clint in the Browser
+console.log();                Showing to the developer
+console.log(x, y, z);         Showing multible values at ones
 
 
 open console in chrome shortcut
@@ -331,6 +332,8 @@ Random Number:
 Math.floor:
 static method always rounds down and returns the largest integer less than or equal to a given number.
 
+
+2 ** 3 means 2 * 2 * 2 = 8
 
 
 
