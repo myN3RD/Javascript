@@ -199,6 +199,7 @@ Ways to declare a Variable:
 var = variable -> you can reassign a new value what is inside the keyword       // should be completelly avoided
 let = modern ddeclaring of an variable -> can be reassigned in the future       // should be only used if we rly wanna reassing a value later
 
+
 Example:
 
 let test = 123;
@@ -275,8 +276,6 @@ doThis();
 
 
 
-
-
 slice                 var name = Tobias;
                       name.slice(0,1);  -> from 0 to 1 BUT not including charakter at 1
                       
@@ -317,6 +316,26 @@ fetch(url)
 
 
 
+          OPERATORS
+          _________
+          
+          
+// Assignment Operators          
+let x += 10;  // x = x + 10    
+x *= 4;       // x = x * 40 
+x++;          // x = x + 1
+x--;          // x = x - 1
+          
+
+// Comparison Operators
+let x = 10;
+let y = 5;
+x > y;    // true
+x < y;    // false
+
+
+
+
 
           NUMBERS
           _______
@@ -334,6 +353,7 @@ static method always rounds down and returns the largest integer less than or eq
 
 
 2 ** 3 means 2 * 2 * 2 = 8
+
 
 
 
