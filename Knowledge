@@ -335,6 +335,25 @@ x < y;    // false
 
 
 
+OPERATOR PRECEDENCE in JS
+_________________________
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+-> scroll down to the table ->
+
+
+________________________________________________________________________________
+Precedence	Operator type	Associativity	Individual operators
+18	Grouping	n/a	( … )
+...
+...
+...
+
+
+Math Operators will be executed before coparison operators for example
+
+-> thats what we see in this table, but we dont have to know/remind all
+
 
 
           NUMBERS
