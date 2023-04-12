@@ -356,6 +356,7 @@ Math Operators will be executed before coparison operators for example
 
 
 
+
           NUMBERS
           _______
           
@@ -376,8 +377,33 @@ static method always rounds down and returns the largest integer less than or eq
 
 
 
-         LOOPS 
-         _____
+
+          TEMPLATE LITERALS `` (ES6)
+          __________________________
+          
+ 
+We can write it like a Sentence, and just have to put in the ` ${var} ....   ` 
+
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+
+const jonasNEW = `Iam ${firstName}, a ${year - birthYear} year old ${job}!`
+
+
+NOTE: Thats the old way ->
+
+const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+
+
+
+
+          LOOPS 
+          _____
          
 
 FAB: bei for loops hat man ja meistens eine menge
