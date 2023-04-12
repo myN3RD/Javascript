@@ -142,46 +142,6 @@ D	      Delete	    DELETE	        DELETE
 
 
 
-
-          IF and ELSE STATEMENTS (for taking decisions)
-          ______________________
-        
-      
-? is a if statement ,  : is a else statement in a single line
-
-IF and ELSE Statments
-
-&& AND
-|| OR
-!  NOT or the Opposite
-
-
-Syntax:
-
-    condition is always a booleon
-if (condition) {
-} else if {
-} else if {
-} else {
-}
-
-when we have more than 5 statements , its recommended to use then a -> SWITCH statement
-
-
-
-const age = 19;
-
-   //condition
-if (age >= 18) {
-  console.log('Sarah can make a driving licence 🚗');
-} else {
-  console.log('Sarah is not old enough to make a car license!')
-};
-
-
-
-
-
          DATA TYPES (Values have a type, NOT the variables)
          __________
 
@@ -416,6 +376,47 @@ const jonasNEW = `Iam ${firstName}, a ${year - birthYear} year old ${job}!`
 NOTE: Thats the old way ->
 
 const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+
+
+
+
+
+          IF and ELSE STATEMENTS (for taking decisions)
+          ______________________
+        
+      
+? is a if statement ,  : is a else statement in a single line
+
+IF and ELSE Statments
+
+&& AND
+|| OR
+!  NOT or the Opposite
+
+
+Syntax:
+
+    condition is always a booleon
+if (condition) {
+} else if {
+} else if {
+} else {
+}
+
+when we have more than 5 statements , its recommended to use then a -> SWITCH statement
+
+
+
+const age = 14;
+
+   //condition
+if (age >= 18) {  // if its true
+  console.log('Sarah can make a driving licence 🚗');
+} else {          // if its false
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is nor old enough to make a car license! wait another ${yearsLeft} years!`)
+};
 
 
 
