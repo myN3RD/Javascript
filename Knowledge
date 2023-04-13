@@ -166,6 +166,28 @@ SAME -> console.log(typeof(PI));
 
 
 
+Converting strings to numbers and others
+________________________________________
+
+
+we can convert 3 data types:
+
+1. to number
+2. to strings
+3. to booleons
+
+
+
+const inputYear = '1991';
+console.log(inputYear + 18);
+//       -> Number
+console.log(Number(inputYear), inputYear);  // converting a string 
+console.log(Number(inputYear) + 18);
+
+
+
+
+
          VARIABLES (are like boxes with a package inside (or which hold an object inside))
          _________
 
