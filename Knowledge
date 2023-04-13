@@ -421,6 +421,26 @@ if (age >= 18) {  // if its true
 
 
 
+NOTE:
+//any var inside the "code blocks" will not be accessable OUTSIDE of a "code block"
+
+
+const birthyear = 1998;
+
+let century;  // thats OUTSIDE
+if (birthyear <= 2000) {        //
+  century = '20 century';       // thats a "code block" inside the {}
+} else {                        //
+  century = '21 century';       //
+};                              // thats a "code block" inside the {}
+
+//any var inside the "code blocks" will not be accessable OUTSIDE of a "code block"
+console.log(century);         // not accessable!
+// -> century has to be declared OUTSIDE
+
+
+
+
 
           LOOPS 
           _____
