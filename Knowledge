@@ -369,6 +369,20 @@ Math Operators will be executed before coparison operators for example
 
 
 
+EQUALITY OPERATORS
+__________________
+
+== vs. ===          (returns true or false value)
+
+=== exactly         (actually always use this!)
+==                  (actually never use this)
+
+=== (does not type coersion)            '18' + 18           -> false
+==  (does type coersion)                '18' + 18           -> true
+
+
+
+
 
           NUMBERS
           _______
