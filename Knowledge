@@ -479,6 +479,28 @@ console.log(century);         // not accessable!
 
 
 
+
+
+
+          TRUTHY FALSY
+          ____________
+
+The Concept:
+          
+5 falsy values: 0, '', undefined, NULL, NaN       ->        will become false, when we convert into a booleon
+
+console.log(Booleon(0));                ->        false     falsy
+console.log(Booleon(undefined));        ->        false     falsy
+console.log(Booleon('Jonas));           ->        true      truthy values
+console.log(Booleon({}));               ->        true      truthy values
+console.log(Booleon(''));               ->        false     falsy
+
+
+
+
+
+         
+
           LOOPS 
           _____
          
