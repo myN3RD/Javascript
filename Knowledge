@@ -14,7 +14,7 @@ JS + Node.js for BACKEND
 
 alert();                      Showing to the client in the browser
 console.log();                Showing to the developer
-console.log(x, y, z);         Showing multible values at ones
+console.log(x, y, z);         Showing multiple values at ones
 
 
 open console in chrome `shortcut
@@ -392,6 +392,9 @@ __________________
 ==  (does type coersion)                '18' + 18           -> true
 
 
+!== NOT equal
+
+
 
 
 
@@ -455,18 +458,19 @@ IF and ELSE Statments
 && AND
 || OR
 !  NOT or the Opposite
+!== NOT equal
 
 
 Syntax:
 
     condition is always a booleon
-if (condition) {
+if (condition) {                        // => Initial condition
 } else if {
-} else if {
+} else if {                             // that are all different `conditions
 } else {
 }
 
-when we have more than 5 statements , its recommended to use then a -> SWITCH statement
+when we have more than 5 statements, its recommended to use then a -> SWITCH statement
 
 
 
