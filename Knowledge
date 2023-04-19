@@ -453,12 +453,12 @@ const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + 
       
 ? is a if statement ,  : is a else statement in a single line
 
-IF and ELSE Statments
+BASIC BOOLEONS LOGIC:
 
-&& AND
-|| OR
-!  NOT or the Opposite
-!== NOT equal
+&& AND                      when  A and B is true -> the whole operation becomes TRUE
+|| OR                       when  A  or B is true -> the whole operation becomes TRUE
+!A  NOT or the Opposite
+!== NOT equal                 
 
 
 Syntax:
