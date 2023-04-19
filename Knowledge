@@ -1,8 +1,8 @@
 PROGRAMMING LEANGUAGE: BUILDING WEB APPLICATIONS
 
-HTML is for         NOUNS               <p></p>        means  parapgraph
-CSS is for          ADJECTIVES          p {color: red} means the paragraph is  red
-JAVASCRIPT is for   VERBS               p.hide();      means  hide  the paragraph
+HTML is for         "NOUNS"               <p></p>        means  paragraph
+CSS is for          "ADJECTIVES"          p {color: red} means the paragraph is  red
+JAVASCRIPT is for   "VERBS"               p.hide();      means  hide the paragraph
 
 
 
@@ -12,12 +12,12 @@ JS + Node.js for BACKEND
 
 
 
-alert();                      Showing to the Clint in the Browser
+alert();                      Showing to the client in the browser
 console.log();                Showing to the developer
 console.log(x, y, z);         Showing multible values at ones
 
 
-open console in chrome shortcut
+open console in chrome `shortcut
 option + cmd + j
 
 
@@ -55,16 +55,16 @@ The body of a class is the part that is in curly brackets {}. This is where you 
           _____________________
       
 
-constructor()   -> The constructor method is a special method for creating and initializing an object created with a class.
-filter()        -> https://www.w3schools.com/jsref/jsref_filter.asp
+constructor()    -> The constructor method is a special method for creating and initializing an object created with a class.
+filter()         -> https://www.w3schools.com/jsref/jsref_filter.asp
 
 In JavaScript, the filter() method allows us to filter through an array - iterating over the existing values, and returning only the ones 
 that fit certain criteria, into a new array.
 
-.querySelector()-> The Document method querySelector() returns the first Element within the document that matches the specified selector
+.querySelector() -> The Document method querySelector() returns the first Element within the document that matches the specified selector
 
 
-reduce method   -> "we started with many things and REDUCED it down to one thing"
+reduce method    -> "we started with many things and REDUCED it down to one thing"
 
 optional add start value 0
 
@@ -76,7 +76,8 @@ optional add start value 0
 
 
 The return statement stops the execution of a function and will not further continue the function.
-                        
+                
+                
          return;  
          
          or
@@ -98,6 +99,7 @@ The return statement stops the execution of a function and will not further cont
     // expected output: 0
     
     
+    
 Redirect:
 
  if (err) {
@@ -111,13 +113,14 @@ Redirect:
           ________________
       
     
-throw statement         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
+throw statement:         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
+
 
 Example: Please input a number between 5 and 10:
 
                   ghjgh     Test Input
 
-                  Input not a number
+                  Input not a number (NaN)
 
 
                   if(x == "")  throw "is Empty";
@@ -129,14 +132,16 @@ Example: Please input a number between 5 and 10:
 
 
           CRUD Operarations
-          _______________
+          _________________
 
 
 LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
+
 C	      Create  	  POST	          INSERT
 R	      Read	      GET	            SELECT
 U	      Update    	PATCH/PUT(if you have id or uuid)	UPDATE
 D	      Delete	    DELETE	        DELETE
+
 
 
 
@@ -166,6 +171,7 @@ SAME -> console.log(typeof(PI));
 
 
 
+
 Type Conversion
 _______________
 
@@ -186,6 +192,7 @@ console.log(inputYear + 18);
 //       -> Number
 console.log(Number(inputYear), inputYear);  // converting a string 
 console.log(Number(inputYear) + 18);
+
 
 
 
@@ -242,6 +249,7 @@ var   myName = "Tobias";
 console.log(myName);           ->       shows us which value is inside the "box"
 
 
+
 Naming:
 
 myVar
@@ -249,6 +257,7 @@ my_var
 myVar123
 
 123myVar -> in js var names cant start with numbers!
+
 
 
 
@@ -345,6 +354,8 @@ let x = 10;
 let y = 5;
 x > y;    // true
 x < y;    // false
+
+
 
 
 
@@ -498,6 +509,7 @@ console.log(century);         // not accessable!
 
           TRUTHY FALSY
           ____________
+
 
 The Concept:
           
