@@ -470,6 +470,10 @@ if (condition) {                        // => Initial condition
 } else {
 }
 
+
+NO ->  ;  <- at the end of an if statement!
+
+
 when we have more than 5 statements, its recommended to use then a -> SWITCH statement
 
 
