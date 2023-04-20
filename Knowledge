@@ -465,9 +465,9 @@ Syntax:
 
     condition is always a booleon
 if (condition) {                        // => Initial condition
-} else if {                             // condition
-} else if {                             // that are all different `conditions
-} else {            !!! NO conditon here!
+} else if (condition) {                
+} else if (condition) {                 // that are all different `conditions
+} else {                                // !!! NO conditon here!
 }
 
 
