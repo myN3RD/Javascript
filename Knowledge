@@ -422,6 +422,9 @@ static method always rounds down and returns the largest integer less than or eq
           TEMPLATE LITERALS `` (ES6)
           __________________________
           
+          
+NOTE: in Template Literals we can just use EXPRESSIONS ! NO Statements!
+          
  
 We can write it like a Sentence, and just have to put in the ` ${var} ....   ` 
 or just writing a normal sentence/ string with ``is also possible:
