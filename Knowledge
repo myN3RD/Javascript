@@ -512,6 +512,8 @@ switch (day) {
      case 'thursday':
           console.log('...');
           break;
+       default:                                          // to finish we CAN set a default -> if all other cases fail   // like an else block
+          console.log('Not a valid ...');
 }
 
 
