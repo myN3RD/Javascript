@@ -544,6 +544,16 @@ console.log(century);         // not accessable!
 
 
 
+          STATEMENTS AND EXPRESSIONS (the differences)
+          __________________________
+          
+          
+An EXPRESSION produces a value -> like: 3 * 4 = 12; // 3 * 4 is an expression and 12 is an value 
+
+An STATEMENT is like a bigger peace of code -> which isnt produce a value
+          
+          
+          
 
 
 
