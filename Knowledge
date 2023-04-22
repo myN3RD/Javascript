@@ -492,10 +492,14 @@ NOTE: when we have more than 5 statements, its recommended to use then a -> SWIT
 
 
 
+
 SWITCH STATEMENTS
 _________________
 
 to compare one value to multiple different options for example
+
+
+NOTE: SWITCH Statements a actually doing the same like if else statements -> we decide which one we prefer to use 
 
 
 
