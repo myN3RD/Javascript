@@ -452,9 +452,19 @@ const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + 
 
           IF and ELSE STATEMENTS (for taking decisions)
           ______________________
-        
+
+
+CONDITIONAL OPERATORS:
       
 ? is a if statement ,  : is a else statement in a single line
+
+
+const age = 23;
+
+age >= 18 ? console.log('You can drink alcohol') : console.log('Youre have to drink water instead');
+
+
+
 
 BASIC BOOLEONS LOGIC:
 
