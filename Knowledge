@@ -5,6 +5,8 @@ CSS is for          "ADJECTIVES"          p {color: red} means the paragraph is 
 JAVASCRIPT is for   "VERBS"               p.hide();      means  hide the paragraph
 
 
+NOTE: ALWAYS use latest google chrome for development
+
 
 JS for FRONTEND
 JS + Node.js for BACKEND 
