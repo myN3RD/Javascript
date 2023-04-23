@@ -7,6 +7,8 @@ JAVASCRIPT is for   "VERBS"               p.hide();      means  hide the paragra
 
 NOTE: ALWAYS use latest google chrome for development
 
+For using strict mode in js -> first line of code in the js file:  'use strict';
+
 
 JS for FRONTEND
 JS + Node.js for BACKEND 
