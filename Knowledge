@@ -280,6 +280,7 @@ console.log(object.num);    //  . -> access PROPERTIE inside of an object
 
 
 
+
           FUNCTIONS
           _________
           
@@ -287,7 +288,7 @@ console.log(object.num);    //  . -> access PROPERTIE inside of an object
 Creating a function:
 
 Keyword   Name  Input
- ↓         ↓    ↓ 
+   ↓       ↓    ↓ 
 function doThis( ) {
   serie of instruction
   ...
@@ -296,9 +297,36 @@ function doThis( ) {
 
 -> if we call the function everything between the {} will be executed
 
-CALL the function:
+CALLing / RUNning / Invoking the function:
 
 doThis();
+
+
+
+
+Functions are like a maschines, where we put something in and then the maschine is processing the input (data) and gives us an new output.
+
+
+
+//       "maschine name"("ingridients") 
+//        function name (parameters)
+function fruitProcessor(apples, oranges) {
+  console.log(apples, oranges);
+  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juice; // the result of executing the function
+};
+//                               'Arguments'
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+//                                'Arguments'
+const orangeJuice = fruitProcessor(0, 4);
+console.log(orangeJuice);
+
+const appleOrangeJuice = fruitProcessor(4, 4);
+console.log(appleOrangeJuice);
+
+
+
 
 
 
