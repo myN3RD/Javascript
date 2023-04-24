@@ -328,6 +328,52 @@ console.log(appleOrangeJuice);
 
 
 
+FUNCTION TYPES
+______________
+
+// used by personal preferences -> but bouth has to be known
+
+// function type 1 -> function declaration
+//               'Parameter'
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+};
+//     'Argument'
+const age1 = calcAge1(1991);
+console.log(age1);
+
+
+
+// function type 2 -> function expression (expression produces values)
+const calcAge2 = function(birthYear) {
+  return 2037 - birthYear;
+};
+
+const age2 = calcAge2(1991);
+console.log(age1, age2);
+
+
+// function type 3 -> arrow functions
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+
+// Example
+const yearsUntilRetirement = (birthYear, firstname) => {
+  const age = 2037 - birthYear;
+  const retirement = 65 - age;
+  // return retirement;
+  return `${firstname} retires in ${retirement} years.`;
+};
+
+console.log(yearsUntilRetirement(1991, 'Jonas'));
+console.log(yearsUntilRetirement(1980, 'Bob'));
+
+
+
+
+
 
 
 slice                 var name = Tobias;
