@@ -80,7 +80,10 @@ optional add start value 0
 
 
 The return statement stops the execution of a function and will not further continue the function.
-                
+
+NOTE: if we wanna use console.log(); inside of the function -> then it has to be BEFORE return
+
+
                 
          return;  
          
@@ -91,6 +94,7 @@ The return statement stops the execution of a function and will not further cont
          
     function getRectArea(width, height) {
     if (width > 0 && height > 0) {
+    console.log(getRectArea);
     return width * height;
     }
     return 0;
@@ -109,6 +113,7 @@ Redirect:
  if (err) {
       return res.redirect('/reset');  ---> This Line
     }
+    
     
     
     
