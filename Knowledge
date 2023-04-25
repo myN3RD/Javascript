@@ -373,6 +373,31 @@ console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 
+Calling a function inside of another function
+_________________________________________________
+
+
+// first maschine is preparing stuff for the second maschine
+function cutFruitIntoSmallPieces(fruit) {
+  return fruit * 4;
+};
+
+
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutFruitIntoSmallPieces(apples);  // calling a function into another function
+  const orangesPieces = cutFruitIntoSmallPieces(oranges);
+
+  const juice = `Juice with ${applePieces} apple pieces and ${orangesPieces} orange pieces.`;
+  return juice; // the result of executing the function
+};
+
+console.log(fruitProcessor(2, 3));
+
+
+ 
+
+
+
 
 
 
