@@ -292,7 +292,7 @@ console.log(object.num);    //  . -> access PROPERTIE inside of an object
 
 Creating a function:
 
-Keyword   Name  Input
+Keyword   Name  Parameters: -> for Input-Values
    ↓       ↓    ↓ 
 function doThis( ) {
   serie of instruction
