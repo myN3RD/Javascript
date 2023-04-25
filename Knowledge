@@ -379,7 +379,7 @@ _________________________________________________
 
 // first maschine is preparing stuff for the second maschine
 function cutFruitIntoSmallPieces(fruit) {
-  return fruit * 4;
+  return fruit * 4;           // cutting into 4 pieces
 };
 
 
@@ -390,7 +390,7 @@ function fruitProcessor(apples, oranges) {
   const juice = `Juice with ${applePieces} apple pieces and ${orangesPieces} orange pieces.`;
   return juice; // the result of executing the function
 };
-
+                     // CUTTING 2 apples and 3 oranges
 console.log(fruitProcessor(2, 3));
 
 
