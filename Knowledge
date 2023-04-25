@@ -75,47 +75,6 @@ optional add start value 0
 
 
 
-          RETURN STATEMENT
-          ________________
-
-
-The return statement stops the execution of a function and will not further continue the function.
-
-NOTE: if we wanna use console.log(); inside of the function -> then it has to be BEFORE return
-
-
-                
-         return;  
-         
-         or
-
-         return = 0;  Can also have a value
-         
-         
-    function getRectArea(width, height) {
-    if (width > 0 && height > 0) {
-    console.log(getRectArea);
-    return width * height;
-    }
-    return 0;
-    }
-
-    console.log(getRectArea(3, 4));
-    // expected output: 12
-
-    console.log(getRectArea(-3, 4));
-    // expected output: 0
-    
-    
-    
-Redirect:
-
- if (err) {
-      return res.redirect('/reset');  ---> This Line
-    }
-    
-    
-    
     
     
           THROW STATEMENTS   
@@ -298,9 +257,10 @@ function doThis( ) {
   serie of instruction
   ...
   ...
+  return ???
 }
 
--> if we call the function everything between the {} will be executed
+-> if we call the function everything between the {  "function body"  } will be executed
 
 CALLing / RUNning / Invoking the function:
 
@@ -329,6 +289,52 @@ console.log(orangeJuice);
 
 const appleOrangeJuice = fruitProcessor(4, 4);
 console.log(appleOrangeJuice);
+
+
+
+
+
+RETURN STATEMENT
+________________
+
+
+The return statement stops the execution of a function and will not further continue the function.
+
+NOTE: if we wanna use console.log(); inside of the function -> then it has to be BEFORE return
+
+
+                
+         return;  
+         
+         or
+
+         return = 0;  Can also have a value
+         
+         
+    function getRectArea(width, height) {
+    if (width > 0 && height > 0) {
+    console.log(getRectArea);
+    return width * height;
+    }
+    return 0;
+    }
+
+    console.log(getRectArea(3, 4));
+    // expected output: 12
+
+    console.log(getRectArea(-3, 4));
+    // expected output: 0
+    
+    
+    
+Redirect:
+
+ if (err) {
+      return res.redirect('/reset');  ---> This Line
+    }
+    
+    
+    
 
 
 
