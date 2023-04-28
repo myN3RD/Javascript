@@ -750,6 +750,10 @@ for (let i=0; i<5; i++;) {
 //     i = index:0, 1, 2    // i is the positon in the of the item in the array
 var dataArray = [4, 15, 34];  // array without objects
 
+
+              | we need the new keyword to use an array function      
+const years = new Array(1991, 1994, 2008, 2020);  // array function
+
 // array with objects inside of the array
 var dataArray = [
   {width: 25, height: 4, fill: 'red'},
