@@ -813,7 +813,8 @@ console.log(object.num);    //  . -> access PROPERTIE inside of an object
 const jonas = {
   firstname: 'jonas',
   name: 'schmidt',
-  age: 27
+  age: 2022 - 1991,                     // can hold expressions!
+  friends: ['tom', 'bob', 'adam']       // can hold arrays
 };
           
           
