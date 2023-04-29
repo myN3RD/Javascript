@@ -781,6 +781,33 @@ to get the length of an array:
 
 
 
+ARRAY METHODS
+_____________
+
+// Add Elements
+.push      -> adds elements to the end of an array
+.unshift   -> adds elements to the beginning of an array
+
+// Remove Elements
+.pop       -> removes the last element of an array          // gives us back the value of the removed element
+.shift     -> removes elements to the beginning of an array
+
+
+// returns the index of the element
+console.log(data.indexOf(value));
+
+// to check if the is an specific element with strict value
+console.log(data.includes(value));
+
+-> useful for 
+
+if (data.includes(value)) {
+ console.log('Data was found!');
+};
+
+
+
+
 
           jQUERY
           ______
