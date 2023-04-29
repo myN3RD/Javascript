@@ -230,21 +230,6 @@ myVar123
 
 
 
-          OBJECTS
-          _______
-          
-          
-const object = {
-  num: 5          // => thats a PROPERTIE (inside of the object) with a VALUE
-};     
-
-console.log(object.num);    //  . -> access PROPERTIE inside of an object
-          
-          
-
-
-
-
           FUNCTIONS
           _________
           
@@ -806,6 +791,32 @@ if (data.includes(value)) {
 };
 
 
+
+
+
+
+
+          OBJECTS
+          _______
+          
+          
+For Key Value PAIRS
+
+          
+const object = {
+  num: 5          // => thats a PROPERTIE (inside of the object) with a VALUE === Key value PAIR
+};     
+
+console.log(object.num);    //  . -> access PROPERTIE inside of an object
+          
+
+const jonas = {
+  firstname: 'jonas',
+  name: 'schmidt',
+  age: 27
+};
+          
+          
 
 
 
