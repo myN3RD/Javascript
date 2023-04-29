@@ -817,7 +817,18 @@ const jonas = {
   friends: ['tom', 'bob', 'adam']       // can hold arrays
 };
           
-          
+
+
+
+HOW TO GET SPECIFIC DATA FROM AN OBJECT
+_______________________________________
+
+with . notation
+
+console.log(jonas.name);                // schmidt
+
+
+
 
 
 
