@@ -847,6 +847,28 @@ console.log(jonas[]);
 
 
 
+USING FUNCTIONS INSIDE OF AN OBJECT
+___________________________________
+
+
+const jonas = {
+  firstname: 'jonas',
+  name: 'schmidt',
+  birthYear: 1989,
+  age: 2022 - 1989,                     // can hold expressions!
+  friends: ['tom', 'bob', 'adam'],       // can hold arrays
+  // syntax for a function inside of an object
+  calcAge8: function(birthYear) {
+    return 2037 - birthYear;
+  }
+
+};
+
+console.log(jonas.calcAge(1989));
+
+
+
+
 
 
           jQUERY
