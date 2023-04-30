@@ -824,9 +824,15 @@ const jonas = {
 HOW TO GET SPECIFIC DATA FROM AN OBJECT
 _______________________________________
 
-with . notation
+with . notation                         // for fixed properties usage
 
 console.log(jonas.name);                // schmidt
+
+or
+
+with [] notation
+
+console.log(jonas[]);
 
 
 
