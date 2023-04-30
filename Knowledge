@@ -17,6 +17,7 @@ JS + Node.js for BACKEND
 
 
 alert();                      Showing to the client in the browser
+prompt();                     Creates a popup window
 console.log();                Showing to the developer
 console.log(x, y, z);         Showing multiple values at ones
 
