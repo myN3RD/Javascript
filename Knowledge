@@ -817,9 +817,19 @@ const jonas = {
   age: 2022 - 1991,                     // can hold expressions!
   friends: ['tom', 'bob', 'adam']       // can hold arrays
 };
+
+
+
+ADDING PROPETIES
+________________
+
+jonas.location = 'portugal';
+
+console.log(jonas);
+
+
+
           
-
-
 
 HOW TO GET SPECIFIC DATA FROM AN OBJECT
 _______________________________________
