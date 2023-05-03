@@ -500,7 +500,11 @@ __________________
 
           NUMBERS
           _______
-          
+
+
+Math. Floor rounds down, Math. Ceiling rounds up, and Math. Trunc(ate) rounds towards zero.
+
+
 
 Operators:
 
@@ -509,8 +513,13 @@ Random Number:
 
 (Math.floor(Math.random()*100) + d.properties.mag))
 
-Math.floor:
+Math.floor():
 static method always rounds down and returns the largest integer less than or equal to a given number.
+
+
+Math.trunc():
+....
+
 
 
 2 ** 3 means 2 * 2 * 2 = 8
