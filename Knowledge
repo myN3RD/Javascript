@@ -938,6 +938,21 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
+EVENT LISTENERS
+_______________
+
+
+// keyboard events (= global events)        // e is event
+document.addEventListener('keydown', function (e) {
+  console.log(e.key);
+  // if the esc key is pressed and the modal is NOT contains the class of hidden -> then close the modal
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
+
+
+
 
 
           jQUERY
