@@ -32,6 +32,17 @@ GOES ALWAYS into the END of the Body of the HTML File
 
 
 
+SHORTENINGS
+___________
+let currentScore = 0;
+
+currentScore += currentScore + dice;
+// currentScore = currentScore + dice;                      // line is equivalent, just longer
+
+
+
+
+
 
           STRING INTERPOLATION
           ____________________
