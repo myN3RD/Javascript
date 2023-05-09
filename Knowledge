@@ -36,7 +36,7 @@ SHORTENINGS
 ___________
 let currentScore = 0;
 
-currentScore += currentScore + dice;
+currentScore += dice;
 // currentScore = currentScore + dice;                      // line is equivalent, just longer
 
 
