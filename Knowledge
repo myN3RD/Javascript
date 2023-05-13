@@ -949,6 +949,19 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
+METHODS
+_______
+
+aviable on the classList propertie
+.toogle 
+
+will add the class if its not there and remove the class if its already there
+
+
+
+
+
+
 EVENT LISTENERS
 _______________
 
