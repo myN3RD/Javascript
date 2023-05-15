@@ -840,8 +840,8 @@ const jonas = {
 
 
 
-ADDING PROPETIES
-________________
+ADDING PROPERTIES
+_________________
 
 jonas.location = 'portugal';
 
@@ -922,7 +922,7 @@ NOTE:
 -> and some names, like background-color -> is written camelCase now -> backgroundColor
 
 
-    document.querySelector('body').style.backgroundColor = 'green';
+    document.querySelector('.body').style.backgroundColor = 'green';
     document.querySelector('.number').style.width = '30rem';
 
 
@@ -935,6 +935,11 @@ app.js:
 
 // querySelector looks inside the whole document for a single item (element, class or id), h1 in this case
 document.querySelector('h1').innerHTML = 'Good bye'; // works
+
+
+NOTE:
+when using querySelector -> we have to use a selector -> .
+
 
 // getElementsByClassName goes throw the whole document and looks for the elementS with a particular class
 document.getElementsByClassName('item')[0].innerHTML = 'good';  // its Elements so an array!
