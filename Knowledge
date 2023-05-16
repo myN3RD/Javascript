@@ -32,8 +32,11 @@ GOES ALWAYS into the END of the Body of the HTML File
 
 
 
+
 SHORTENINGS
 ___________
+
+
 let currentScore = 0;
 
 currentScore += dice;
@@ -216,6 +219,26 @@ const = constant -> can not be reassigned, its a Constant                       
 Variables inside a function are all LOCAL
 
 Variables outside a function are all GLOBAL
+
+
+
+NOTE: we can assign var outside of a function ( at the beginning usually ), like this:
+
+
+
+let currentScore, activePlayer, playing;
+
+
+
+and the reassign them in the function ->
+
+
+const init = function () {
+  currentScore = 0;
+  activePlayer = 0;
+  playing = true; // using a state variable
+};
+init();                                                     ---> and then call the function -> so that the variable will be read
 
 
 
