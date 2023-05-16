@@ -1,0 +1,33 @@
+          High Level
+
+
+
+
+          A JAVaSCRIPT ENGINE (there are mutiple)
+          ___________________
+
+
+is a programm that executes javascript code
+
+- every browser has its owm javascript engine
+- google chrome's js engine calls v-eight
+
+
+ENGINE COMPONENTS AND HOW IT WORKS
+__________________________________
+
+
+every js engine contains a    CALL STACK                                 and a                   HEAP
+
+                              is using "execution context"                                      unstructured memory pool, objects in memory
+                              where the code is executed                                        stores all the object which our programm needs
+
+
+
+
+          JAVASCRIPT RUNTIME
+          __________________
+
+node.js
+
+- to run js outside of a browser
