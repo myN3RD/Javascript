@@ -3,7 +3,7 @@
 
 
 
-          A JAVaSCRIPT ENGINE (there are mutiple)
+          A JAVASCRIPT ENGINE (there are mutiple)
           ___________________
 
 
@@ -31,3 +31,23 @@ every js engine contains a    CALL STACK                                 and a  
 node.js
 
 - to run js outside of a browser
+
+
+
+
+          COMPILATION AND INTERPRETATION
+          ______________________________  
+          
+          
+Maschine Code 00010101010001111000101010010  
+
+The processor CPU of a computer just understand maschine code
+
+
+Compilation: Entire code is converted into maschine code at once, and written to a binary file that can be executed by a computer. (fast)
+
+
+Interpretation: Interpreter runs trough the source code and executes it line by line. (slow)
+
+
+Just-in-time (JIT) compilation: Entire code is converted into maschine code at once, then executed immediately.                   JAVASCRIPT (today)
