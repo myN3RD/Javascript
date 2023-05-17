@@ -25,18 +25,10 @@ every js engine contains a    CALL STACK                                 and a  
 
 
 
-          JAVASCRIPT RUNTIME
-          __________________
-
-node.js
-
-- to run js outside of a browser
 
 
-
-
-          COMPILATION AND INTERPRETATION
-          ______________________________  
+COMPILATION AND INTERPRETATION
+______________________________  
           
           
 Maschine Code 00010101010001111000101010010  
@@ -51,3 +43,20 @@ Interpretation: Interpreter runs trough the source code and executes it line by 
 
 
 Just-in-time (JIT) compilation: Entire code is converted into maschine code at once, then executed immediately.                   JAVASCRIPT (today)
+
+
+
+
+
+          JAVASCRIPT RUNTIME
+          __________________
+
+
+                              OUTSIDE OF A BROWSER                                                                IN THE BROWSER
+
+          node.js is a javascript runtime -> to run js outside of a browser                                 the browser is also a runtime
+
+
+
+- without an engine there is no runtime
+- we always need also access to the WEB APIs
