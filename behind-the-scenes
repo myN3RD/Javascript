@@ -31,7 +31,7 @@ COMPILATION AND INTERPRETATION
 ______________________________  
           
           
-Maschine Code 00010101010001111000101010010  
+Maschine Code 0010101010001111000101010010  
 
 The processor CPU of a computer just understand maschine code
 
@@ -66,3 +66,17 @@ Just-in-time (JIT) compilation: Entire code is converted into maschine code at o
 Event-Handler-Functions -> are called Callback-Functions
 
 as the event happens -> the callback function will be called -> the EVENT LOOP is doing this
+
+
+
+
+          EXECUTION CONTEXT
+          _________________
+          
+          
+Whats inside Execution Context?
+ 
+1. Variable Evironment
+2. Scope Chain
+3. this keyword               (not in arrow functions)
+  
