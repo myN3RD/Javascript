@@ -1,4 +1,9 @@
           High Level
+          
+          
+          
+NOTE: 1. Code runs inside of the executions context
+      2. Javascript runs inside of a call stack
 
 
 
@@ -79,8 +84,12 @@ as the event happens -> the callback function will be called -> the EVENT LOOP i
 
           EXECUTION CONTEXT
           _________________
-          
-          
+
+
+NOTE: 1. Code runs inside of the executions context
+      2. Javascript runs inside of a call stack
+      
+      
 Whats inside Execution Context?
  
 1. Variable Evironment
