@@ -23,7 +23,7 @@ every js engine contains a    CALL STACK                                 and a  
                               
                               execution context
                               
-                              execution context             (single one after the other one will be executed)
+                              execution context             (single one after the other one will be executed) -> Javascript can only do one thing at the time!!!
                               
                               execution context
                               
