@@ -20,6 +20,13 @@ __________________________________
 every js engine contains a    CALL STACK                                 and a                   HEAP
 
                               is using "execution context"                                      unstructured memory pool, objects in memory
+                              
+                              execution context
+                              
+                              execution context             (single one after the other one will be executed)
+                              
+                              execution context
+                              
                               where the code is executed                                        stores all the object which our programm needs
                               for callback-functions??
 
