@@ -120,3 +120,5 @@ NOTE: We have a nested structure of scope
       ALL "child scopes" has access to his "parent scopes" -> so they can know the value of the variables
       
       -> This is/means the SCOPE CHAIN
+
+NOTE: one scope can only look up in the scope chain and NEVER look down
