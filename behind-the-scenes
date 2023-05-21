@@ -111,3 +111,10 @@ ___________________________________________
           (global variable)             (local variables)             only for let and const variables
           
                                         NOTE: if we try to access the var from outside of the funtion, we will get an REFERENCE ERROR
+                                        
+                                        
+                                        
+NOTE: We have a nested structure of scope
+
+      The Global scope contains the first scope and the second scope could be contained inside of the first scope for example -> in this case ->
+      ALL "child scopes" has access to his "parent scopes" -> so they can know the value of the variables
