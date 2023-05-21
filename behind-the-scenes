@@ -96,3 +96,18 @@ Whats inside Execution Context?
 2. Scope Chain
 3. this keyword               (not in arrow functions)
   
+
+The 3 Types of (things which creates) Scope
+___________________________________________
+
+"Scope is the Place where variables are declared."
+
+
+          GLOBAL SCOPE                  FUNCTION SCOPE                BLOCK SCOPE (ES6)
+          
+          For Top Level Code            var are only accessible       Code Blocks {}
+          outside of any function       inside of a function          everything between {}
+          var accessible everywhere     also called local scope       if statements, loops etc.
+          (global variable)             (local variables)             only for let and const variables
+          
+                                        NOTE: if we try to access the var from outside of the funtion, we will get an REFERENCE ERROR
