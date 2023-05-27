@@ -124,4 +124,20 @@ NOTE: We have a nested structure of scope
 NOTE: one scope can only look up in the scope chain and NEVER look down
 
 
-lecture 93....
+
+
+          HOISTING (machanism)
+          ____________________
+          
+          
+Hoisting: makes some types ofvariable accessible/usable in code before they are actually declared 
+"Variables are lifted to the top of their scope"          
+          
+          
+          
+                                          HIOSTED             INITIAL VALUE                 SCOPE
+
+function declaration                      yes                 actual function               block
+var variables                             yes                 undefined                     function
+let and const variables
+function expressions and arrows
