@@ -137,7 +137,7 @@ Hoisting: makes some types ofvariable accessible/usable in code before they are 
           
                                           HIOSTED             INITIAL VALUE                 SCOPE
 
-function declaration                      yes                 actual function               block
-var variables                             yes                 undefined                     function
-let and const variables
-function expressions and arrows
+function declaration                      ✅ yes              actual function               block
+var variables                             ✅ yes              undefined                     function
+let and const variables                   ❌ no               <uninitilized> TDZ            block                        TDZ Temporal Dead Zone
+function expressions and arrows                         🤷‍♂️ depends if using var/const
