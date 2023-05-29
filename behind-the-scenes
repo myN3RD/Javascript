@@ -124,13 +124,18 @@ NOTE: We have a nested structure of scope
 NOTE: one scope can only look up in the scope chain and NEVER look down
 
 
+
 .this KEYWORD
 _____________
 
 this keyword/variable: Special variable that is created for every execution context (every function).
 -> Takes the value of (points to) the "owner" of the functino in which the this keyword is used.
 
+
 the value of the this keyword is NOT static! It depends on how the function is called, and its value is only assigned when the function !is actully called!.
+
+
+this does NOT point to the function itself, and also NOT the its variable environment!
 
 
 
