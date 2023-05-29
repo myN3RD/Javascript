@@ -141,3 +141,19 @@ function declaration                      ✅ yes              actual function  
 var variables                             ✅ yes              undefined                     function
 let and const variables                   ❌ no               <uninitilized> TDZ            block                        TDZ Temporal Dead Zone
 function expressions and arrows                         🤷‍♂️ depends if using var/const
+
+
+TEMPORAL DEADZONE (TDZ)
+_______________________
+
+WHY TDZ?
+
+- makes it easier to avoid and catch errors
+- makes const var actually work
+
+
+WHY HOISTING?
+
+- using functions before actual declaration
+- the hoisting of var variables is actually just a byproduct
+
