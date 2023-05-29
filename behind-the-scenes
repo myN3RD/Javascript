@@ -125,7 +125,7 @@ NOTE: one scope can only look up in the scope chain and NEVER look down
 
 
 
-.this KEYWORD
+this KEYWORD (METHOD??) lektion 97 (nicht verstanden)
 _____________
 
 this keyword/variable: Special variable that is created for every execution context (every function).
