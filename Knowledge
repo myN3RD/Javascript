@@ -455,6 +455,8 @@ console.log(myName);
 ARROW FUNCTION
 ______________
 
+NOTE: NEVER use arrow functions as a method!
+
 
 fetch(url)
   .then(res => res.json())
