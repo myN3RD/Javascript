@@ -134,7 +134,8 @@ D	      Delete	    DELETE	        DELETE
          __________
 
 
-The 7 primitive Data Types:  (all other things are Objects) 
+The 7 PRIMITIV DATA TYPES:  (all other things are Objects(REFERENCE TYPES)) 
+
 
 String = a String of Charakters -> a string/sequence of charakters -> '' or ""
 Numbers = 123
