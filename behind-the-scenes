@@ -178,4 +178,8 @@ WHY HOISTING?
           How PRIMITIVE TYPES & OBJECTS are stored in memory
           __________________________________________________
           
-..          
+PRIMITIVES                                                  OBJECTS
+are                                                         are
+PRIMITIVES TYPES                                            REFERENCE TYPES
+
+are stored in the CALL STACK                                are stored in the HEAP
