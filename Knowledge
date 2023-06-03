@@ -875,6 +875,15 @@ const [first, , second] = restaurants.categories;  -> now the second becomes the
 console.log(first, second);
 
 
+SWITCHING ELEMENTS
+__________________
+
+let [main, , secondary] = restaurants.categories;
+
+[main, secondary] = [secondary, main]
+console.log(main, secondary);
+
+
 
 
           OBJECTS
