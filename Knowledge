@@ -838,6 +838,20 @@ if (data.includes(value)) {
 };
 
 
+DESTRUCTURING ARRAYS
+____________________
+
+const arr = [1, 2, 3];
+
+const a = [0];
+const b = [1];
+const c = [2];
+
+const [x, y, z] = arr;  <- thats the deconstruction of the array !THATS NOT AN ARRAY, just the reassignment
+console.log(x, y, z);
+
+
+
 
 
 
