@@ -854,7 +854,6 @@ console.log(x, y, z);
 
 EXAMPLE:
 
-
 const restaurant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
@@ -868,7 +867,12 @@ console.log(first, second);
 
 
 
+IF WE WANT THE FIRST AND THIRD ELEMENT or what else HOW TO:
 
+we have do do a "gap"
+             ⬇
+const [first, , second] = restaurants.categories;  -> now the second becomes the third ELEMENT
+console.log(first, second);
 
 
 
