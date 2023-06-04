@@ -357,9 +357,6 @@ Redirect:
     
     
 
-
-
-
 FUNCTION TYPES
 ______________
 
@@ -426,9 +423,6 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 
 
- 
-
-
 
 
 
@@ -448,7 +442,6 @@ console.log(sliceAt140);
 var myName = 'toBIaS';
 var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
 console.log(myName);
-
 
 
 
@@ -474,11 +467,9 @@ fetch(url)
 
 
 
-
           OPERATORS
           _________
-          
-          
+                  
 // Assignment Operators          
 let x += 10;  // x = x + 10    
 x *= 4;       // x = x * 40 
@@ -491,7 +482,6 @@ let x = 10;
 let y = 5;
 x > y;    // true
 x < y;    // false
-
 
 
 
@@ -516,7 +506,6 @@ Math Operators will be executed before coparison operators for example
 -> thats what we see in this table, but we dont have to know/remind all
 
 
-
 EQUALITY OPERATORS
 __________________
 
@@ -530,7 +519,6 @@ __________________
 
 
 !== NOT equal
-
 
 
 
@@ -564,7 +552,6 @@ Math.trunc():
 
 
 
-
           TEMPLATE LITERALS `` (ES6)
           __________________________
           
@@ -594,11 +581,8 @@ const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + 
 
 
 
-
-
           IF and ELSE STATEMENTS (for taking decisions)
           ______________________
-
 
 CONDITIONAL OPERATORS:
       
@@ -643,7 +627,6 @@ if (age >= 18) {  // if its true
   const yearsLeft = 18 - age;
   console.log(`Sarah is nor old enough to make a car license! wait another ${yearsLeft} years!`)
 }
-
 
 
 
@@ -702,18 +685,15 @@ console.log(century);         // not accessable!
 
 
 
-
           STATEMENTS AND EXPRESSIONS (the differences)
           __________________________
-          
-          
+                    
 An EXPRESSION produces a value -> like: 3 * 4 = 12; // 3 * 4 is an expression and 12 is an value 
 
 An STATEMENT is like a bigger peace of code -> which isnt produce a value
           
           
-          
-
+         
 
 
           TRUTHY FALSY
@@ -731,10 +711,7 @@ console.log(Booleon({}));               ->        true      truthy values
 console.log(Booleon(''));               ->        false     falsy
 
 
-
-
-
-         
+        
 
           LOOPS 
           _____
@@ -775,7 +752,6 @@ for (let i=0; i<5; i++;) {
 
 
 
-
           ARRAYS
           ______
 
@@ -810,6 +786,10 @@ to get the length of an array:
 
 -> console.log(data.length);
 
+
+NOTE: 
+
+"Nested ARRAYS" are arrays inside of an array -> const nestedArray = [1, 2 [5, 6]];
 
 
 
@@ -919,7 +899,6 @@ console.log(jonas);
 
 
           
-
 HOW TO GET SPECIFIC DATA FROM AN OBJECT
 _______________________________________
 
@@ -939,7 +918,6 @@ console.log(jonas[]);
 USING FUNCTIONS INSIDE OF AN OBJECT
 ___________________________________
 
-
 const jonas = {
   firstname: 'jonas',
   name: 'schmidt',
@@ -954,9 +932,6 @@ const jonas = {
 };
 
 console.log(jonas.calcAge(1989));
-
-
-
 
 
 
@@ -1021,8 +996,6 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
-
-
 METHODS
 _______
 
@@ -1030,9 +1003,6 @@ aviable on the classList propertie
 .toogle 
 
 will add the class if its not there and remove the class if its already there
-
-
-
 
 
 
@@ -1048,7 +1018,6 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
-
 
 
 
@@ -1088,8 +1057,6 @@ $().animate({})
 
 
 
-
-
           COUNTER
           _______  
       
@@ -1114,8 +1081,5 @@ function refreshTime() {
 }
   setInterval(refreshTime, 1000);
 </script>
-
-______________________________________________
-
 
 
