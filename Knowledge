@@ -882,6 +882,7 @@ console.log(main, secondary);
           
 For Key Value PAIRS
 
+- the order of elements does NOT matter
           
 const object = {
   num: 5          // => thats a PROPERTIE (inside of the object) with a VALUE === Key value PAIR
@@ -896,6 +897,17 @@ const jonas = {
   age: 2022 - 1991,                     // can hold expressions!
   friends: ['tom', 'bob', 'adam']       // can hold arrays
 };
+
+
+
+DESTRUCTORING OBJECTS
+_____________________
+
+- the order of elements does NOT matter
+- really useful for api calls
+
+const {name, friends, age} = jonas;           -> this is creating three brandnew variables based in this object
+console.log(name, friends, age);
 
 
 
