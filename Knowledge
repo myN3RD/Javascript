@@ -958,6 +958,27 @@ console.log(jonas.calcAge(1989));
 
 
 
+
+
+          SPREAD OPERATOR
+          _______________
+
+- the spread operator basically expand an array into all its elements
+
+- so basically unpacking all the array elements at one
+
+
+->
+
+... to expand the array to all individual elements
+
+const arr = [7, 8, 9];
+const newArray = [1, 2, ...arr]; -> using the spread operator ...
+console.log(newArray);        -> [1, 2, 7, 8, 9]
+
+
+
+
           DOM (Manipulation)
           __________________
 
