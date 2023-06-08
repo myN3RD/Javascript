@@ -980,6 +980,14 @@ console.log(newArray);        -> [1, 2, 7, 8, 9]
 console.log(...newArr);       -> 1 2 7 8 9
 
 
+EXPANDING THE ARRAY
+___________________
+
+
+const expandedArray = [...newArray, 12];
+console.log(expandedArray);   -> [1, 2, 7, 8, 9, 12]
+
+
 
 
           DOM (Manipulation)
