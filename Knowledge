@@ -695,7 +695,6 @@ An STATEMENT is like a bigger peace of code -> which isnt produce a value
           
          
 
-
           TRUTHY FALSY
           ____________
 
@@ -816,6 +815,7 @@ console.log(data.includes(value));
 if (data.includes(value)) {
  console.log('Data was found!');
 };
+
 
 
 DESTRUCTURING ARRAYS
@@ -987,6 +987,12 @@ NOTE: we are building a new array! (we dont change the old one)
 
 const expandedArray = [...newArray, 12];
 console.log(expandedArray);   -> [1, 2, 7, 8, 9, 12]
+
+
+Strings:
+const name = `Jonas`;
+const letters = [...name, " ", "T"];
+console.log(letters);         -> ["J", "o", "n", "a", "s", " ", "T"]
 
 
 
