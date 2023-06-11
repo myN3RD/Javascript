@@ -1007,6 +1007,16 @@ arr(...arr);                  -> ALWAYS use this  (ES6)
 
 
 
+          REST PATTERN
+          ____________
+          
+- the rest patterm is really the opposite of the spread operator but with the same syntax!
+ 
+- the rest pattern uses the exact same syntax however, to collect multiple elements and condense them into an array.
+
+
+
+
           DOM (Manipulation)
           __________________
 
