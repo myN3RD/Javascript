@@ -967,6 +967,8 @@ console.log(jonas.calcAge(1989));
 
 - so basically unpacking all the array elements at one
 
+NOTE: spread operator does NOT work inside/with template lterals!   ` ${var} ....   ` 
+
 
 ->
 
