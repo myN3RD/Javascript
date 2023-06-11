@@ -997,6 +997,14 @@ const letters = [...name, " ", "T"];
 console.log(letters);         -> ["J", "o", "n", "a", "s", " ", "T"]
 
 
+ES6
+___
+
+const arr = [1, 2, 3];
+arr(arr[0], arr[1], arr[2]);  -> old way
+arr(...arr);                  -> ALWAYS use this  (ES6)
+
+
 
 
           DOM (Manipulation)
