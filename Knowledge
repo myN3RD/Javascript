@@ -1024,6 +1024,35 @@ console.log(a, b, others);    -> 1 2 [3, 4, 5]
 
 
 
+
+USEFUL EXAMPLE:
+_______________
+
+
+const restaurant = {
+openingHours = {
+  thur: {
+   open: 12,
+   close: 22
+    },
+  fri: {
+   open: 12,
+   close: 24
+    },
+  sun: {
+   open: 14,
+   close: 24
+  }
+};
+
+
+//for Objects
+const { sun, ...weekdays } = restaurant.openingHours;       
+console.log(weekdays);        -> {thur: {...}, fri: {...}}
+
+
+
+
           DOM (Manipulation)
           __________________
 
