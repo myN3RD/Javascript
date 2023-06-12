@@ -1015,6 +1015,11 @@ arr(...arr);                  -> ALWAYS use this  (ES6)
 - the rest pattern uses the exact same syntax however, to collect multiple elements and condense them into an array.
 
 
+REST, because of the LEFT side of the =
+
+const [a, b, ...others] = [1, 2, 3, 4, 5];
+console.log(a, b, others);    -> 1 2 [3, 4, 5]
+
 
 
           DOM (Manipulation)
