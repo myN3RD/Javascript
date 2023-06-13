@@ -1051,6 +1051,13 @@ console.log(weekdays);        -> {thur: {...}, fri: {...}}
 
 
 
+          AND & OR OPERATOR for Short Circuiting (&& and ||)
+          __________________________________________________
+          
+          
+          
+          
+          
           DOM (Manipulation)
           __________________
 
