@@ -959,7 +959,7 @@ console.log(jonas.calcAge(1989));
           SPREAD OPERATOR
           _______________
 
-- the spread operator basically expand an array into all its elements
+- the spread operator basically EXPAND an array into all its elements
 
 - so basically unpacking all the array elements at one
 
@@ -1007,8 +1007,10 @@ arr(...arr);                  -> ALWAYS use this  (ES6)
 
           REST PATTERN
           ____________
-          
-- the rest patterm is really the opposite of the spread operator but with the same syntax!
+ 
+- with the rest operator we COMPRESS 
+
+- the rest patterm is really the opposite of the spread operator but with the same syntax! JUST ON THE LEFT SIDE OF =
  
 - the rest pattern uses the exact same syntax however, to collect multiple elements and condense them into an array.
 
@@ -1019,7 +1021,6 @@ REST, because on the LEFT side of the =
                    I
 const [a, b, ...others] = [1, 2, 3, 4, 5];
 console.log(a, b, others);    -> 1 2 [3, 4, 5]
-
 
 
 
