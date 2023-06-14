@@ -1055,13 +1055,24 @@ console.log(weekdays);        -> {thur: {...}, fri: {...}}
           __________________________________________________
           
 short circuiting: means -> that if the first value is a truthy value, it will immediately return that first value.
-          
+
+OR Operator
+___________
           
 // Use ANY data type, return ANY data type, short circuting
 console.log(3 || 'Jonas');    -> 3                -> short circuiting means that if the first value is a truthy value, it will immediately return that first value. (if the first operand is truthy here in the OR operator, then the other operand will not even be evaluated.)
 console.log('' || 'Jonas')    -> Jonas            -> '' = falsy
           
           
+          
+AND Operator
+____________
+
+the AND operator works in the exact opposite way of the OR operator.
+
+console.log('Hello', 23, null, 'Jonas');  -> null will be returned -> null is a falsy value and therefore evaluation no longer needs to continue because at this point, the whole result of the end operation is gonna be false anyway.
+
+
           
           DOM (Manipulation)
           __________________
