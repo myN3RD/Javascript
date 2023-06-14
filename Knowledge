@@ -1054,7 +1054,12 @@ console.log(weekdays);        -> {thur: {...}, fri: {...}}
           AND & OR OPERATOR for Short Circuiting (&& and ||)
           __________________________________________________
           
+short circuiting: means -> that if the first value is a truthy value, it will immediately return that first value.
           
+          
+// Use ANY data type, return ANY data type, short circuting
+console.log(3 || 'Jonas');    -> 3                -> short circuiting means that if the first value is a truthy value, it will immediately return that first value. (if the first operand is truthy here in the OR operator, then the other operand will not even be evaluated.)
+console.log('' || 'Jonas')    -> Jonas            -> '' = falsy
           
           
           
