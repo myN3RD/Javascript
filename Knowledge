@@ -1078,6 +1078,14 @@ the AND operator works in the exact opposite way of the OR operator.
 console.log('Hello', 23, null, 'Jonas');  -> null will be returned -> null is a falsy value and therefore evaluation no longer needs to continue because at this point, the whole result of the end operation is gonna be false anyway.
 
 
+
+
+          NULLISH COALESCING OPERATOR
+          ___________________________
+
+
+
+
           
           DOM (Manipulation)
           __________________
