@@ -1054,6 +1054,11 @@ console.log(weekdays);        -> {thur: {...}, fri: {...}}
           AND & OR OPERATOR for Short Circuiting (&& and ||)
           __________________________________________________
           
+NOTE:
+
+DONT replace all your if statements with the AND or the OR operators!
+ 
+ 
 short circuiting: means -> that if the first value is a truthy value, it will immediately return that first value.
 
 OR Operator
