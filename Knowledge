@@ -101,7 +101,7 @@ throw statement:         https://www.w3schools.com/jsref/tryit.asp?filename=tryj
 
 Example: Please input a number between 5 and 10:
 
-                  ghjgh     Test Input
+                  ghjgh     ==> Test Input
 
                   Input not a number (NaN)
 
@@ -113,10 +113,8 @@ Example: Please input a number between 5 and 10:
 
 
 
-
           CRUD Operarations
           _________________
-
 
 LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
 
@@ -128,11 +126,8 @@ D	      Delete	    DELETE	        DELETE
 
 
 
-
-
          DATA TYPES (Values have a type, NOT the variables)
          __________
-
 
 The 7 PRIMITIV DATA TYPES:  (all other things are Objects(REFERENCE TYPES)) 
 
@@ -154,21 +149,16 @@ SAME -> console.log(typeof(PI));
 
 
 
-
-
 Type Conversion
 _______________
 
+Converting strings to numbers and others:
 
-Converting strings to numbers and others
-
-
-we can convert 3 data types:
+we can convert to 3 data types:
 
 1. to number
 2. to strings
 3. to booleons
-
 
 
 const inputYear = '1991';
@@ -180,10 +170,8 @@ console.log(Number(inputYear) + 18);
 
 
 
-
 Type Coercion
 _____________
-
 
 let n = '1' + 1;    // '11'   -> string
 n = n - 1;
@@ -192,11 +180,8 @@ console.log(n);     //  10    -> Number
 
 
 
-
-
          VARIABLES (are like boxes with a package inside (or which hold an object inside))
          _________
-
 
 Ways to declare a Variable:
 
@@ -225,10 +210,7 @@ Variables outside a function are all GLOBAL
 
 NOTE: we can assign var outside of a function ( at the beginning usually ), like this:
 
-
-
 let currentScore, activePlayer, playing;
-
 
 
 and the reassign them in the function ->
@@ -240,7 +222,6 @@ const init = function () {
   playing = true; // using a state variable
 };
 init();                                                     ---> and then call the function -> so that the variable will be read
-
 
 
 Syntax:
@@ -265,11 +246,9 @@ myVar123
 
 
 
-
           FUNCTIONS
           _________
           
-
 Creating a function:
 
 Keyword   Name  Parameters: -> for Input-Values
@@ -314,15 +293,12 @@ console.log(appleOrangeJuice);
 
 
 
-
 RETURN STATEMENT
 ________________
-
 
 The return statement stops the execution of a function and will not further continue the function.
 
 NOTE: if we wanna use console.log(); inside of the function -> then it has to be BEFORE return
-
 
                 
          return;  
@@ -405,7 +381,6 @@ console.log(yearsUntilRetirement(1980, 'Bob'));
 Calling a function inside of another function
 _________________________________________________
 
-
 // first maschine is preparing stuff for the second maschine
 function cutFruitIntoSmallPieces(fruit) {
   return fruit * 4;           // cutting into 4 pieces
@@ -421,8 +396,6 @@ function fruitProcessor(apples, oranges) {
 };
                      // CUTTING 2 apples and 3 oranges
 console.log(fruitProcessor(2, 3));
-
-
 
 
 
@@ -466,7 +439,6 @@ fetch(url)
   
 
 
-
           OPERATORS
           _________
                   
@@ -482,7 +454,6 @@ let x = 10;
 let y = 5;
 x > y;    // true
 x < y;    // false
-
 
 
 
@@ -506,6 +477,7 @@ Math Operators will be executed before coparison operators for example
 -> thats what we see in this table, but we dont have to know/remind all
 
 
+
 EQUALITY OPERATORS
 __________________
 
@@ -526,9 +498,7 @@ __________________
           NUMBERS
           _______
 
-
 Math. Floor rounds down, Math. Ceiling rounds up, and Math. Trunc(ate) rounds towards zero.
-
 
 
 Operators:
@@ -554,8 +524,7 @@ Math.trunc():
 
           TEMPLATE LITERALS `` (ES6)
           __________________________
-          
-          
+                    
 NOTE: in Template Literals we can just use EXPRESSIONS ! NO Statements!
           
  
@@ -634,7 +603,6 @@ NOTE: when we have more than 5 statements, its recommended to use then a -> SWIT
 
 
 
-
 SWITCH STATEMENTS
 _________________
 
@@ -697,7 +665,6 @@ An STATEMENT is like a bigger peace of code -> which isnt produce a value
 
           TRUTHY FALSY
           ____________
-
 
 The Concept:
           
@@ -878,8 +845,7 @@ console.log(main, secondary);
 
           OBJECTS
           _______
-          
-          
+                    
 For Key Value PAIRS
 
 - the order of elements does NOT matter
