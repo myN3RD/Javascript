@@ -1046,9 +1046,12 @@ console.log('Hello', 23, null, 'Jonas');  -> null will be returned -> null is a 
 
 
 
-          NULLISH COALESCING OPERATOR
-          ___________________________
+          NULLISH COALESCING OPERATOR ??
+          ______________________________
 
+works almost the same like the or operator
+
+works with nullish values instead of falsy values -> nullish values are: null and undefined (NOT 0 or '')
 
 
 
