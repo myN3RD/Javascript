@@ -717,6 +717,14 @@ for (let i=0; i<5; i++;) {
 
 
 
+for of loop
+___________
+
+for (const item of menu) console.log(item);
+"its FOR the item OF the menu"
+
+
+
 
           ARRAYS
           ______
