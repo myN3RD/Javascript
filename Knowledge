@@ -723,6 +723,12 @@ ___________
 for (const item of menu) console.log(item);
 "its FOR the item OF the menu"
 
+GETTING THE INDEX (is not so easy here)
+
+for (const item of menu.entries()) {
+console.log(item);
+};
+
 
 
 
