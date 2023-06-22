@@ -1073,6 +1073,7 @@ works with nullish values instead of falsy values -> nullish values are: null an
           Optional Chaining ?.
           ____________________
 
+// normal  way
 if (restaurant.openingHours && restaurant.openingHours.mon)
           console.log(restaurant.openingHours.mon.open);          -> error
 
@@ -1084,8 +1085,20 @@ only if monday exists, the this open propertie will be read -> when not -> immed
 
 only if the propertie which is before this ?.
 
-console.log(restaurant.openingHours.mon?.open));
+console.log(restaurant.openingHours.mon?.open));          
+console.log(restaurant.openingHours?.mon?.open));          -> if opening does not exists , then the mon propertie will not be read
 
+
+THATS REALLY USEFUL TO PreveNT ALL KIND OF BUGS
+
+
+// example
+const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+
+for(const day of days) {
+   const open = restaurant.openingHours[day]?.open          -> we need to use the [] instead of . cause we use the VARIABLE NAME as the PROPERTIE NAME basically (the day is coming dynamicly from the days array!)
+   console.log(`On ${day}, we open at ${open}`);
+}
 
 
 
