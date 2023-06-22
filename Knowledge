@@ -1069,7 +1069,26 @@ works with nullish values instead of falsy values -> nullish values are: null an
 
 
 
-          
+
+          Optional Chaining ?.
+          ____________________
+
+if (restaurant.openingHours && restaurant.openingHours.mon)
+          console.log(restaurant.openingHours.mon.open);          -> error
+
+
+
+// with optional chaining
+
+only if monday exists, the this open propertie will be read -> when not -> immediately undefined will be returned
+
+only if the propertie which is before this ?.
+
+console.log(restaurant.openingHours.mon?.open));
+
+
+
+
           DOM (Manipulation)
           __________________
 
