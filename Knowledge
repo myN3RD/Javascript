@@ -1097,9 +1097,17 @@ const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
 for(const day of days) {
    const open = restaurant.openingHours[day]?.open          -> we need to use the [] instead of . cause we use the VARIABLE NAME as the PROPERTIE NAME basically (the day is coming dynamicly from the days array!)
-   console.log(`On ${day}, we open at ${open}`);
-}
+   console.log(`On ${day}, we open at ${open}`);            -> On mon we open at undefined          -> we dont want undefined SOLUTION is, to set adefault value
+}                                                           -> On tue we open at 12
 
+
+  -> we dont want undefined SOLUTION is, to set adefault value
+
+
+for(const day of days) {                          SOLUTION -> ??  = optional chaining operator + nullish operator working together
+   const open = restaurant.openingHours[day]?.open ??       
+   console.log(`On ${day}, we open at ${open}`);            -> On mon we open a
+}                                                           -> On tue we open at 12
 
 
           DOM (Manipulation)
