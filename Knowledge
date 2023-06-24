@@ -1067,11 +1067,15 @@ works almost the same like the or operator
 
 works with nullish values instead of falsy values -> nullish values are: null and undefined (NOT 0 or '')
 
+works also for methods and arrays
+
 
 
 
           Optional Chaining ?.
           ____________________
+
+- works also for methods and arrays
 
 // normal  way
 if (restaurant.openingHours && restaurant.openingHours.mon)
@@ -1108,6 +1112,8 @@ for(const day of days) {                          SOLUTION -> ??  = optional cha
    const open = restaurant.openingHours[day]?.open ??       
    console.log(`On ${day}, we open at ${open}`);            -> On mon we open a
 }                                                           -> On tue we open at 12
+
+
 
 
           DOM (Manipulation)
