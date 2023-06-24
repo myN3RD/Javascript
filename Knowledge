@@ -1108,7 +1108,10 @@ for(const day of days) {
   -> we dont want undefined SOLUTION is, to set adefault value
 
 
-for(const day of days) {                          SOLUTION -> ??  = optional chaining operator + nullish operator working together
+ SOLUTION is to use optional chaining operator + nullish operator, working together
+
+
+for(const day of days) {                         
    const open = restaurant.openingHours[day]?.open ??       
    console.log(`On ${day}, we open at ${open}`);            -> On mon we open a
 }                                                           -> On tue we open at 12
