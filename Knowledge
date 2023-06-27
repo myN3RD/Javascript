@@ -783,7 +783,7 @@ _____________
 // returns the index of the element
 console.log(data.indexOf(value));
 
-// to check if the is an specific element with strict value
+// to check if there is an specific element with strict value in the array
 console.log(data.includes(value));
 
 -> useful for 
@@ -947,6 +947,10 @@ NOTE: its not an array now- its an SET !
 
 to get the length of a set, we have to use .size instead of .length!
 
+
+                    has is actually amethod
+console.log(ordersSet.has('Pizza'));          -> true
+console.log(ordersSet.has('Buritto'));        -> false
 
 
 
