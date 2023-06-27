@@ -45,8 +45,6 @@ currentScore += dice;
 
 
 
-
-
           STRING INTERPOLATION
           ____________________
 
@@ -86,9 +84,6 @@ that fit certain criteria, into a new array.
 reduce method    -> "we started with many things and REDUCED it down to one thing"
 
 optional add start value 0
-
-
-
 
     
     
@@ -932,6 +927,19 @@ const jonas = {
 };
 
 console.log(jonas.calcAge(1989));
+
+
+
+
+           SETS (=DATA STRUCTURE)
+          _______________________
+
+a set is a collection of unique values
+
+const ordersSet = new Set (['Pasta', 'Pizza', 'Risotto', 'Pasta', 'Pizza']);
+console.log(ordersSet);          -> Set(3) {'Pasta', 'Risotto', 'Pizza'}          -> All duplicates are GONE
+
+NOTE: its not an array now- its an SET !
 
 
 
