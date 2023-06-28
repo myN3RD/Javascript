@@ -944,7 +944,7 @@ console.log(ordersSet);          -> Set(3) {'Pasta', 'Risotto', 'Pizza'}        
 
 NOTE: its not an array now - its a SET !
 
-      we CANT use INDEX! (not neccesarry cause all elements are unique, also there is no need to get out in of a set)
+      we CANT use INDEX! (not neccesarry cause all elements are unique, also there is no need to get data out of a set)
 
 
 
