@@ -1,7 +1,7 @@
 PROGRAMMING LEANGUAGE: BUILDING WEB APPLICATIONS
 
 HTML is for         "NOUNS"               <p></p>        means  paragraph
-CSS is for          "ADJECTIVES"          p {color: red} means the paragraph is  red
+CSS is for          "ADJECTIVES"          p {color: red} means  the paragraph is red
 JAVASCRIPT is for   "VERBS"               p.hide();      means  hide the paragraph
 
 
