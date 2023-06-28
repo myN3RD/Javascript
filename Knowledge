@@ -934,9 +934,11 @@ console.log(jonas.calcAge(1989));
            SETS (=DATA STRUCTURE)
           _______________________
 
-a set is a collection of unique values
+a set is a collection of unique values (or when we need to use unique values)
 
 the order of the elements in a set is irrelevant
+
+set are not to replace arrays at all
 
 
 const ordersSet = new Set (['Pasta', 'Pizza', 'Risotto', 'Pasta', 'Pizza']);
