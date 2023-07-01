@@ -976,6 +976,19 @@ Now, the big difference between objects and maps is that in maps, the keys can h
 
 
 
+1 => 'Firence, Italy'                    FOR UNDEERSTANDING: 1 will  BE MAPPED  to Firence, Italy
+
+
+EXAMPLE:
+
+const rest = new MAP();
+
+rest.set(1, 'Firence, Italy');        
+console.log(rest);                    -> MAP(1) {1 => "Firence, Italy"}
+console.log(rest.get(1));             -> Firence, Italy
+
+
+
 
 
           SPREAD OPERATOR
