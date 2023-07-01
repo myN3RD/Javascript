@@ -997,7 +997,9 @@ METHODS:
 .set
 .get
 .has
-.delete
+.delete(1) (deletes one entry)
+.size
+.clear() (clears everything)
 
 
 
