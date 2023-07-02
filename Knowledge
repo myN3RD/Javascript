@@ -771,6 +771,18 @@ console.log(ages);          -> (5) [26, 13, 22, 54, 60]
 
 
 
+important for loop STATEMENTS -> continue & break
+_________________________________________________
+
+continue to exist the current iteration(repetition) of the loop AND CONTINUE to the next one
+break terminates(stops) the whole loop
+
+
+for (i = 0; i < birstyears.lenght; i++) {
+if (birthyears < 50) continue;
+};
+
+
 
           ARRAYS
           ______
