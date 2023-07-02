@@ -700,7 +700,8 @@ while (i<2) {
 for loop
 ________
 
-    Start End  Change
+   (CONDITION)
+    Start End   Change
       ↓    ↓    ↓ 
 for (i=0; i<5; i++;) {
   // do something
@@ -708,6 +709,12 @@ for (i=0; i<5; i++;) {
 
 for (let i=0; i<5; i++;) {
   console.log(i);
+}
+
+// for loop keeps running as long as the condition is TRUE
+           (CONDITION)
+for(let rep = 1; rep <= 10; rep++) {
+console.log(`Lifting wheight repetion ${rep} 🏋️‍♂️`);
 }
 
 
