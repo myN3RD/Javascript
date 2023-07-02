@@ -720,8 +720,8 @@ console.log(`Lifting wheight repetion ${rep} 🏋️‍♂️`);
 
 
 
-
-reading elements out of the array
+looping and reading elements out of an array
+____________________________________________
 
 const jonas = [
 'Jonas',
@@ -734,8 +734,8 @@ const jonas = [
 // console.log(jonas[0]);
 // console.log(jonas[1]); 
 // ...
-// console.log(jonas[4]); // does NOT exist
-// console.log(jonas[5]); // does NOT exist -> the CONDITION ends here
+// console.log(jonas[4]);
+// console.log(jonas[5]); // 5 does NOT exist -> the CONDITION ends here
 
                   (dynamicly lenght of the loop)
 for (let i=0; i < jonas.lenght; i++) {
