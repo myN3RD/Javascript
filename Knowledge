@@ -757,6 +757,20 @@ console.log(item);
 
 
 
+looping through the birstyears and creating the ages array
+_________________________________________________________
+
+const birthyears = [1997, 2010, 2001, 1969, 1953];
+const ages = [];
+
+for (i = 0; i < birstyears.lenght; i++) {
+ages.push(2023 - birthyears[i]);
+};
+
+console.log(ages);          -> (5) [26, 13, 22, 54, 60]
+
+
+
 
           ARRAYS
           ______
