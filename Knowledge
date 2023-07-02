@@ -677,7 +677,6 @@ console.log(Booleon(''));               ->        false     falsy
           LOOPS 
           _____
          
-
 FAB: bei for loops hat man ja meistens eine menge
      while nutzt man, solange ein "zustand" noch nicht erreicht ist und den erst herstellen muss
 
@@ -686,7 +685,7 @@ FAB: bei for loops hat man ja meistens eine menge
 while loop
 __________
 
-while = is a checking a condition -> infinite loop until it turns from true to false
+while = is checking a condition -> infinite loop until it turns from true to false
 
 var i = 1;
 
@@ -699,6 +698,8 @@ while (i<2) {
 
 for loop
 ________
+
+i is just a long used counter name
 
    (CONDITION)
     Start End   Change
@@ -717,6 +718,29 @@ for(let rep = 1; rep <= 10; rep++) {
 console.log(`Lifting wheight repetion ${rep} 🏋️‍♂️`);
 }
 
+
+
+
+reading elements out of the array
+
+const jonas = [
+'Jonas',
+'Schmedtmann',
+'2037 - 1991',
+'teacher',
+[Michael, Peter, Steven]
+];
+
+// console.log(jonas[0]);
+// console.log(jonas[1]); 
+// ...
+// console.log(jonas[4]); // does NOT exist
+// console.log(jonas[5]); // does NOT exist -> the CONDITION ends here
+
+                  (dynamicly lenght of the loop)
+for (let i=0; i < jonas.lenght; i++) {
+console.log(jonas[i]);
+}
 
 
 for of loop
