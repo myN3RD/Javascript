@@ -786,6 +786,16 @@ if (birthyears < 50) continue;......  needs correction
 looping BACKWARDS
 _________________
 
+actually we just use i-- instead of i++
+
+->                  and - 1 is important
+
+
+for (let i = var.length - 1; i >= 0; i--) {
+console.log(var[i]);
+}
+
+
 
 looping inside of a loop
 ________________________
