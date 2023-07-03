@@ -800,6 +800,14 @@ console.log(var[i]);
 looping inside of a loop
 ________________________
 
+for (let exercise = 1; exercise < 4; exercise++) {
+console.log(`---STARTING EXERCISE--- ${exercise}`);
+
+          for (let rep = 1; rep < 6; rep++) {                    // inner loop
+          console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+          }
+}
+
 
 
 
