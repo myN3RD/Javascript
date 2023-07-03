@@ -796,7 +796,7 @@ ________________________
           ARRAYS
           ______
 
-//     i = index:0, 1, 2    // i is the positon in the of the item in the array
+//     i = index: 0, 1, 2    // i is the positon of the item in the array // i is just a long used name for the index position
 const dataArray = [4, 15, 34];  // array without objects
 
 
