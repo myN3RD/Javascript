@@ -681,21 +681,6 @@ FAB: bei for loops hat man ja meistens eine menge
      while nutzt man, solange ein "zustand" noch nicht erreicht ist und den erst herstellen muss
 
 
-
-while loop
-__________
-
-while = is checking a condition -> infinite loop until it turns from true to false
-
-var i = 1;
-
-while (i<2) {
-  console.log(i);
-  i++;
-}
-
-
-
 for loop
 ________
 
@@ -806,6 +791,48 @@ console.log(`---STARTING EXERCISE--- ${exercise}`);
           for (let rep = 1; rep < 6; rep++) {                    // inner loop
           console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
           }
+}
+
+
+
+
+
+
+while loop
+__________
+
+while = is checking a condition -> infinite loop until it turns from true to false -> will run while the condition is true
+-> in a while loop we can ONLY specific a CONDITION
+
+var i = 1;
+
+      (CONDITION) ONLY    
+while (i<2) {
+  console.log(i);
+  i++;
+}
+
+
+EXAMPLE:
+
+for (let rep = 1; rep < 10; rep++) {                
+console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+}
+
+let rep = 1;
+while (rep < 10) {
+console.log(`Lifting weights repetition ${rep}🏋️‍♂️`);
+rep++;
+};
+
+
+BEST EXAMPLE: 
+
+let dice = Math.trunk(Math.random()*6) + 1;
+
+while (dice !== 6) {
+console.log(`You rolled a ${dice}`);
+dice = Math.trunk(Math.random()*6) + 1;          -> IMPORTANT, cause without this its an infinite loop and will crash the browser!
 }
 
 
