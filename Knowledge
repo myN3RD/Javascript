@@ -833,6 +833,7 @@ let dice = Math.trunk(Math.random()*6) + 1;
 while (dice !== 6) {
 console.log(`You rolled a ${dice}`);
 dice = Math.trunk(Math.random()*6) + 1;          -> IMPORTANT, cause without this its an infinite loop and will crash the browser!
+if (dice === 6) console.log('Loop is about to end, cause you rolled a 6');
 }
 
 
