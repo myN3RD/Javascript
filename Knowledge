@@ -5,6 +5,27 @@ CSS is for          "ADJECTIVES"          p {color: red} means  the paragraph is
 JAVASCRIPT is for   "VERBS"               p.hide();      means  hide the paragraph
 
 
+DATA STRUCTURE OVERVIEW
+
+          SOURCES OF DATA
+          1 from the program itself: Data directly written in the source code
+          2 from the UI: Data INPUT from the user, or data written in DOM
+          3 from external sources: Data FETCHED for example from a web API
+
+                                        ⬇️
+
+                                COLLECTION of data
+
+                                        ⬇️
+
+                                  Data Structure 
+
+                    SIMPLE LIST? ↙️           ↘️ KEY/VALUE PAIR?
+
+          ARRAYS or SETS                              OBJECTS or MAPS
+
+
+
 NOTE: ALWAYS use latest google chrome for development
 
 For using strict mode in js -> first line of code in the js file:  'use strict';
