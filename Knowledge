@@ -1407,6 +1407,53 @@ document.addEventListener('keydown', function (e) {
 
 
 
+          STRINGS
+          _______
+
+// STRINGS 121
+
+const airline = 'TAP Air Portugal';
+const plane = 'A320';
+
+console.log(plane[0]);
+console.log(plane[1]);
+console.log(plane[2]);
+console.log('A320'[0]); // alternative
+
+console.log(airline.length);
+console.log('A320'.length);
+
+// methods of strings
+console.log(airline.indexOf('r')); // the first found r
+console.log(airline.lastIndexOf('r')); // the last found r
+console.log(airline.indexOf('Portugal')); // -> case sensitive
+
+// hardcoded
+console.log(airline.slice(4)); // returns a new string
+console.log(airline.slice(4, 7)); // -> 7(end) (stops before reaching index number 7) - 4(beginning) = 3 => Air
+console.log(airline.slice(1, -1)); // starts at 1 and cuts -1 charakter
+
+//dynamic
+// for the first word
+console.log(airline.slice(0, airline.indexOf(' ')));
+// for the last word
+console.log(airline.slice(airline.lastIndexOf(' ') + 1));
+
+// EXAMPLE (extracting parts from strings)
+const checkMiddleSeat = function (seat) {
+  // B and E are middle seats
+  const s = seat.slice(-1);
+  if (s === 'B' || s === 'E') console.log('You got the middleseat 👩‍🚀');
+  else console.log('You got lucky 👩‍🌾');
+};
+
+checkMiddleSeat('11B');
+checkMiddleSeat('23C');
+checkMiddleSeat('3E');
+
+
+
+
           jQUERY
           ______
 
