@@ -1410,6 +1410,9 @@ document.addEventListener('keydown', function (e) {
           STRINGS
           _______
 
+Strings are primitives
+"boxing" makes it possible to use methods with strings as well (actually they dont have methods) -> JS converts it to objects via boxing
+
 // STRINGS 121
 
 const airline = 'TAP Air Portugal';
