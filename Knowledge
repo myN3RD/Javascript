@@ -1460,6 +1460,7 @@ checkMiddleSeat('3E');
 
 
 
+....(
 UPPER & LOWER CASE METHODS
 ___________________________
 
@@ -1495,6 +1496,13 @@ console.log(trimmedEmail);
 const normalizedEmail = typedEmail.toLowerCase().trim();
 console.log(normalizedEmail);
 
+if (email === normalizedEmail) {
+  console.log('Typed Email is correct');
+} else {
+  console.log('Typed Email is not correct');
+}
+
+)......
 
 
 
