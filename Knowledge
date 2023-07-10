@@ -1545,6 +1545,14 @@ checkBaggage('Socks and camera.');
 checkBaggage('Got some snacks and a gun for protection.');
 
 
+SPLIT METHOD
+____________
+
+// allows us to split a string into multiple parts (on a devider string)
+console.log('a+very+nice+string'.split('+'));
+console.log('Tobias Schumann'.split(' '));
+
+
 
           jQUERY
           ______
