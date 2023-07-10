@@ -1426,7 +1426,11 @@ console.log('A320'[0]); // alternative
 console.log(airline.length);
 console.log('A320'.length);
 
-// methods of strings
+
+
+METHODS
+_______
+
 console.log(airline.indexOf('r')); // the first found r
 console.log(airline.lastIndexOf('r')); // the last found r
 console.log(airline.indexOf('Portugal')); // -> case sensitive
@@ -1453,6 +1457,43 @@ const checkMiddleSeat = function (seat) {
 checkMiddleSeat('11B');
 checkMiddleSeat('23C');
 checkMiddleSeat('3E');
+
+
+
+UPPER & LOWER CASE METHODS
+___________________________
+
+console.log(airline.toLocaleLowerCase());
+console.log('TAP Air Portugal'.toLocaleLowerCase()); // alternative
+
+// Fix capitilization in Name
+const passenger = 'toBiaS';
+const passengerLower = passenger.toLowerCase();
+console.log(passengerLower);
+const passengerUpper = passenger.toUpperCase();
+console.log(passengerUpper);
+
+// we take the first lower Case letter and make it upper + we cut of the first letter -> and just took the rest
+const passengerCorrect =
+  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+console.log(passengerCorrect);
+
+// comparring email
+const email = 'hello@tobias.de';
+const typedEmail = '  heLlO@toBIas.de'; // actually the email is correct, but NOT the capitalization
+
+const lowerEmail = typedEmail.toLowerCase();
+
+
+TRIM METHOD
+___________
+
+const trimmedEmail = lowerEmail.trim(); // trim METHOD to get of the empty spaces
+console.log(trimmedEmail);
+
+// same in short
+const normalizedEmail = typedEmail.toLowerCase().trim();
+console.log(normalizedEmail);
 
 
 
