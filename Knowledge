@@ -1506,6 +1506,30 @@ if (email === normalizedEmail) {
 
 
 
+REPLACING
+_________
+
+// replacing (a part of strings)
+const priceUSA = '188.97$';
+const priceEU = priceUSA.replace('$', '€').replace('.', ',');
+console.log(priceEU);
+//_________
+
+const announcement = 'All passengers come to door 23 for Boarding.';
+console.log(announcement.replace('door', 'gate'));
+
+
+FOR TESTING BOOLEANS
+____________________
+
+const airplane = 'A320neo';
+console.log(airplane.includes('A320'));
+console.log(airplane.includes('Boing'));
+console.log(airplane.startsWith('B'));
+console.log(airplane.startsWith('A3'));
+
+
+
           jQUERY
           ______
 
