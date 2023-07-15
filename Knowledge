@@ -1590,6 +1590,25 @@ capitalizedName('jessica ann smith davis');          -> Jessica Ann Smith Davis
 
 
 
+GETTING THE SAME LENGTH OF A STRING
+___________________________________
+
+- the idea is, that we get a string with the same length always automatically
+
+
+///// code
+const message = 'Go to Gate 23!';
+console.log(message.padStart(20, '+') + ' * string has a length of 20 now');
+
+const message2 = 'Go to Gate 8!';
+console.log(message2.padStart(20, '+') + ' * string has a length of 20 now');
+
+const message3 = 'Go to Gate 104!';
+console.log(message3.padStart(20, '+') + ' * string has a length of 20 now');
+console.log(message3.padStart(20, '+').length); // for testing -> all correct
+
+
+
 
           jQUERY
           ______
