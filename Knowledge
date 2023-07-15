@@ -1545,12 +1545,26 @@ checkBaggage('Socks and camera.');
 checkBaggage('Got some snacks and a gun for protection.');
 
 
+
 SPLIT METHOD
 ____________
 
 // allows us to split a string into multiple parts (on a devider string)
-console.log('a+very+nice+string'.split('+'));
-console.log('Tobias Schumann'.split(' '));
+console.log('a+very+nice+string'.split('+'));          -> (4) ["a", "very", "nice", "string"]
+console.log('Tobias Schumann'.split(' '));             -> (2) ["Tobias", "Schumann"]
+
+// we can store directly in the variables if we want
+const [firstName, lastName] = 'Tobias Schumann';
+console.log(firstName, lastName);
+
+
+
+JOIN METHOD
+____________
+
+actually the opposite of split
+
+
 
 
 
