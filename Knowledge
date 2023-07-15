@@ -1648,7 +1648,15 @@ const str = number + '';
 -> when one of the operands of the plus sign is a string -> it will convert all the operands to a STRING
 
 
+// masking a creditcardnumber    //(what we recive)
+const maskingCreditCard = function (number) {
+  const str = number + ''; // we have to convert the number to a string first
+  const lastCharakterOfTheNumber = str.slice(-4);
+  return lastCharakterOfTheNumber.padStart(str.length, '*');
+};
 
+console.log(maskingCreditCard(115500001000044525));    ->      **************4530
+console.log(maskingCreditCard(644400002000074387));    ->      **************4400
 
 
 
