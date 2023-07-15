@@ -164,6 +164,12 @@ ____________________ MOST IMPORTANT DATA TYPES
 SAME -> console.log(typeof(PI));
 
 
+NOTE: IF WE WANT TO CONVERT A NUMBER TO A STRING ->
+
+const str = number + '';
+
+-> when one of the operands of the plus sign is a string -> it will convert all the operands to a STRING
+
 
 Type Conversion
 _______________
@@ -1625,6 +1631,24 @@ console.log(message3.padStart(25, '+').padEnd(35, '+'));
 console.log(message.padEnd(35, '+'));
 console.log(message2.padEnd(35, '+'));
 console.log(message3.padEnd(35, '+'));
+
+
+
+USEFUL
+MASKING NUMBERS
+_______________
+
+//masking credit card numbers
+
+
+NOTE: IF WE WANT TO CONVERT A NUMBER TO A STRING ->
+
+const str = number + '';
+
+-> when one of the operands of the plus sign is a string -> it will convert all the operands to a STRING
+
+
+
 
 
 
