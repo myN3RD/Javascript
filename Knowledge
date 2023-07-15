@@ -1595,8 +1595,17 @@ ___________________________________
 
 - the idea is, that we get a string with the same length always automatically
 
+lkke this: (thats what we want to have at the end)
+
+++++++Go to Gate 23! * string has a length of 20 now
++++++++Go to Gate 8! * string has a length of 20 now
++++++Go to Gate 104! * string has a length of 20 now
+
+
 
 ///// code
+
+// text right
 const message = 'Go to Gate 23!';
 console.log(message.padStart(20, '+') + ' * string has a length of 20 now');
 
@@ -1607,6 +1616,15 @@ const message3 = 'Go to Gate 104!';
 console.log(message3.padStart(20, '+') + ' * string has a length of 20 now');
 console.log(message3.padStart(20, '+').length); // for testing -> all correct
 
+//  text in the middle
+console.log(message.padStart(25, '+').padEnd(35, '+'));
+console.log(message2.padStart(25, '+').padEnd(35, '+'));
+console.log(message3.padStart(25, '+').padEnd(35, '+'));
+
+// text left
+console.log(message.padEnd(35, '+'));
+console.log(message2.padEnd(35, '+'));
+console.log(message3.padEnd(35, '+'));
 
 
 
