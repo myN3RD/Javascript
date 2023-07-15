@@ -1572,6 +1572,23 @@ console.log(newName);          -> Mr. Tobias Schumann
 
 
 
+USEFUL EXERCISE:
+
+// CAPITALIZATION
+const capitalizedName = function (name) {
+  const names = name.split(' ');
+  const namesUpper = []; // EACH WORD will trouth the for loop -> stored into this array/ string???
+
+  for (const n of names) {
+    // a loop for EACH word we have to capilize
+    namesUpper.push(n[0].toUpperCase() + n.slice(1)); // fist letter upper + the sliced rest put on
+  }
+  console.log(namesUpper.join(' ')); // joining all together with ' ' between the words
+};
+
+capitalizedName('jessica ann smith davis');
+
+
 
 
           jQUERY
