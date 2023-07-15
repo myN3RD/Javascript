@@ -1586,7 +1586,7 @@ const capitalizedName = function (name) {
   console.log(namesUpper.join(' ')); // joining all together with ' ' between the words
 };
 
-capitalizedName('jessica ann smith davis');
+capitalizedName('jessica ann smith davis');          -> Jessica Ann Smith Davis
 
 
 
