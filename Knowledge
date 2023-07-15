@@ -1562,7 +1562,13 @@ console.log(firstName, lastName);
 JOIN METHOD
 ____________
 
-actually the opposite of split
+- actually the opposite of split
+
+
+const [firstName, lastName] = 'Tobias Schumann'.split(' '); // split is NECCESARY cause this splits the values in the [ ] and makes it possible to use them after
+
+const newName = ['Mr.', firstName, lastName].join(' ');
+console.log(newName);          -> Mr. Tobias Schumann
 
 
 
