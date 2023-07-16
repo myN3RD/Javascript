@@ -1633,7 +1633,6 @@ console.log(message2.padEnd(35, '+'));
 console.log(message3.padEnd(35, '+'));
 
 
-
 USEFUL
 MASKING NUMBERS
 _______________
@@ -1657,6 +1656,22 @@ const maskingCreditCard = function (number) {
 
 console.log(maskingCreditCard(115500001000044525));    ->      **************4530
 console.log(maskingCreditCard(644400002000074387));    ->      **************4400
+
+
+REPEATING A STRING
+__________________
+
+const messageDelayed = 'Bad weather, all departures delayed!...';
+console.log(messageDelayed.repeat(3));
+
+const planesWaiting = function (n) {
+  console.log(`There are ${n} planes waiting in line ${'🛩️'.repeat(n)}`);
+};
+
+planesWaiting(5);
+planesWaiting(3);
+planesWaiting(12);
+
 
 
 
