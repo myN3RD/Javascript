@@ -353,7 +353,6 @@ Redirect:
     }
     
     
-    
 
 FUNCTION TYPES
 ______________
@@ -458,6 +457,15 @@ fetch(url)
 
 // as arrow function
 .attr('fill', data => data.fill)
+
+
+
+How PRIMITIVES and OBJECTS work in the context of FUNCTIONS
+___________________________________________________________
+
+lektion 129  nicht kapiert
+
+
   
 
 
