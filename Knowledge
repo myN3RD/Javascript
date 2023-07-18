@@ -495,10 +495,12 @@ lektion 129  nicht kapiert
 
   
 
-
           OPERATORS
           _________
-                  
+
+NOTE: OTHER OPERATORS to find around line 1000
+
+
 // Assignment Operators          
 let x += 10;  // x = x + 10    
 x *= 4;       // x = x * 40 
@@ -1177,6 +1179,10 @@ METHODS:
 .clear() (clears everything)
 
 
+
+
+          OTHER OPERATORS
+________________________________________
 
 
           SPREAD OPERATOR
