@@ -35,6 +35,18 @@ JS for FRONTEND
 JS + Node.js for BACKEND 
 
 
+NOTE: CALLBACK FUNCTIONS ARE ACTUALLY The MOST IMPORTANT THING TO UNDERSTAND IN JS
+
+(lecture 131) !!!
+
+
+.addEventListener()
+.forEach()
+-> are build-in callback ja function (they are rly important and useful)
+
+
+
+
 
 
 alert();                      Showing to the client in the browser
@@ -284,15 +296,13 @@ function doThis( ) {
 
 -> if we call the function everything between the {  "function body"  } will be executed
 
-CALLing / RUNning / Invoking the function:
+CALL-ing / RUN-ning / Invoking the function:
 
 doThis();
 
 
 
-
-Functions are like a maschines, where we put something in and then the maschine is processing the input (data) and gives us an new output.
-
+"Functions are like a maschines, where we put something in and then the maschine is processing the input (data) and gives us an new output."
 
 
 //       "maschine name"("ingridients") 
@@ -317,7 +327,7 @@ console.log(appleOrangeJuice);
 FIRST CLASS FUNCTIONS
 _____________________
 
-- JS treats functions as FIRST-CLASSS CITIZENS
+- JS treats functions as FIRST-CLASS CITIZENS
 - this means functions are SIMPLY VALUES !!!
 - functions ARE just another "TYPE OF OBJECTS"
 
@@ -330,7 +340,7 @@ we have also function METHODS!
 HIGHER-ORDER FUNCTIONS
 ______________________
 
-They are only possible because off first class funtions!
+They are only possible because of first class funtions!
 
 1. A function that receives another function as an argument, 
 2. that returns a new function, or both.
@@ -491,6 +501,14 @@ How PRIMITIVES and OBJECTS work in the context of FUNCTIONS
 ___________________________________________________________
 
 lektion 129  nicht kapiert
+
+
+
+
+CALLBACK FUNCTIONS
+__________________
+
+.....
 
 
   
