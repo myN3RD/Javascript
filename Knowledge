@@ -337,6 +337,7 @@ return functions FROM functions!
 we have also function METHODS!
 
 
+
 HIGHER-ORDER FUNCTIONS
 ______________________
 
@@ -347,8 +348,21 @@ They are only possible because of first class funtions!
 
 
 
+FUNCTIONS RETURNING FUNCTIONS
+_____________________________
 
+// becomes very useful if we use "functional programming"
 
+const greet = function (greeting) {
+  // all this function is do, is returning a new function
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
+};
+//    This Value now, is actually a function -> its the functon behind return
+const greeterHey = greet('Hey!');
+greeterHey('Jonas.'); //  greeterHey -> is actually the functon behind return
+greeterHey('Steven.');
 
 
 
