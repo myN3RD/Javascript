@@ -567,6 +567,16 @@ bookFunction.call(lufthansa, 643, 'Paul Fender');
 console.log(lufthansa);
 
 
+
+-----apply method----- (not really used)
+
+does the same -> only difference is , does not receive a list of arguments -> it take an array of all the arguments
+
+const flightData = [538, 'John Kamper'];
+bookFunction.apply(eurowings, flightData);
+console.log(eurowings);
+
+
   
 
           OPERATORS
