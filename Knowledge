@@ -525,6 +525,48 @@ __________________
 .....
 
 
+CALL & APPLY FUNCTION METHODS
+_____________________________
+
+const lufthansa = {
+  airline: 'Lufthansa',
+  iataCode: 'LH',
+  bookings: [],
+  // book(flightNum, name) {}  // alternative syntax
+  book(flightNum, name) {
+    // book: function (flightNum, name) {
+    // !!! 'to get the name propertie from the OBJECT -> we must use the -> this. keyword';
+    console.log(
+      `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
+    );
+    // we "push" it into the bookings array!
+    this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
+  },
+};
+
+lufthansa.book(239, 'Jonas Schmedtmann');
+lufthansa.book(164, 'Mia Johnson');
+console.log(lufthansa);
+
+const eurowings = {
+  airline: 'Eurowings',
+  iataCode: 'EW',
+  bookings: [],
+  // we dont write the book function again! (bad practice) -> we just take the "method" / function from above and store it in a "external function"
+  // we create a new function called book first, ...
+  //           // (thats possible cause js has first class functions)
+};
+const bookFunction = lufthansa.book;
+// we need to tell js explicitly which object we want to ?change?
+
+//              //the first argument is -> what we want the this keyword TO POINT TO
+//    // the call method will call the bookFunction function -> with the this keyword, set to eurowings
+bookFunction.call(eurowings, 23, 'Sarah Williams');
+console.log(eurowings);
+bookFunction.call(lufthansa, 643, 'Paul Fender');
+console.log(lufthansa);
+
+
   
 
           OPERATORS
