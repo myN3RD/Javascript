@@ -118,7 +118,8 @@ reduce method    -> "we started with many things and REDUCED it down to one thin
 
 optional add start value 0
 
-    
+
+
     
           THROW STATEMENTS   
           ________________
@@ -324,6 +325,22 @@ console.log(appleOrangeJuice);
 
 
 
+
+PREVENTING AN EVENT BY DEFAULT
+______________________________
+
+if we want to prevent something to happen by default
+
+(that the site jump to the top by default if we click a button for example)
+
+->
+// to prevent the default  // e is for the event
+const example = function (e) {
+e.preventDefault();
+}
+
+
+
 FIRST CLASS FUNCTIONS
 _____________________
 
@@ -449,7 +466,6 @@ console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 
-
 Calling a function inside of another function
 _________________________________________________
 
@@ -471,7 +487,7 @@ console.log(fruitProcessor(2, 3));
 
 
 
-
+(method??)
 slice                 var name = Tobias;
                       name.slice(0,1);  -> from 0 to 1 BUT not including charakter at 1
                       
@@ -487,7 +503,6 @@ console.log(sliceAt140);
 var myName = 'toBIaS';
 var myName =  myName.slice(0,1).toUpperCase() + myName.slice(1, myName.length).toLowerCase();
 console.log(myName);
-
 
 
 
@@ -518,15 +533,18 @@ lektion 129  nicht kapiert
 
 
 
-
 CALLBACK FUNCTIONS
 __________________
 
 .....
 
 
+
 CALL & APPLY (FUNCTION) METHODS
 _______________________________
+
+CALL METHOD
+___________
 
 const lufthansa = {
   airline: 'Lufthansa',
@@ -568,7 +586,8 @@ console.log(lufthansa);
 
 
 
------apply method----- (not really used)
+APPLY METHOD (not really used)
+____________
                                                   // we can just use the spread operator
 cause, instead of using apply -> we cann use .call(...data)
 
@@ -619,7 +638,6 @@ _________________________
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 -> scroll down to the table ->
-
 
 ________________________________________________________________________________
 Precedence	Operator type	Associativity	Individual operators
