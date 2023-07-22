@@ -1484,10 +1484,10 @@ for(const day of days) {
 
 
 
-          DOM (Manipulation)
+          DOM (Manipulation) (lecture 185)
           __________________
 
-DOM = Is the INTERFACE(Schnittstelle) between JS and the BROWSER
+DOM (API) = Is the INTERFACE (Schnittstelle) between JS and the BROWSER
     -> so we use the DOM to let JS interact with the BROWSER 
     -> the DOM cointains a ton of METHODS and PROPERTIES which we use to INTERACT with the DOM TREE
 
@@ -1511,11 +1511,40 @@ ____________
             |     |
            HEAD  BODY  (two childs)
            ..........
-            
+           etc...
+
 
 which has parents and children and so one
 
 - allows javascript to access html elements and css style to manipulate them
+
+
+
+          SELECT, CREATE & DELETE ELEMENTS in JS
+          ______________________________________
+
+methods:
+
+console.log(document); // that not enough
+console.log(document.documentElement); // so we get all the elements from the document
+console.log(document.head);
+console.log(document.body);
+
+document.querySelector('.header'); // we need the . (selector) to select the element
+// querySelectorAll method gives us a NodeList -> didnt update itself if we delete an element live in the browser
+const allSections = document.querySelectorAll('.section'); // we need the . (selector) to select the element
+console.log(allSections);
+
+document.getElementById('section-1');
+// getElementsByTagName method gives us a HTMLColletion -> when the DOM changes, this is updating live = ("live-collection")
+const allButtons = document.getElementsByTagName('button');
+console.log(allButtons);
+
+console.log(document.getElementsByClassName('btn'));
+
+
+
+
 
 
 NOTE:
@@ -1529,19 +1558,21 @@ NOTE:
     document.querySelector('.number').style.width = '30rem';
 
 
+OTHER EXAMPLES:
+
 
 html file:
 <script src="script.js"></script>   <!-- this has to be at the end of the file, because the body tags have to be readed first -->
  
 
-app.js:
+app.js file:
 
 // querySelector looks inside the whole document for a single item (element, class or id), h1 in this case
 document.querySelector('h1').innerHTML = 'Good bye'; // works
 
 
 NOTE:
-when using querySelector -> we have to use a selector -> .
+when using querySelector and  querySelectorAll -> we have to use a selector -> .
 
 
 // getElementsByClassName goes throw the whole document and looks for the elementS with a particular class
@@ -1555,8 +1586,8 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
-METHODS
-_______
+TOGGLE METHOD
+_____________
 
 aviable on the classList propertie
 .toogle 
@@ -1565,8 +1596,9 @@ will add the class if its not there and remove the class if its already there
 
 
 
-EVENT LISTENERS
-_______________
+
+          EVENT LISTENERS
+          _______________
 
 
 // keyboard events (= global events)        // e is event
@@ -1604,7 +1636,7 @@ console.log('A320'.length);
 
 METHODS
 _______
-
+          
 console.log(airline.indexOf('r')); // the first found r
 console.log(airline.lastIndexOf('r')); // the last found r
 console.log(airline.indexOf('Portugal')); // -> case sensitive
@@ -1761,6 +1793,7 @@ const capitalizedName = function (name) {
 };
 
 capitalizedName('jessica ann smith davis');          -> Jessica Ann Smith Davis
+
 
 
 
