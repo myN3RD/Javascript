@@ -525,8 +525,8 @@ __________________
 .....
 
 
-CALL & APPLY FUNCTION METHODS
-_____________________________
+CALL & APPLY (FUNCTION) METHODS
+_______________________________
 
 const lufthansa = {
   airline: 'Lufthansa',
@@ -569,12 +569,19 @@ console.log(lufthansa);
 
 
 -----apply method----- (not really used)
+                                                  // we can just use the spread operator
+cause, instead of using apply -> we cann use .call(...data)
+
 
 does the same -> only difference is , does not receive a list of arguments -> it take an array of all the arguments
 
-const flightData = [538, 'John Kamper'];
+// Apply method
+const flightData = [583, 'George Cooper'];
 bookFunction.apply(eurowings, flightData);
 console.log(eurowings);
+
+// its the same with the call method and the spread operator
+bookFunction.call(eurowings, ...flightData);
 
 
   
