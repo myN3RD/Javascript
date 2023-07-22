@@ -584,6 +584,13 @@ console.log(eurowings);
 bookFunction.call(eurowings, ...flightData);
 
 
+
+BIND METHOD
+___________
+
+
+
+
   
 
           OPERATORS
