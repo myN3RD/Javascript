@@ -204,10 +204,6 @@ console.log(Number(inputYear) + 18);
 
 
 
-
-Type Coercion
-_____________
-
 let n = '1' + 1;    // '11'   -> string
 n = n - 1;
 console.log(n);     //  10    -> Number
@@ -278,6 +274,39 @@ myVar123
 
 123myVar -> in js var names cant start with numbers!
 
+
+
+
+          EXECUTION CONTEXT (EC)
+          ______________________
+
+after Compilation (compiling the code)
+          ⬇️
+The code is ready to be executed
+          ⬇️
+Creation of "global execution context" (for top-level code)
+-> that is code, that is NOT inside a function
+-> only the code that is outside of the function will be executed!
+-> functions should ONLY be executed WHEN THEY ARE CALLED
+-> Exactly ONE global execution context
+          ⬇️
+Execution of tóp.level code (inside global EC)
+          ⬇️
+Execution of functions and waiting for callbacks
+-> One EC per function: For each function call, a new EC is created
+
+
+=> All these execution Contexts together, make up the CALL STACK
+
+
+
+WHATS INSIDE OF EC?
+___________________
+
+1. Variable Environment
+
+.....
+          
 
 
 
@@ -1088,9 +1117,7 @@ console.log(`---STARTING EXERCISE--- ${exercise}`);
 
 
 
-
-
-while loop
+WHILE LOOP
 __________
 
 while = is checking a condition -> infinite loop until it turns from true to false -> will run while the condition is true
@@ -1549,7 +1576,7 @@ works also for methods and arrays
 
 
 
-          Optional Chaining ?.
+          OPTIONAL CHAINING ?.
           ____________________
 
 - works also for methods and arrays
@@ -1653,8 +1680,6 @@ const allButtons = document.getElementsByTagName('button');
 console.log(allButtons);
 
 console.log(document.getElementsByClassName('btn'));
-
-
 
 
 
