@@ -67,7 +67,6 @@ GOES ALWAYS into the END of the Body of the HTML File
 SHORTENINGS
 ___________
 
-
 let currentScore = 0;
 
 currentScore += dice;
@@ -78,7 +77,6 @@ currentScore += dice;
 
           STRING INTERPOLATION
           ____________________
-
 
 var myName = 'Tobias';
 var myCity = 'Porto';
@@ -92,7 +90,6 @@ My name is Tobias. My favorite city is Porto.
           CLASSES
           _______
       
-
 The body of a class is the part that is in curly brackets {}. This is where you define class members, such as methods or constructor.
 !- in classes we have to use arrow function inside of a function (to refer to the overall class)
 
@@ -100,8 +97,7 @@ The body of a class is the part that is in curly brackets {}. This is where you 
             
                         
           CLASSES  & >  METHODS
-          _____________________
-      
+          _____________________     
 
 constructor()    -> The constructor method is a special method for creating and initializing an object created with a class.
 filter()         -> https://www.w3schools.com/jsref/jsref_filter.asp
@@ -121,8 +117,7 @@ optional add start value 0
     
           THROW STATEMENTS   
           ________________
-      
-    
+         
 throw statement:         https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_throw_error
 
 
@@ -182,6 +177,7 @@ const str = number + '';
 -> when one of the operands of the plus sign is a string -> it will convert all the operands to a STRING
 
 
+
 Type Conversion
 _______________
 
@@ -202,6 +198,9 @@ console.log(Number(inputYear) + 18);
 
 
 
+TYPE COERSION
+_____________
+
 let n = '1' + 1;    // '11'   -> string
 n = n - 1;
 console.log(n);     //  10    -> Number
@@ -209,8 +208,10 @@ console.log(n);     //  10    -> Number
 
 
 
-         VARIABLES (are like boxes with a package inside (or which hold an object inside))
+         VARIABLES 
          _________
+
+"are like boxes with a package inside (or which hold an object inside)"
 
 Ways to declare a Variable:
 
@@ -230,17 +231,14 @@ console.log(test);  -> successfull
 const = constant -> can not be reassigned, its a Constant                       // should be used aas much as possible
 
 
-
 Variables inside a function are all LOCAL
-
 Variables outside a function are all GLOBAL
 
 
-
-NOTE: we can assign var outside of a function ( at the beginning usually ), like this:
+NOTE: we can assign var outside of a function (at the beginning usually), 
+like this:
 
 let currentScore, activePlayer, playing;
-
 
 and the reassign them in the function ->
 
@@ -253,7 +251,7 @@ const init = function () {
 init();                                                     ---> and then call the function -> so that the variable will be read
 
 
-Syntax:
+SYNTAX:
 
 Keyword Name    Value          ->       we store values in variables
  ↓       ↓        ↓
@@ -263,8 +261,7 @@ var   myName = "Tobias";
 console.log(myName);           ->       shows us which value is inside the "box"
 
 
-
-Naming:
+NAMING:
 
 myVar
 my_var
@@ -359,7 +356,6 @@ console.log(orangeJuice);
 
 const appleOrangeJuice = fruitProcessor(4, 4);
 console.log(appleOrangeJuice);
-
 
 
 
@@ -554,7 +550,6 @@ fetch(url)
   .then(json => console.log(json));
   
  
- 
  // thats the same without an arrow function
 .attr('fill', function(data){return d.fill;}
 
@@ -587,7 +582,7 @@ The call method sets the this inside the function and immediately executes that 
 
 The difference between call() and bind() is that the call() sets the this keyword and executes the function immediately and it does not create a new copy of the function, while the bind() creates a copy of that function and sets the this keyword.
 
-Syntax:
+SYNTAX:
 function.call(thisArg, arg1, agr2, ...)
 
 
@@ -637,7 +632,7 @@ ____________
 
 The apply() method is similar to call(). The difference is that the apply() method accepts an array of arguments instead of comma separated values.
 
-Syntax:
+SYNTAX:
 function.apply(thisArg, [argumentsArr])
 
 
@@ -698,7 +693,6 @@ Here greeting.bind(john) creates a new function with this set to john object, wh
 
 
 
-
 // bind method
 const bookEW = bookFunction.bind(eurowings);
 const bookLH = bookFunction.bind(lufthansa);
@@ -729,8 +723,7 @@ IIFE  -  IMMEDIATLY INVOKED FUNCTION EXPRESSION
 _______________________________________________
 
 If we wanna execute a function just ONCE
-
-Is a function which disappears when its executed once and then never again
+IIFE Is a function which disappears when its executed once and then never again
 
 For ASYNC await is this as well important
 
@@ -822,8 +815,12 @@ Math. Floor rounds down, Math. Ceiling rounds up, and Math. Trunc(ate) rounds to
 
 Operators:
 
+......
+......
+......
 
-Random Number:
+
+Create a Random Number:
 
 (Math.floor(Math.random()*100) + d.properties.mag))
 
@@ -880,7 +877,6 @@ CONDITIONAL OPERATORS:
 const age = 23;
 
 age >= 18 ? console.log('You can drink alcohol') : console.log('Youre have to drink water instead');
-
 
 
 
@@ -1119,8 +1115,7 @@ console.log(`---STARTING EXERCISE--- ${exercise}`);
 
 
 
-
-WHILE LOOP
+while loop
 __________
 
 while = is checking a condition -> infinite loop until it turns from true to false -> will run while the condition is true
@@ -1333,9 +1328,9 @@ console.log(jonas);
 HOW TO GET SPECIFIC DATA FROM AN OBJECT
 _______________________________________
 
-with . notation                         // for fixed properties usage
+-> with the . notation                  // for fixed properties usage
 
-console.log(jonas.name);                // schmidt
+console.log(jonas.name);      
 
 or
 
@@ -1402,7 +1397,7 @@ console.log(ordersSet.has('Buritto'));        -> false
 
 
 
-           MAPS (=DATA STRUCTURE) RLY USEFUL
+           MAPS (= DATA STRUCTURE) RLY USEFUL
           _______________________
 
 a map is a data structure that we can use to map values to keys. So, just like an object data is stored in key value pairs in maps.
@@ -1696,6 +1691,7 @@ NOTE:
 
     document.querySelector('.body').style.backgroundColor = 'green';
     document.querySelector('.number').style.width = '30rem';
+
 
 
 OTHER EXAMPLES:
