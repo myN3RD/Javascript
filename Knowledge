@@ -47,8 +47,6 @@ NOTE: CALLBACK FUNCTIONS ARE ACTUALLY The MOST IMPORTANT THING TO UNDERSTAND IN 
 
 
 
-
-
 alert();                      Showing to the client in the browser
 prompt();                     Creates a popup window
 console.log();                Showing to the developer
@@ -277,7 +275,7 @@ myVar123
 
 
 
-          EXECUTION CONTEXT (EC)
+          EXECUTION CONTEXT (EC) 91
           ______________________
 
 after Compilation (compiling the code)
@@ -304,8 +302,13 @@ WHATS INSIDE OF EC?
 ___________________
 
 1. Variable Environment
+          contains all its local variables
+          let, const and var declarations
+          functions
+          arguments object
 
-.....
+2. Scope chain
+3. this keyword
           
 
 
