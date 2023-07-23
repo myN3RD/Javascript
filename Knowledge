@@ -665,6 +665,34 @@ Here greeting.bind(john) creates a new function with this set to john object, wh
 
 
 
+
+
+// bind method
+const bookEW = bookFunction.bind(eurowings);
+const bookLH = bookFunction.bind(lufthansa);
+bookEW(23, 'Steven Williams');
+bookLH(524, 'Melissa Schmidt');
+
+// all the arguments will be set automatically now
+//                                         // arguments
+const bookEW68 = bookFunction.bind(eurowings, 68);
+bookEW68('Jonas Schmedtmann');
+bookEW68('Martha Cooper');
+
+// together with event listeners
+lufthansa.planes = 300; // amout of planes they have lets say
+lufthansa.buyPlane = function () {
+  console.log(this);
+  this.planes++; // takes the current number of planes and increses it by one, if we click the button "buy new plane"
+  console.log(this.planes);
+};
+document
+  .querySelector('.buy')
+  .addEventListener('click', lufthansa.buyPlane.bind(lufthansa));
+console.log(lufthansa.planes);
+
+
+
 IIFE  -  IMMEDIATLY INVOKED FUNCTION EXPRESSION
 _______________________________________________
 
