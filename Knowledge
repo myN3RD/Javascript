@@ -684,6 +684,14 @@ this pattern called IIFE:
   we immediatly call the function here
 
 NOTE: we trick JS a lil bit to avaid the reference err -> we wrap the function in () 
+
+
+
+CLOSURES
+________
+
+NOTE: to fully understand closures, its neccessary to understand -> execution context, the call stack & sculpt chain
+      -> closures brings all these conceps kind of together!
       
 
   
