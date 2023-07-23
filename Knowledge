@@ -628,6 +628,8 @@ bookFunction.call(eurowings, ...flightData);
 BIND() METHOD
 _____________
 
+lecture 134 (difficult)
+
 The bind method creates a new function and sets the this keyword to the specified object
 
 Syntax:
@@ -663,6 +665,26 @@ Here greeting.bind(john) creates a new function with this set to john object, wh
 
 
 
+IIFE  -  IMMEDIATLY INVOKED FUNCTION EXPRESSION
+_______________________________________________
+
+If we wanna execute a function just ONCE
+
+Is a function which disappears when its executed once and then never again
+
+For ASYNC await is this as well important
+
+
+this pattern called IIFE:
+
+(function () {
+  console.log('This will just run once');
+})();
+  ⬆️
+  we immediatly call the function here
+
+NOTE: we trick JS a lil bit to avaid the reference err -> we wrap the function in () 
+      
 
   
 
