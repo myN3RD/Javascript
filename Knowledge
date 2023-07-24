@@ -1252,7 +1252,16 @@ _____________
 .pop       -> removes the last element of an array          // gives us back the value of the removed element
 .shift     -> removes elements to the beginning of an array
 
-// Sort Elements
+// Sort Elements = sorting the elements of the array
+const array = [3, 2, 1];
+console.log(array.sort());
+
+// fill = is filling up specific elements with wanted data/values
+const array2 = [4, 3, 2, 1];
+// console.log(array.fill('🌅', 0));
+// console.log(array.fill('🌅')); // alternative
+console.log(array2.fill('🌅', 1)); // -> all elements starting at = index 1, will be filled up with the 🌅
+// console.log(array.fill('🌅', 2)); // -> all elements starting at = index 2, will be filled up with the 🌅
 
 
 
