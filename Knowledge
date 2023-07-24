@@ -1,3 +1,32 @@
+CRUD - 158
+DATA TYPES - 172
+VARIABLES - 211
+EXECTION CONTEXT (EC) - 275
+FUNCTIONS - 313
+OPERATORS - 752
+NUMBERS - 810
+TEMPLATE LITERALS ``(ES6) - 841
+IF and ELSE STATEMENTS - 869
+STATEMENTS and EXPRESSIONS - 971
+TRUTHY and FALSY - 981
+LOOPS - 977
+ARRAYS - 1160
+OBJECTS - 1285
+SETS - 1364
+MAPS - 1400
+OTHER OPERATORS - 1437
+REST PATTERN - 1490
+AND and OR OPERATORS - 1536
+..
+....
+DOM - 1638
+EVENT LISTENERS - 1735
+STRINGS - 1751
+
+
+
+________________________________________________
+
 THINGS TO REPEAT  OR  TO UNDERSTAND:
 
 .insertAdjacentHTML          -> The insertAdjacentHTML() method inserts HTML code into a specified position......
@@ -1735,20 +1764,22 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
-TOGGLE METHOD
-_____________
+METHODS
+_______
 
+.toogle() 
 aviable on the classList propertie
-.toogle 
-
 will add the class if its not there and remove the class if its already there
+
+
+.prepend() 
+The Element.prepend() method inserts a set of Node objects or string objects before the first child of the Element. String objects are inserted as equivalent Text nodes.
 
 
 
 
           EVENT LISTENERS
           _______________
-
 
 // keyboard events (= global events)        // e is event
 document.addEventListener('keydown', function (e) {
@@ -1942,7 +1973,6 @@ const capitalizedName = function (name) {
 };
 
 capitalizedName('jessica ann smith davis');          -> Jessica Ann Smith Davis
-
 
 
 
