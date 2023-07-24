@@ -1228,6 +1228,7 @@ PRO TIPP:
 to get the last element of an array -> where we dont know the length of the array:
 
 -> console.log(data[data.length -1]);
+->  or     ...(data.at(-1))
 
 
 to get the length of an array:
@@ -1510,7 +1511,7 @@ NOTE: spread operator does NOT work inside/with template lterals!   ` ${var} ...
 - its like taking out all the elements of the array!
 
 const arr = [7, 8, 9];
-const newArray = [1, 2, ...arr]; -> using the spread operator ...
+const newArray = [1, 2, ...arr]; -> using the spread operator
 console.log(newArray);        -> [1, 2, 7, 8, 9]
 console.log(...newArr);       -> 1 2 7 8 9
 
