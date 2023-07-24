@@ -1252,6 +1252,9 @@ _____________
 .pop       -> removes the last element of an array          // gives us back the value of the removed element
 .shift     -> removes elements to the beginning of an array
 
+// Sort Elements
+
+
 
 // returns the index of the element
 console.log(data.indexOf(value));
