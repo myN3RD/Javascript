@@ -1657,13 +1657,13 @@ which has parents and children and so one
 
 
 
-          SELECT, CREATE & DELETE ELEMENTS in JS
-          ______________________________________
+SELECT, CREATE & DELETE ELEMENTS in JS
+______________________________________
 
 methods:
 
 console.log(document); // that not enough
-console.log(document.documentElement); // so we get all the elements from the document
+console.log(document.documentElement); // -> this is, how we get ALL the elements from the document
 console.log(document.head);
 console.log(document.body);
 
@@ -1678,7 +1678,6 @@ const allButtons = document.getElementsByTagName('button');
 console.log(allButtons);
 
 console.log(document.getElementsByClassName('btn'));
-
 
 
 
