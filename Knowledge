@@ -138,12 +138,12 @@ Example: Please input a number between 5 and 10:
           CRUD Operarations
           _________________
 
-LETTER	OPERATION	  HTTP REQUEST	  SQL FUNCTION
+LETTER	OPERATION	     HTTP REQUEST	                 SQL FUNCTION
 
-C	      Create  	  POST	          INSERT
-R	      Read	      GET	            SELECT
-U	      Update    	PATCH/PUT(if you have id or uuid)	UPDATE
-D	      Delete	    DELETE	        DELETE
+C         Create         POST	                              INSERT
+R         Read           GET	                              SELECT
+U	Update         PATCH/PUT(if you have id or uuid)	UPDATE
+D	Delete         DELETE                             DELETE
 
 
 
