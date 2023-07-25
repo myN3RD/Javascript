@@ -1800,7 +1800,29 @@ will add the class if its not there and remove the class if its already there
 
 
 .prepend() 
-The Element.prepend() method inserts a set of Node objects or string objects before the first child of the Element. String objects are inserted as equivalent Text nodes.
+The Element.prepend() method inserts a set of Node objects or string objects before the FIRST CHILD of the Element. String objects are inserted as equivalent Text nodes.
+
+.apend()
+The Element.append() method inserts a set of Node objects or string objects after the LAST CHILD of the Element. String objects are inserted as equivalent Text nodes.
+
+
+
+NOTE:
+the element is just inserted once , cause its a live element living in the DOM! -> it cannot be at multiple places a the same time (like a person..)
+
+EXAMPLE:
+
+// creating and inserting elements
+const message = document.createElement('div'); // returns (creates) a DOM Element
+message.classList.add('cookie-message');
+// message.textContent = 'We use cookies for improved functionallity and analytics';
+message.innerHTML =
+  'We use cookies for improved functionallity and analytics. <button class="btn btn--close-cookie">Got it!</button>';
+
+header.prepend(message); // -> we add our message to the header with prepend
+header.append(message); // -> we add our message to the as last child with append
+⬆️⬆️⬆️
+THATS NOT POSSIBLE to be there two times , just ONCE !!!
 
 
 
