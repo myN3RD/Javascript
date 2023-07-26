@@ -1304,9 +1304,13 @@ arr = ['a', 'b', 'c', 'd', 'e', 'f'];
 const arr2 = ['j', 'i', 'g', 'k', 'h'];
 console.log(arr2.reverse());
 
-// CONCAT
-...
-...
+// CONCAT ("merge")
+const concat = arr.concat(arr2); // NO MUTATE
+console.log(concat);
+console.log([...arr, ...arr2]); // same result -> but NO MUTATE
+
+// JOIN
+console.log(concat.join('-'));
 
 // INDEXOF (returns the index of the element)
 console.log(data.indexOf(value));
