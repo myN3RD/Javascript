@@ -1784,6 +1784,9 @@ for(const day of days) {
           DOM (Manipulation) (lecture 185)
           __________________
 
+https://www.w3schools.com/jsref/dom_obj_all.asp
+
+
 DOM (API) = Is the INTERFACE (Schnittstelle) between JS and the BROWSER
     -> so we use the DOM to let JS interact with the BROWSER 
     -> the DOM cointains a ton of METHODS and PROPERTIES which we use to INTERACT with the DOM TREE
