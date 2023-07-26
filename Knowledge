@@ -1203,6 +1203,9 @@ if (dice === 6) console.log('Loop is about to end, cause you rolled a 6');
           ARRAYS
           ______
 
+arrays are objects, that why they have methods too
+
+
 //     i = index: 0, 1, 2    // i is the positon of the item in the array // i is just a long used name for the index position
 const dataArray = [4, 15, 34];  // array without objects
 
@@ -1254,21 +1257,41 @@ array.pop       -> removes the last element of an array          // gives us bac
 .shift     -> removes elements to the beginning of an array
 
 
-// Sort Elements = sorting the elements of the array
+// SORT Elements = sorting the elements of the array
 const array = [3, 2, 1];
 console.log(array.sort());
 
-// fill = is filling up specific elements with wanted data/values
+// FILL = is filling up specific elements with wanted data/values
 const array2 = [4, 3, 2, 1];
 // console.log(array.fill('🌅', 0));
 // console.log(array.fill('🌅')); // alternative
 console.log(array2.fill('🌅', 1)); // -> all elements starting at = index 1, will be filled up with the 🌅
 // console.log(array.fill('🌅', 2)); // -> all elements starting at = index 2, will be filled up with the 🌅
 
-// trim array = to cut down the array at a specific position
+// TRIM array = to cut down the array at a specific position
 const a = [5, 6, 7, 8, 9];
 a.length = 2;
 console.log(a); -> [5, 6]
+
+// SLICE (creates a new array)
+let arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(arr.slice(2));
+console.log(arr.slice(2, 4)); // the end-parameter element, is NOT included in the output!
+console.log(arr.slice(-3));
+console.log(arr.slice(-1)); // last element of the array
+console.log(arr.slice(1, -2));
+
+// // to create an copy of the array
+console.log(arr.slice());
+console.log([...arr]); // alternative
+
+// SPLICE (mutates the original array) (overwrites them)
+// console.log(arr.splice(2));
+arr.splice(-1);
+console.log(arr); // USEFUL
+
+NOTE:
+we can also use a second parameter for splice, but this one works different than the second parameter of slice
 
 
 
@@ -1870,11 +1893,13 @@ console.log(airline.indexOf('r')); // the first found r
 console.log(airline.lastIndexOf('r')); // the last found r
 console.log(airline.indexOf('Portugal')); // -> case sensitive
 
+// slice
 // hardcoded
 console.log(airline.slice(4)); // returns a new string
 console.log(airline.slice(4, 7)); // -> 7(end) (stops before reaching index number 7) - 4(beginning) = 3 => Air
 console.log(airline.slice(1, -1)); // starts at 1 and cuts -1 charakter
 
+// slice
 //dynamic
 // for the first word
 console.log(airline.slice(0, airline.indexOf(' ')));
@@ -1914,7 +1939,7 @@ const passengerCorrect =
   passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
 
-// comparring email
+// comparing email
 const email = 'hello@tobias.de';
 const typedEmail = '  heLlO@toBIas.de'; // actually the email is correct, but NOT the capitalization
 
