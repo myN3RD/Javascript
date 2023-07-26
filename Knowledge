@@ -9,7 +9,7 @@ TEMPLATE LITERALS ``(ES6) - 841
 IF and ELSE STATEMENTS - 869
 STATEMENTS and EXPRESSIONS - 971
 TRUTHY and FALSY - 981
-LOOPS - 977
+LOOPS - 1000
 ARRAYS - 1200
 OBJECTS - 1285
 SETS - 1364
@@ -853,7 +853,9 @@ __________________
           NUMBERS
           _______
 
-Math. Floor rounds down, Math. Ceiling rounds up, and Math. Trunc(ate) rounds towards zero.
+Math.floor rounds down, 
+Math. Ceiling rounds up,
+Math. Trunc(ate) rounds towards zero
 
 
 Operators:
@@ -878,6 +880,19 @@ Math.trunc():
 
 2 ** 3 means 2 * 2 * 2 = 8
 
+
+Math.abs()
+The math. abs() function is used to return the absolute value in JS. It negates the native sign of a number and returns the relevant positive value.
+
+// movements on a bank accound example
+const movements = [100, 450, -400, 3000, -650, -130, 70, 1300];
+
+for (const movement of movements) {
+  if (movement > 0) {
+    console.log(`You deposit ${movement}`);
+  } else {
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
 
 
 
@@ -1105,8 +1120,8 @@ console.log(item);
 
 
 
-looping through the birstyears and creating the ages array
-_________________________________________________________
+looping through the birthyears and creating the ages array
+__________________________________________________________
 
 const birthyears = [1997, 2010, 2001, 1969, 1953];
 const ages = [];
@@ -1331,6 +1346,33 @@ console.log(arrayAT.at(0)); // at method - like we speak "element at position 0"
 console.log(arrayAT.at(-1));
 console.log('jonas'.at(0));
 console.log('jonas'.at(-1));
+
+
+
+LOOPING ARRAYS -> forEach
+_________________________
+
+// movements on a bank accound example
+const movements = [100, 450, -400, 3000, -650, -130, 70, 1300];
+// for of loop
+for (const movement of movements) {
+  if (movement > 0) {
+    console.log(`You deposit ${movement}`);
+  } else {
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
+}
+
+console.log(_____ FOR EACH _____);
+// forEach is a higher order function -> which requires a callback function
+// forEach loop
+movements.forEach(function (movement) {
+  if (movement > 0) {
+    console.log(`You deposit ${movement}`);
+  } else {
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
+});
 
 
 
