@@ -1268,6 +1268,11 @@ const array2 = [4, 3, 2, 1];
 console.log(array2.fill('🌅', 1)); // -> all elements starting at = index 1, will be filled up with the 🌅
 // console.log(array.fill('🌅', 2)); // -> all elements starting at = index 2, will be filled up with the 🌅
 
+// // creating an array with same elements repeated multiple times
+const a = Array(5).fill(4);
+console.log(a);
+
+
 // TRIM array = to cut down the array at a specific position
 const a = [5, 6, 7, 8, 9];
 a.length = 2;
@@ -1294,11 +1299,19 @@ NOTE:
 we can also use a second parameter for splice, but this one works different than the second parameter of slice
 
 
+// REVERSE (mutates the original array)
+arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+const arr2 = ['j', 'i', 'g', 'k', 'h'];
+console.log(arr2.reverse());
 
-// returns the index of the element
+// CONCAT
+...
+...
+
+// INDEXOF (returns the index of the element)
 console.log(data.indexOf(value));
 
-// to check if there is an specific element with strict value in the array
+// INCLUDES (to check if there is an specific element with strict value in the array)
 console.log(data.includes(value));
 
 -> useful for 
