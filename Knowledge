@@ -10,7 +10,7 @@ IF and ELSE STATEMENTS - 869
 STATEMENTS and EXPRESSIONS - 971
 TRUTHY and FALSY - 981
 LOOPS - 977
-ARRAYS - 1160
+ARRAYS - 1200
 OBJECTS - 1285
 SETS - 1364
 MAPS - 1400
@@ -1323,6 +1323,14 @@ console.log(data.includes(value));
 if (data.includes(value)) {
  console.log('Data was found!');
 };
+
+// AT (ES6) (optional)
+const arrayAT = [32, 11, 64];
+console.log(arrayAT[0]); // traditional way
+console.log(arrayAT.at(0)); // at method - like we speak "element at position 0"
+console.log(arrayAT.at(-1));
+console.log('jonas'.at(0));
+console.log('jonas'.at(-1));
 
 
 
