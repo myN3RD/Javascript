@@ -35,6 +35,9 @@ THINGS TO REPEAT  OR  TO UNDERSTAND:
 .insertAdjacentHTML          -> The insertAdjacentHTML() method inserts HTML code into a specified position......
 
 
+The insertAdjacentHTML method does NOT reparse the element it is invoked on, so it does not corrupt the element.
+
+
 https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML?retiredLocale=de
 https://dev.to/jeannienguyen/insertadjacenthtml-vs-innerhtml-4epd
 
@@ -63,9 +66,20 @@ SYNTAX:                      (the var -> for example,,,the string containing the
 EXAMPLE:
 .insertAdjacentHTML('afterbegin', variable)
 
+................................................
 
+.innerHTML
+
+innerHTML is the quickest way to modify HTML. You can use it to REPLACE the contents of an element.
+HTML returns everything, including the HTML.
+
+...............................................
+
+.textContent
+ returns the text itself
 
 ................................................
+
 closures                    -> part of functions
 
 .entries method  returns the index, and the value
