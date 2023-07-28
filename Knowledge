@@ -52,6 +52,12 @@ https://dev.to/jeannienguyen/insertadjacenthtml-vs-innerhtml-4epd
 </p>
 <!-- afterend -->
 
+
+SYNTAX:                      (the var -> for example,,,the string containing the HTML, which we want to insert)
+insertAdjacentHTML(position, variable?)
+
+
+
 ................................................
 closures                    -> part of functions
 
