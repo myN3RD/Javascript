@@ -936,10 +936,11 @@ CONDITIONAL OPERATORS:
       
 ? is a if statement ,  : is a else statement in a single line
 
-
 const age = 23;
 
 age >= 18 ? console.log('You can drink alcohol') : console.log('Youre have to drink water instead');
+//
+const type = move > 0 ? 'deposit' : 'withdrawal';
 
 
 
@@ -962,7 +963,6 @@ if (condition) {                        // => Initial condition
 
 
 NO ->  ;  <- at the end of an if statement!
-
 
 
 const age = 14;
