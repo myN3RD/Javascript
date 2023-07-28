@@ -31,8 +31,28 @@ ________________________________________________
 
 THINGS TO REPEAT  OR  TO UNDERSTAND:
 
+
 .insertAdjacentHTML          -> The insertAdjacentHTML() method inserts HTML code into a specified position......
 
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML?retiredLocale=de
+https://dev.to/jeannienguyen/insertadjacenthtml-vs-innerhtml-4epd
+
+
+'beforebegin': before the element - Only valid if the element is in the DOM tree and has a parent element.
+'afterbegin': before its first child of the element.
+'beforeend': after the last child of the element
+'afterend': after the element
+
+<!-- beforebegin -->
+<p>
+  <!-- afterbegin -->
+  foo
+  <!-- beforeend -->
+</p>
+<!-- afterend -->
+
+................................................
 closures                    -> part of functions
 
 .entries method  returns the index, and the value
