@@ -39,6 +39,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML?reti
 https://dev.to/jeannienguyen/insertadjacenthtml-vs-innerhtml-4epd
 
 
+POSITIONS: (we have to choose one)
+__________
+
 'beforebegin': before the element - Only valid if the element is in the DOM tree and has a parent element.
 'afterbegin': before its first child of the element.
 'beforeend': after the last child of the element
@@ -46,15 +49,19 @@ https://dev.to/jeannienguyen/insertadjacenthtml-vs-innerhtml-4epd
 
 <!-- beforebegin -->
 <p>
-  <!-- afterbegin -->
+  <!-- afterbegin -->    most common
   foo
-  <!-- beforeend -->
+  <!-- beforeend -->    most common
 </p>
 <!-- afterend -->
 
 
 SYNTAX:                      (the var -> for example,,,the string containing the HTML, which we want to insert)
-insertAdjacentHTML(position, variable?)
+.insertAdjacentHTML(position, variable)
+.insertAdjacentHTML(position, text)  -> it depents on what we want to insert
+
+EXAMPLE:
+.insertAdjacentHTML('afterbegin', variable)
 
 
 
