@@ -59,7 +59,7 @@ __________
 <!-- afterend -->
 
 
-SYNTAX:                      (the var -> for example,,,the string containing the HTML, which we want to insert)
+SYNTAX:                      (the var -> for example,,, "a string of HTML (the string containing the HTML), which we want to insert."
 .insertAdjacentHTML(position, variable)
 .insertAdjacentHTML(position, text)  -> it depents on what we want to insert
 
