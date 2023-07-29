@@ -21,7 +21,7 @@ AND and OR OPERATORS - 1536
 ....
 DOM - 1638
 EVENT LISTENERS - 1735
-STRINGS - 1751
+STRINGS - 1800
 
 
 
@@ -2237,6 +2237,15 @@ const maskingCreditCard = function (number) {
 
 console.log(maskingCreditCard(115500001000044525));    ->      **************4530
 console.log(maskingCreditCard(644400002000074387));    ->      **************4400
+
+
+
+CONVERTING A STRING INTO A NUMBER
+_________________________________
+
+const numberDepositAmount = parseFloat(depositAmount); // takes a string -> looks for "numbers" and converts into number -> "17,2" => 17.2
+console.log(numberDepositAmount); -> 17.2
+
 
 
 REPEATING A STRING
