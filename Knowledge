@@ -2,7 +2,7 @@ CRUD - 158
 DATA TYPES - 172
 VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
-FUNCTIONS - 313
+FUNCTIONS - 413
 OPERATORS - 752
 NUMBERS - 810
 TEMPLATE LITERALS ``(ES6) - 841
@@ -412,7 +412,8 @@ NOTE: Functions are a special kind of Objects
       -> So they have access to some methods and properties
       -> Call, bind, and apply are some of the methods that every function inherits
 
-          
+
+SYNTAX:
 Creating a function:
 
 Keyword   Name  Parameters: -> for Input-Values
