@@ -1956,9 +1956,8 @@ The Element.prepend() method inserts a set of Node objects or string objects bef
 The Element.append() method inserts a set of Node objects or string objects after the LAST CHILD of the Element. String objects are inserted as equivalent Text nodes.
 
 
-
 NOTE:
-the element is just inserted once , cause its a live element living in the DOM! -> it cannot be at multiple places a the same time (like a person..)
+the element is just inserted once, cause its a live element living in the DOM! -> it cannot be at multiple places a the same time (like a person..)
 
 EXAMPLE:
 
@@ -1974,7 +1973,28 @@ header.append(message); // -> we add our message to the as last child with appen
 ⬆️⬆️⬆️
 THATS NOT POSSIBLE to be there two times , just ONCE !!!
 
+.remove()
 
+
+
+METHODS FOR DATA TRANSFORMATIONS
+________________________________
+
+.map
+similar as the forEach method
+-> for looping
+-> creates a NEW array
+
+.filter
+Like: value > 2
+      [3, 1, 4, 3, 2] -> [3, 4, 3]
+-> returns a new array
+
+.reduce
+-> reduces all array elements to ONE SINGLE value
+-> gives us NO new array, just the reduced single value
+Like: value > 2
+      [3, 1, 4, 3, 2] -> 13
 
 
           EVENT LISTENERS
