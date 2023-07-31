@@ -1491,6 +1491,28 @@ console.log(main, secondary);
 
 
 
+METHODS -> FOR DATA TRANSFORMATIONS
+___________________________________
+
+.map
+similar as the forEach method
+-> for looping
+-> creates a NEW array
+
+.filter
+Like: value > 2
+      [3, 1, 4, 3, 2] -> [3, 4, 3]
+-> returns a new array
+
+.reduce
+-> reduces all array elements to ONE SINGLE value
+-> gives us NO new array, just the reduced single value
+Like: value > 2
+      [3, 1, 4, 3, 2] -> 13
+
+
+
+
           OBJECTS
           _______
                     
@@ -1974,27 +1996,6 @@ header.append(message); // -> we add our message to the as last child with appen
 THATS NOT POSSIBLE to be there two times , just ONCE !!!
 
 .remove()
-
-
-
-METHODS -> FOR DATA TRANSFORMATIONS
-___________________________________
-
-.map
-similar as the forEach method
--> for looping
--> creates a NEW array
-
-.filter
-Like: value > 2
-      [3, 1, 4, 3, 2] -> [3, 4, 3]
--> returns a new array
-
-.reduce
--> reduces all array elements to ONE SINGLE value
--> gives us NO new array, just the reduced single value
-Like: value > 2
-      [3, 1, 4, 3, 2] -> 13
 
 
 
