@@ -10,7 +10,7 @@ IF and ELSE STATEMENTS - 869
 STATEMENTS and EXPRESSIONS - 971
 TRUTHY and FALSY - 981
 LOOPS - 1000
-ARRAYS - 1200
+ARRAYS - 1400
 OBJECTS - 1285
 SETS - 1364
 MAPS - 1400
@@ -1498,17 +1498,21 @@ ___________________________________
 similar as the forEach method
 -> for looping
 -> creates a NEW array
+-> we CAN ADD more methods, cause we get back a an arr
 
 .filter
 Like: value > 2
       [3, 1, 4, 3, 2] -> [3, 4, 3]
 -> returns a new array
+-> we CAN ADD more methods, cause we get back a an arr
 
 .reduce
 -> reduces all array elements to ONE SINGLE value
 -> gives us NO new array, just the reduced single value
 Like: value > 2
       [3, 1, 4, 3, 2] -> 13
+
+-> reduce gives us a value -> we can NOT ADD more methods to a value
 
 
 
