@@ -1400,6 +1400,13 @@ console.log(arrayAT.at(-1));
 console.log('jonas'.at(0));
 console.log('jonas'.at(-1));
 
+// FIND (to retrieve one element of an array -> based on a condition)
+ "is to find exactly one element which satisfy the condition"
+
+- loops over the array -> but the it makes something different => retrieve one element of an array
+-> gives us just ONE element back and not an array
+- only return the FIRST element which satisfy the condition 
+
 
 
 LOOPING ARRAYS -> forEach
