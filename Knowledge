@@ -803,7 +803,6 @@ Here greeting.bind(john) creates a new function with this set to john object, wh
 
 
 
-
 // bind method
 const bookEW = bookFunction.bind(eurowings);
 const bookLH = bookFunction.bind(lufthansa);
@@ -2041,6 +2040,15 @@ document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal();
   }
+});
+
+
+NOTE: by default in HTML, a submit button is RELOADING the page (when the e is happening for sure)
+
+to prevent this from happening ->
+
+btn.addEventListener('click', function(e) { 
+e.preventDefault();
 });
 
 
