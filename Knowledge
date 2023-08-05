@@ -1515,6 +1515,11 @@ Like: value > 2
 -> reduce gives us a value -> we can NOT ADD more methods to a value
 
 
+-> we can chain this methods together or after another
+-> at least, dont over do
+-> its bad practice, to mutate the underlying original array (with the splice or reverse method for example) 
+
+
 
 
           OBJECTS
