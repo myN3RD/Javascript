@@ -416,6 +416,8 @@ NOTE: Functions are a special kind of Objects
 SYNTAX:
 Creating a function:
 
+FAB: function foo() {}
+
 Keyword   Name  Parameters: -> for Input-Values
    ↓       ↓    ↓ 
 function doThis( ) {
@@ -637,6 +639,19 @@ console.log(myName);
 
 ARROW FUNCTION
 ______________
+
+SYNTAX:
+FAB: const foo = () => {}
+                    ⬆️
+            return statement
+
+const foo = (a) => {
+console.log(a)
+return a + 1
+};
+
+"Wenn du über mehrere Zeilen schreibst, ist das ein Block Statement und du musst retuen machen."
+
 
 NOTE: NEVER use arrow functions as a method!
 
