@@ -1424,6 +1424,10 @@ console.log('jonas'.at(-1));
 -> gives us just ONE element back and not an array
 - only return the FIRST element which satisfy the condition 
 
+// FINDINDEX (returns just the index of the found element)
+
+
+
 
 
 LOOPING ARRAYS -> forEach
