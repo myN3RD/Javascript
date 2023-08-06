@@ -689,6 +689,9 @@ _______________________________
 CALL() METHOD
 _____________
 
+https://blog.bitsrc.io/understanding-call-bind-and-apply-methods-in-javascript-33dbf3217be
+
+
 The call method sets the this inside the function and immediately executes that function.
 
 The difference between call() and bind() is that the call() sets the this keyword and executes the function immediately and it does not create a new copy of the function, while the bind() creates a copy of that function and sets the this keyword.
