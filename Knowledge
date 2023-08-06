@@ -1376,6 +1376,8 @@ console.log(arr.slice());
 console.log([...arr]); // alternative
 
 // SPLICE (mutates the original array) (overwrites them)
+-> to delete an element from the array
+-> we need the index for the splice method
 // console.log(arr.splice(2));
 arr.splice(-1);
 console.log(arr); // USEFUL
@@ -1425,8 +1427,6 @@ console.log('jonas'.at(-1));
 - only return the FIRST element which satisfy the condition 
 
 // FINDINDEX (returns just the index of the found element)
-
-
 
 
 
