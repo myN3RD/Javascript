@@ -1399,7 +1399,7 @@ console.log([...arr, ...arr2]); // same result -> but NO MUTATE
 // JOIN
 console.log(concat.join('-'));
 
-// INDEXOF (returns the index of the element)
+// INDEXOF (returns the index of the element)    LOOKS FOR EQUALITY
 console.log(data.indexOf(value));
 
 // INCLUDES (to check if there is an specific element with strict value in the array)
@@ -1413,6 +1413,15 @@ if (data.includes(value)) {
  console.log('Data was found!');
 console.log(value); -> booleon
 };
+
+// SOME (kind of like the includes method) (BUT)     LOOKS FOR A CONDITION
+-> gives us a booleon -> is checking the whole arr -> if there is any value fits the conditions, than its true
+
+const arr = [100, 200, 300, -100, -200, -300];
+const test = arr.some(function(foo) {
+return foo > 0;
+});
+console.log(test);
 
 // AT (ES6) (optional)
 const arrayAT = [32, 11, 64];
