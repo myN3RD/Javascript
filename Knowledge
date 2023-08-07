@@ -1426,7 +1426,7 @@ console.log('jonas'.at(-1));
 -> gives us just ONE element back and not an array
 - only return the FIRST element which satisfy the condition 
 
-// FINDINDEX (returns just the index of the found element)
+// FINDINDEX (returns just the index of the found element (not the element itself!) in the array, which fits the condition)
 
 
 
