@@ -1423,6 +1423,13 @@ return foo > 0;
 });
 console.log(test);
 
+// EVERY 
+"if EVERY element passes the condition -> only then the every methods becomes true"
+
+
+
+
+
 // AT (ES6) (optional)
 const arrayAT = [32, 11, 64];
 console.log(arrayAT[0]); // traditional way
