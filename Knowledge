@@ -1426,9 +1426,14 @@ console.log(test);
 // EVERY 
 "if EVERY element passes the condition -> only then the every methods becomes true"
 
+// FLAT ("flattens the array")
+-> good for nested array for example (but just goes one level deep in the nested arrays)
+const arr = [[1, 2, 3], 4, 5, [6, 7]]
+console.log(arr.flat());
 
-
-
+-> to go 2 levels deep
+const arrDeep = [[1, 2, 3], 4, 5, [6, 7]]
+console.log(arrDeep.flat(2));
 
 // AT (ES6) (optional)
 const arrayAT = [32, 11, 64];
