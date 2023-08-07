@@ -1403,12 +1403,15 @@ console.log(concat.join('-'));
 console.log(data.indexOf(value));
 
 // INCLUDES (to check if there is an specific element with strict value in the array)
+-> gives us a booleon
+
 console.log(data.includes(value));
 
 -> useful for 
 
 if (data.includes(value)) {
  console.log('Data was found!');
+console.log(value); -> booleon
 };
 
 // AT (ES6) (optional)
