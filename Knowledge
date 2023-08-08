@@ -1479,7 +1479,7 @@ NOTE: when we sort numbers, we need a callback function
 // "if we return greater than 0 -> than b will be sorted before a"
 // return > 0  (positive) -> B, A => (switch order)
 
-// aufsteigende reihenfolge
+// aufsteigende reihenfolge  -3, -2, -1, 1, 2, 3  => das bedeutet, dass a immer kleiner ist als b === a < b
 movements.sort(function (a, b) {
   // DIE REGEL IST: "BEIM POSITIVEN RETURN WERT -> KOMMT B vor A"
   if (a > b) return 1; // return > 0 (positive) -> B, A
@@ -1488,10 +1488,23 @@ movements.sort(function (a, b) {
 });
 console.log(movements);
 
-// absteigende reihenfolge
+// alternative (nicht verstanden wie es funktioniert) VIEL KÜRZER
+movements.sort(function (a, b) {
+  return a - b;
+});
+console.log(movements);
+
+
+// absteigende reihenfolge  3, 2, 1, -1, -2, -3   => das bedeutet, dass a immer größer ist als b === a > b
 movements.sort(function (a, b) {
   if (a > b) return -1;
   if (a < b) return 1;
+});
+console.log(movements);
+
+// alternative (nicht verstanden wie es funktioniert) VIEL KÜRZER
+movements.sort(function (a, b) {
+  return b - a;
 });
 console.log(movements);
 
