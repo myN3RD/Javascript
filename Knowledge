@@ -10,18 +10,18 @@ IF and ELSE STATEMENTS - 869
 STATEMENTS and EXPRESSIONS - 971
 TRUTHY and FALSY - 981
 LOOPS - 1000
-ARRAYS - 1400
-OBJECTS - 1285
-SETS - 1364
-MAPS - 1400
-OTHER OPERATORS - 1437
-REST PATTERN - 1490
-AND and OR OPERATORS - 1536
+ARRAYS - 1290
+OBJECTS - 1620
+SETS - 1864
+MAPS - 1900
+OTHER OPERATORS - 1937
+REST PATTERN - 1990
+AND and OR OPERATORS - 1936
 ..
 ....
-DOM - 1638
-EVENT LISTENERS - 1735
-STRINGS - 1800
+DOM - 2038
+EVENT LISTENERS - 2135
+STRINGS - 2200
 
 
 
@@ -90,7 +90,6 @@ closures                    -> part of functions
 
 
 ________________________________________________
-
 
 
 PROGRAMMING LEANGUAGE: BUILDING WEB APPLICATIONS
@@ -1451,6 +1450,50 @@ console.log('jonas'.at(-1));
 - only return the FIRST element which satisfy the condition 
 
 // FINDINDEX (returns just the index of the found element (not the element itself!) in the array, which fits the condition)
+
+// SORT (sorts from a to z) -> mutates the orginal array
+// with strings
+const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
+console.log(owners.sort());
+console.log(owners);
+
+
+NOTE: sort is by default for sorting strings
+-> we need a callback function to use it with numbers
+
+
+// sorting numbers
+const movements = [100, -200, 300, -550, 70]; 
+
+console.log(movements);
+console.log('______');
+
+NOTE: when we sort numbers, we need a callback function
+-> the callback function needs 2 arguments like a, b
+
+
+// DIE REGEL IST: "BEIM POSITIVEN RETURN WERT -> KOMMT B vor A"
+// "if we return less than 0 -> than a will be sorted before b"
+// return < 0 (negativ value)  -> A, B => (keep order)
+// DIE REGEL IST: "BEIM NEGATIVEN RETURN WERT -> KOMMT A vor B"
+// "if we return greater than 0 -> than b will be sorted before a"
+// return > 0  (positive) -> B, A => (switch order)
+
+// aufsteigende reihenfolge
+movements.sort(function (a, b) {
+  // DIE REGEL IST: "BEIM POSITIVEN RETURN WERT -> KOMMT B vor A"
+  if (a > b) return 1; // return > 0 (positive) -> B, A
+  // DIE REGEL IST: "BEIM NEGATIVEN RETURN WERT -> KOMMT A vor B"
+  if (a < b) return -1; // return < 0 (negativ value) -> A, B
+});
+console.log(movements);
+
+// absteigende reihenfolge
+movements.sort(function (a, b) {
+  if (a > b) return -1;
+  if (a < b) return 1;
+});
+console.log(movements);
 
 
 
