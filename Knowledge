@@ -940,7 +940,9 @@ console.log(0.1 + 0.2 === 0.3);  // false
 THAT MEANS: In JS we have to AVOID precize finacial calculations!
 
 
-Operators:
+
+OPERATORS
+_________
 
 ......
 ......
@@ -948,11 +950,20 @@ Operators:
 2 ** 3 means 2 * 2 * 2 = 8
 
 
+
 CONVERTING STRINGS TO NUMBERS
 _____________________________
 
 console.log(Number('23'));
 console.log(+'23');  // alternative
+
+
+
+FOT CHECKING IF THE VALUE IS A REAL NUMBER (THE BEST WAY) 
+_________________________________________________________
+
+console.log(Number.isFinite(44));
+console.log(Number.isFinite(44.4));
 
 
 
@@ -975,6 +986,8 @@ Math.floor():
 static method always rounds down and returns the largest integer less than or equal to a given number.
 
 
+
+_______________________
 Math.trunc():
 ....
 
@@ -995,14 +1008,31 @@ for (const movement of movements) {
 
 
 
+parseFloat()
+____________
+
+The parseFloat() function parses a string argument and returns a floating point number.
+
+
+parseInt()
+__________
+
+The parseInt() function parses a string argument and returns an integer (=ganzzahliger Wert) of the specified radix (the base in mathematical numeral systems).
+
+console.log(Number.parseInt('30px')); // -> 30
+console.log(Number.parseInt('px30')); // -> NaN -> die Zahl kann NUR ausgelesen werden, wenn sie vor den Buchstaben steht 
+
+
+
+
           TEMPLATE LITERALS `` (ES6)
           __________________________
                     
-NOTE: in Template Literals we can just use EXPRESSIONS ! NO Statements!
+NOTE: in Template Literals we can just use EXPRESSIONS! NO Statements!
           
  
-We can write it like a Sentence, and just have to put in the ` ${var} ....   ` 
-or just writing a normal sentence/ string with ``is also possible:
+We can write it like a Sentence and just have to put in the ` ${var} ....   ` 
+or just writing a normal sentence/ string with `` is also possible:
 
 -> console.log(`This is a sentence written with just template literals`);
 
@@ -1016,7 +1046,7 @@ const year = 2037;
 const jonasNEW = `Iam ${firstName}, a ${year - birthYear} year old ${job}!`
 
 
-NOTE: Thats the old way ->
+NOTE: Thats the old way, without template literals ->
 
 const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
 
@@ -1026,9 +1056,10 @@ const jonas = 'Iam' + firstName + ', a ' + (year - birthYear) + ' years old ' + 
           IF and ELSE STATEMENTS (for taking decisions)
           ______________________
 
-CONDITIONAL OPERATORS:
-      
-? is a if statement ,  : is a else statement in a single line
+CONDITIONAL OPERATORS
+_____________________
+
+? is a if statement and : is a else statement in a single line
 
 const age = 23;
 
@@ -1038,7 +1069,8 @@ const type = move > 0 ? 'deposit' : 'withdrawal';
 
 
 
-BASIC BOOLEONS LOGIC:
+BASIC BOOLEONS LOGIC
+____________________
 
 && AND                      when  A and B is true -> the whole operation becomes TRUE
 || OR                       when  A  or B is true -> the whole operation becomes TRUE
@@ -1046,7 +1078,7 @@ BASIC BOOLEONS LOGIC:
 !== NOT equal                 
 
 
-Syntax:
+SYNTAX:
 
     condition is always a booleon
 if (condition) {                        // => Initial condition
@@ -1070,7 +1102,6 @@ if (age >= 18) {  // if its true
 }
 
 
-
 NOTE: when we have more than 5 statements, its recommended to use then a -> SWITCH statement
 
 
@@ -1082,7 +1113,6 @@ to compare one value to multiple different options for example
 
 
 NOTE: SWITCH Statements a actually doing the same like if else statements -> we decide which one we prefer to use 
-
 
 
 const day = 'monday';
@@ -1104,9 +1134,7 @@ switch (day) {
 
 
 
-
-NOTE:
-//any var inside the "code blocks" will not be accessable OUTSIDE of a "code block"
+NOTE: any var inside the "code blocks" will not be accessable OUTSIDE of a "code block"
 
 
 const birthyear = 1998;
@@ -1511,6 +1539,8 @@ NOTE: when we sort numbers, we need a callback function
 // "if we return greater than 0 -> than b will be sorted before a"
 // return > 0  (positive) -> B, A => (switch order)
 
+
+
 // aufsteigende reihenfolge  -3, -2, -1, 1, 2, 3  => das bedeutet, dass a immer kleiner ist als b === a < b
 movements.sort(function (a, b) {
   // DIE REGEL IST: "BEIM POSITIVEN RETURN WERT -> KOMMT B vor A"
@@ -1575,7 +1605,7 @@ String , Array , TypedArray , Map and Set are all built-in iterables, because th
 
 
 
-LOOPING ARRAYS -> forEach
+forEach -> LOOPING ARRAYS
 _________________________
 
 // movements on a bank accound example
@@ -1635,7 +1665,8 @@ console.log(first, second);
 
 
 
-IF WE WANT THE FIRST AND THIRD ELEMENT or what else HOW TO:
+HOW TO: IF WE WANT THE FIRST AND THIRD ELEMENT or what else
+___________________________________________________________
 
 we have do do a "gap"
              ⬇
@@ -1660,7 +1691,6 @@ let [main, , secondary] = restaurants.categories;
 
 [main, secondary] = [secondary, main]
 console.log(main, secondary);
-
 
 
 
@@ -1959,10 +1989,11 @@ console.log(weekdays);        -> {thur: {...}, fri: {...}}
           
 NOTE:
 
-DONT replace all your if statements with the AND or the OR operators!
+DONT replace all if statements with the AND or the OR operators!
  
  
 Short Circuiting (Evaluation) : means -> that if the first value is a truthy value, it will immediately return that first value.
+
 
 OR Operator
 ___________
@@ -2145,8 +2176,8 @@ document.getElementsByTagName('li')[1].innerHTML = 'ok';    // its Elements so a
 
 
 
-METHODS
-_______
+DOM METHODS
+___________
 
 .toogle() 
 aviable on the classList propertie
@@ -2182,7 +2213,7 @@ THATS NOT POSSIBLE to be there two times , just ONCE !!!
 
 
 
-          EVENT LISTENERS
+          EVENT LISTENERS (HANDLERS)
           _______________
 
 // keyboard events (= global events)        // e is event
