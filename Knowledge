@@ -1510,8 +1510,8 @@ console.log(movements);
 
 
 
-CREATING A NEW ARRAY ATOMATICLY
-_______________________________
+GENERATING A NEW ARRAY ATOMATICLY
+_________________________________
 
 Merksatz: create a new array from(with) a length of
 
@@ -1522,6 +1522,13 @@ const z = Array.from({ length: 8 }, function (_, i) {
   return i + 1;
 });
 console.log(z);
+
+
+// generating an array to a specific length, filled up with the same value
+const y = Array.from({ length: 8 }, function () {
+  return 8; //   -> filling up value
+});
+console.log(y);
 
 
 
