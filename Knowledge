@@ -4,7 +4,7 @@ VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
 FUNCTIONS - 413
 OPERATORS - 752
-NUMBERS - 810
+NUMBERS - 930
 TEMPLATE LITERALS ``(ES6) - 841
 IF and ELSE STATEMENTS - 869
 STATEMENTS and EXPRESSIONS - 971
@@ -931,9 +931,13 @@ __________________
           NUMBERS
           _______
 
-Math.floor rounds down, 
-Math. Ceiling rounds up,
-Math. Trunc(ate) rounds towards zero
+NOTE:
+console.log(23 === 23.0);  // true
+console.log(0.1 + 0.2 === 0.3);  // false
+                                     ⬇️
+                  actually its true, but js can't handle that correctly -> its simplsy an err in js, we have to accept
+
+THAT MEANS: In JS we have to AVOID precize finacial calculations!
 
 
 Operators:
@@ -941,9 +945,29 @@ Operators:
 ......
 ......
 ......
+2 ** 3 means 2 * 2 * 2 = 8
 
 
-Create a Random Number:
+CONVERTING STRINGS TO NUMBERS
+_____________________________
+
+console.log(Number('23'));
+console.log(+'23');  // alternative
+
+
+
+MATH. ...
+_________
+
+Math.floor rounds down, 
+Math. Ceiling rounds up,
+Math. Trunc(ate) rounds towards zero
+Math.abs() this function is used to return the absolute value
+
+
+
+CREATE A RANDOM NUMBER
+______________________
 
 (Math.floor(Math.random()*100) + d.properties.mag))
 
@@ -954,9 +978,6 @@ static method always rounds down and returns the largest integer less than or eq
 Math.trunc():
 ....
 
-
-
-2 ** 3 means 2 * 2 * 2 = 8
 
 
 Math.abs()
