@@ -86,6 +86,12 @@ closures                    -> part of functions
 
 
 
+Iterables
+
+What are the list of iterables in JavaScript?
+String , Array , TypedArray , Map and Set are all built-in iterables, because their prototype objects all have a Symbol.
+
+-> they can be converted to real arrays -> using  Array.from()
 
 
 
@@ -1513,8 +1519,10 @@ console.log(movements);
 
 
 
-GENERATING A NEW ARRAY ATOMATICLY
-_________________________________
+FROM METHOD - GENERATING A NEW ARRAY ATOMATICLY
+_______________________________________________
+
+"we can create arrays FROM other things"
 
 Merksatz: create a new array from(with) a length of
 
@@ -1532,6 +1540,15 @@ const y = Array.from({ length: 8 }, function () {
   return 8; //   -> filling up value
 });
 console.log(y);
+
+
+Iterables
+_________
+
+What are the list of iterables in JavaScript?
+String , Array , TypedArray , Map and Set are all built-in iterables, because their prototype objects all have a Symbol.
+
+-> they can be converted to real arrays -> using  Array.from()
 
 
 
