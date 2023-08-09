@@ -365,6 +365,10 @@ myVar123
 
 
 
+_ thats a throw away variable
+
+
+
 
           EXECUTION CONTEXT (EC) 91
           ______________________
@@ -434,7 +438,7 @@ doThis();
 
 
 
-"Functions are like a maschines, where we put something in and then the maschine is processing the input (data) and gives us an new output."
+"Functions are like a maschines, where we put something in (parameter) and then the maschine is processing the input (data) and gives us an new output."
 
 
 //       "maschine name"("ingridients") 
@@ -447,7 +451,7 @@ function fruitProcessor(apples, oranges) {
 //                               'Arguments'
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
-//                                'Arguments'
+//                               'Arguments'
 const orangeJuice = fruitProcessor(0, 4);
 console.log(orangeJuice);
 
@@ -649,7 +653,7 @@ console.log(a)
 return a + 1
 };
 
-"Wenn du über mehrere Zeilen schreibst, ist das ein Block Statement und du musst retuen machen."
+"Wenn du über mehrere Zeilen schreibst, ist das ein Block Statement und du musst return machen."
 
 
 NOTE: NEVER use arrow functions as a method!
@@ -682,8 +686,8 @@ __________________
 
 
 
-CALL & APPLY (FUNCTION) METHODS
-_______________________________
+CALL & APPLY & BIND (FUNCTION) METHODS
+______________________________________
 
 CALL() METHOD
 _____________
@@ -697,7 +701,6 @@ The difference between call() and bind() is that the call() sets the this keywor
 
 SYNTAX:
 function.call(thisArg, arg1, agr2, ...)
-
 
 
 const lufthansa = {
