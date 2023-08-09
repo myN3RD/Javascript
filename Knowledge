@@ -1296,7 +1296,9 @@ if (dice === 6) console.log('Loop is about to end, cause you rolled a 6');
           ARRAYS
           ______
 
-arrays are objects, that why they have methods too
+TOP ZUSAMMENFASSUNG @ Lektion 165
+
+arrays are objects, thats why they have methods too
 
 
 //     i = index: 0, 1, 2    // i is the positon of the item in the array // i is just a long used name for the index position
