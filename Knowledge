@@ -242,7 +242,7 @@ LETTER	   OPERATION	   HTTP REQUEST                               SQL FUNCTION
 
 C          Create          POST                                       INSERT
 R          Read            GET                                        SELECT
-U          Update          PATCH/PUT(if you have id or uuid)          UPDATE
+U          Update          PATCH/PUT(if you have id or uuid)          UPDATE      uuid === (Universally Unique Identifier)
 D          Delete          DELETE                                     DELETE
 
 
