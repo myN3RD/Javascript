@@ -248,8 +248,9 @@ D          Delete          DELETE                                     DELETE
 
 NOTE:
 
-PUT "trys to replace the existing resource"
-PATCH "is for partial update"
+PATCH "is for partial update" and the rest what is not defined will be the same like before! -> we just update the properties were passing in.
+PUT "trys to replace the existing resource" and the rest what is not defined will jest be removed!
+
 
 
 
