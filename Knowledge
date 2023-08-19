@@ -1024,6 +1024,13 @@ console.log(Number.parseInt('px30')); // -> NaN -> die Zahl kann NUR ausgelesen 
 
 
 
+DATE
+____
+
+https://sabe.io/blog/javascript-convert-milliseconds-seconds-minutes-hours
+
+
+
 
           TEMPLATE LITERALS `` (ES6)
           __________________________
