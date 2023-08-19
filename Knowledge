@@ -1,5 +1,5 @@
 CRUD - 233
-DATA TYPES - 172
+DATA TYPES - 255
 VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
 FUNCTIONS - 413
@@ -248,8 +248,12 @@ D          Delete          DELETE                                        DELETE
 
 
 
-         DATA TYPES (Values have a type, NOT the variables)
+
+
+         DATA TYPES 
          __________
+
+(Values have a type, NOT the variables)
 
 The 7 PRIMITIV DATA TYPES:  (all other things are Objects(REFERENCE TYPES)) 
 
@@ -263,6 +267,17 @@ ____________________ MOST IMPORTANT DATA TYPES
 5. Null (empty value)
 6. Symbol (ES2015)
 7. BigInt (ES2020)
+
+
+
+                                   DATA TYPES
+                     /                                   \
+                Primitives                                Non Primitives
+        /                      \                                 |
+  Numeric                        Non Numerice             Strings, Arrays, user definded Classes
+/         \                            |
+Integer    Floating Point        charaker, booleon
+
 
 
 -> with typeof(); -> we can find out what data type we have
