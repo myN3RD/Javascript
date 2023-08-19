@@ -1,4 +1,4 @@
-CRUD - 233
+CRUD - 238
 DATA TYPES - 255
 VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
@@ -238,7 +238,7 @@ Example: Please input a number between 5 and 10:
           CRUD Operarations
           _________________
 
-LETTER	   OPERATION	     HTTP REQUEST                               SQL FUNCTION
+LETTER	   OPERATION	   HTTP REQUEST                               SQL FUNCTION
 
 C          Create          POST                                       INSERT
 R          Read            GET                                        SELECT
