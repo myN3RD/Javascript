@@ -308,8 +308,8 @@ const str = number + '';
 
 
 
-Type Conversion
-_______________
+Type Coercion
+_____________
 
 Converting strings to numbers and others:
 
@@ -978,7 +978,14 @@ THAT MEANS: In JS we have to AVOID precize financial calculations!
 
 console.log(Number.parseInt('2.5rem')); -> 2      (gives us back just the Integer)
 
+
+parseFloat()
+____________
+
 THE WAY TO GO (to read a number out of a string):
+
+The parseFloat() function parses a string argument and returns a floating point number.
+
 console.log(Number.parseFloat('2.5rem')); -> 2.5 
 
 
@@ -1011,33 +1018,43 @@ console.log(Number.isFinite(23 / 0));  -> gives us infinite  PLS AVOID in JS  ->
 
 
 
-MATH. ...
-_________
+MATH.
+_____
 
-Math.floor rounds numnbers down, 
-Math. Ceiling rounds up,
-Math. Trunc(ate) rounds towards zero
-Math.abs() this function is used to return the absolute value
+Math.trunc() rounds down, also at negativ numbers
+console.log(Math.trunc(23.3)); -> 23
+console.log(Math.trunc(-23.3)); -> -23
+
+Math.max(5, 23, '34', 2, 8) -> 34 -> gives us back the highest number, and it also does type coersion!
+Math.min() 
+
+Math.round() -> rounds up or down to the nearest integer
+
+Math.ceil rounds up
 
 
 
 CREATE A RANDOM NUMBER
 ______________________
 
+
 (Math.floor(Math.random()*100) + d.properties.mag))
 
-Math.floor():
-static method always rounds down and returns the largest integer less than or equal to a given number.
+Math.floor() static method always rounds numbers down (not with negativ numbers) and returns the largest integer less than or equal to a given number. + type coersion
+-> is a lil bit better that Math.trunc()
+
+CREATE A RANDOM NUMBER (between MIN and MAX)
+______________________
+
+const randomInt = (min, max) => Math.trunc(Math.random() * (max - min) + 1) + min;
+// 0...1 ->0...(min - max) -> min...max
+console.log(randomInt(10, 20)); -> 10 - 20
 
 
-_______________________
-Math.trunc():
-....
 
 
 
-Math.abs()
-The math. abs() function is used to return the absolute value in JS. It negates the native sign of a number and returns the relevant positive value.
+Math.abs() this function is used to return the absolute value in JS. It negates the native sign of a number and returns the relevant positive value.
 
 // movements on a bank accound example
 const movements = [100, 450, -400, 3000, -650, -130, 70, 1300];
@@ -1051,12 +1068,6 @@ for (const movement of movements) {
 
 
 
-parseFloat()
-____________
-
-The parseFloat() function parses a string argument and returns a floating point number.
-
-
 parseInt()
 __________
 
@@ -1067,8 +1078,23 @@ console.log(Number.parseInt('px30')); // -> NaN -> die Zahl kann NUR ausgelesen 
 
 
 
-DATE
-____
+ROUNDING DECIMALS
+_________________
+
+NOTE: always gives back a STRING and rounds up
+
+                          How many positions we want after the .
+                          ⬇️
+console.log((2.7).toFixed(0)); ->  3
+console.log((2.7).toFixed(3)); ->  2.700
+console.log((2.345).toFixed(0)); ->  2.35
+
+TO GET A NUMBER:
+console.log(Number.(2.7).toFixed(0)); ->  2.35
+
+
+          DATE
+          ____
 
 https://sabe.io/blog/javascript-convert-milliseconds-seconds-minutes-hours
 
