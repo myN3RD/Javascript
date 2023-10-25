@@ -11,7 +11,7 @@ DATA TYPES - 255
 EXECTION CONTEXT (EC) - 275
 * FUNCTIONS - 413
 OPERATORS - 752
-NUMBERS - 930
+NUMBERS - 960
 TEMPLATE LITERALS ``(ES6) - 841
 IF and ELSE STATEMENTS - 869
 * STATEMENTS and EXPRESSIONS - 971   * CONDITIONALS ??
@@ -976,7 +976,10 @@ console.log(0.1 + 0.2 === 0.3);  // false
 THAT MEANS: In JS we have to AVOID precize financial calculations!
 
 
+console.log(Number.parseInt('2.5rem')); -> 2      (gives us back just the Integer)
 
+THE WAY TO GO (to read a number out of a string):
+console.log(Number.parseFloat('2.5rem')); -> 2.5 
 
 
 OPERATORS
@@ -997,18 +1000,21 @@ console.log(+'23');  // alternative
 
 
 
-FOT CHECKING IF THE VALUE IS A REAL NUMBER (THE BEST WAY) 
-_________________________________________________________
+FOR CHECKING IF THE VALUE IS A REAL NUMBER (and not a string) 
+_____________________________________________________________
 
+-> BEST WAY:
 console.log(Number.isFinite(44));
 console.log(Number.isFinite(44.4));
+
+console.log(Number.isFinite(23 / 0));  -> gives us infinite  PLS AVOID in JS  -> any number / 0
 
 
 
 MATH. ...
 _________
 
-Math.floor rounds down, 
+Math.floor rounds numnbers down, 
 Math. Ceiling rounds up,
 Math. Trunc(ate) rounds towards zero
 Math.abs() this function is used to return the absolute value
@@ -1022,7 +1028,6 @@ ______________________
 
 Math.floor():
 static method always rounds down and returns the largest integer less than or equal to a given number.
-
 
 
 _______________________
