@@ -1093,6 +1093,21 @@ TO GET A NUMBER:
 console.log(Number.(2.7).toFixed(0)); ->  2.35
 
 
+
+REAMAINDER OPERATOR %
+_____________________
+
+simply returns the remainder of a devision
+
+                                    Thats the Remainder
+                                    ⬇️
+console.log(5 % 2); -> 1 // 2 * 2 + 1 = 5
+console.log(8 % 3); -> 2 // 3 * 3 + 2 = 8
+
+
+
+
+
           DATE
           ____
 
