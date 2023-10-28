@@ -1120,6 +1120,23 @@ console.log(isEven(37)); -> false
 
 
 
+BIGINT
+______
+
+is to store numbers in js as large as we want
+
+
+console.log(478693781738463742946382492013n);
+console.log(BigInt(4786937817384637)); //-> max length as alternative solution
+
+n -> translate a regular number into a BigInt number
+
+
+NOTE:
+otherwise the is a limit which we can store -> 9007199254740991 
+
+
+
 
           DATE
           ____
