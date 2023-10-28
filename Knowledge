@@ -1104,6 +1104,19 @@ simply returns the remainder of a devision
 console.log(5 % 2); -> 1 // 2 * 2 + 1 = 5
 console.log(8 % 3); -> 2 // 3 * 3 + 2 = 8
 
+NOTE:
+
+EVEN (dividable by 2) (2 4 6 8 ) Numbers
+
+EXAMPLE:
+const isEven = n => n % 2 === 0; 
+console.log(isEven(8)); -> true
+
+
+ODD (NOT dividable by 2) (1 3 5 7 ) Numbers
+
+const isEven = n => n % 2 === 0; 
+console.log(isEven(37)); -> false
 
 
 
