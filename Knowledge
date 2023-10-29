@@ -103,7 +103,7 @@ String , Array , TypedArray , Map and Set are all built-in iterables, because th
 
 
 
-________________________________________________
+_____________________________________________________________________________
 
 
 PROGRAMMING LEANGUAGE: BUILDING WEB APPLICATIONS
@@ -179,6 +179,20 @@ let currentScore = 0;
 
 currentScore += dice;
 // currentScore = currentScore + dice;                      // line is equivalent, just longer
+
+
+
+
+          OVERVIEW
+          ________
+
+JS is "zero based" -> means it starts counting from 0 and not 1
+
+EXAMPLE:
+
+const now = new Date();
+const day = `${now.getDate()}`.padStart(2, 0);
+const month = `${now.getMonth() + 1}`.padStart(2, 0); // +1 cause its zero based
 
 
 
@@ -1154,7 +1168,7 @@ console.log(now);
 2.
 console.log(new Date(2037, 10, 19, 15, 23, 5));  -> Thu Nov 19 2037 15:23:05
                            ⬆️
-                           its Nov cause JS is "zero based"
+                           its Nov cause JS is "zero based" -> means start counting from 0
 
 console.log(new Date(2037, 10, 31)); -> Tue Dec 01 2037
                            ⬆️                ⬆️
@@ -1175,6 +1189,10 @@ console.log(future);
 console.log(future.getFullYear()); // -> ALWAYS use getFullYear, NEVER use getYear
 console.log(future.getMonth());
 console.log(future.getDate()); // -> to get the DAY (confusing name yes)
+                                        2 charakters long, with a 0 at the start (only if we havnt already a date with 2 charakters)
+                                        ⬇️, ⬇️
+const day = `${now.getDate()}`.padStart(2, 0);
+
 console.log(future.getHours());
 console.log(future.getMinutes());
 console.log(future.getSeconds());
@@ -1510,9 +1528,11 @@ if (dice === 6) console.log('Loop is about to end, cause you rolled a 6');
 TOP ZUSAMMENFASSUNG @ Lektion 165
 
 arrays are objects, thats why they have methods too
+JS is "zero based" -> means it starts counting from 0 and not 1
 
-
-//     i = index: 0, 1, 2    // i is the positon of the item in the array // i is just a long used name for the index position
+                   position(s)  
+                   ⬇️ ⬇️ ⬇️
+//      i = index: 0, 1, 2    // i is the positon of the item in the array // i is just a long used name for the index position
 const dataArray = [4, 15, 34];  // array without objects
 
 
