@@ -1211,7 +1211,7 @@ _____________________
 SUBSTRACTING one date from another
 __________________________________
 
-const calcDaysPassed = (date1, date2) => date2 - date1;
+const calcDaysPassed = (date1, date2) => Math.abs(date2 - date1); // Math.abs to be safe that we get a positiv number
 
 const days1 = calcDaysPassed(new Date(2037, 3, 14), new Date(2037, 3, 24)); // RESULT SHOULD BE 10 Days
 
