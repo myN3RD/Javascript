@@ -1182,6 +1182,10 @@ console.log(future.getSeconds());
 console.log(future.toISOString()); // -> International Standard Format 
 
 
+// get the timestamp from now
+console.log(Date.now());
+
+
 
           TEMPLATE LITERALS `` (ES6)
           __________________________
