@@ -1145,19 +1145,41 @@ https://sabe.io/blog/javascript-convert-milliseconds-seconds-minutes-hours
 
 4 Ways of creating Dates in JS:
 
+
+1.
 const now = new Date();
 console.log(now);
 
 
-
+2.
 console.log(new Date(2037, 10, 19, 15, 23, 5));  -> Thu Nov 19 2037 15:23:05
                            ⬆️
                            its Nov cause JS is "zero based"
 
-console.log(new Date(2037, 10, 31, 15, 23, 5)); -> Tue Dec 01 2037 15:23:05
-                           ⬆️                           ⬆️
+console.log(new Date(2037, 10, 31)); -> Tue Dec 01 2037
+                           ⬆️                ⬆️
                            JS autocorrects the day (Nov has not 31 days! JS is smart to know that and jumps automatically to the next month)
 
+
+
+// converting days in milliseconds
+//                        // amount of days we wanna know
+//                        // ⬇️
+const milliseconds = new Date(3 * 24 * 60 * 60 * 1000);
+console.log(milliseconds);
+
+
+// Working with Dates
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear()); // -> ALWAYS use getFullYear, NEVER use getYear
+console.log(future.getMonth());
+console.log(future.getDay());
+console.log(future.getHours());
+console.log(future.getMinutes());
+console.log(future.getSeconds());
+
+console.log(future.toISOString()); // -> International Standard Format 
 
 
 
