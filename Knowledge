@@ -1143,6 +1143,21 @@ otherwise the is a limit which we can store -> 9007199254740991
 
 https://sabe.io/blog/javascript-convert-milliseconds-seconds-minutes-hours
 
+4 Ways of creating Dates in JS:
+
+const now = new Date();
+console.log(now);
+
+
+
+console.log(new Date(2037, 10, 19, 15, 23, 5));  -> Thu Nov 19 2037 15:23:05
+                           ⬆️
+                           its Nov cause JS is "zero based"
+
+console.log(new Date(2037, 10, 31, 15, 23, 5)); -> Tue Dec 01 2037 15:23:05
+                           ⬆️                           ⬆️
+                           JS autocorrects the day (Nov has not 31 days! JS is smart to know that and jumps automatically to the next month)
+
 
 
 
