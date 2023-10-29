@@ -9,7 +9,7 @@ CRUD - 238
 DATA TYPES - 255
 * VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
-* FUNCTIONS - 413
+* FUNCTIONS - 463
 OPERATORS - 752
 NUMBERS - 960
 TEMPLATE LITERALS ``(ES6) - 841
@@ -467,27 +467,32 @@ NOTE: Functions are a special kind of Objects
 
 
 SYNTAX:
-Creating a function:
 
 FAB: function foo() {}
+
 
 Keyword   Name  Parameters: -> for Input-Values
    ↓       ↓    ↓ 
 function doThis( ) {
-  serie of instruction
-  ...
-  ...
-  return ???
+  serie of instruction     (
+  ...                        FUNCTION BODY
+  ...                                      )
+  return;
 }
 
 -> if we call the function everything between the {  "function body"  } will be executed
 
-CALL-ing / RUN-ning / Invoking the function:
+
+ we call this CALL-ing / RUN-ning / INVOKING the function:
 
 doThis();
+doThis();
+doThis();
+
+-> we can call as often we want
 
 
-
+"Functions can ->receive data and ->return data back to us"
 "Functions are like a maschines, where we put something in (parameter) and then the maschine is processing the input (data) and gives us an new output."
 
 
@@ -501,7 +506,7 @@ function fruitProcessor(apples, oranges) {
 //                               'Arguments'
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
-//                               'Arguments'
+//                                'Arguments'
 const orangeJuice = fruitProcessor(0, 4);
 console.log(orangeJuice);
 
@@ -570,7 +575,7 @@ greeterHey('Steven.');
 RETURN STATEMENT
 ________________
 
-The return statement stops the execution of a function and will not further continue the function.
+The return statement STOPS the execution of a function and will not further continue the function.
 
 NOTE: if we wanna use console.log(); inside of the function -> then it has to be BEFORE return
 
@@ -609,9 +614,12 @@ Redirect:
 FUNCTION TYPES
 ______________
 
-// used by personal preferences -> but bouth has to be known
+used by personal preferences -> but bouth has to be known
 
-// function type 1 -> function declaration
+
+FUNCTION TYPE 1 -> function declaration
+_______________
+
 //               'Parameter'
 function calcAge1(birthYear) {
   return 2037 - birthYear;
@@ -621,8 +629,9 @@ const age1 = calcAge1(1991);
 console.log(age1);
 
 
+FUNCTION TYPE 2 -> function expression (expression produces values)
+_______________
 
-// function type 2 -> function expression (expression produces values)
 const calcAge2 = function(birthYear) {
   return 2037 - birthYear;
 };
@@ -650,8 +659,8 @@ console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 
-Calling a function inside of another function
-_________________________________________________
+CALLING A FUNCTION INSIDE OF ANOTHER FUNCTION
+_____________________________________________
 
 // first maschine is preparing stuff for the second maschine
 function cutFruitIntoSmallPieces(fruit) {
