@@ -484,18 +484,6 @@ function doThis( ) {
   return; -> OPTIONAL -> if we wanna take out a value we have to use it!
 }
 
-EXAMPLE:
-function returnValue(birthYear) {
-  return 2037 - birthYear;
-};
-            Argument (= is the actual Input-Values that we fill in the placeholder that is the parameter)
-             ⬇️
-returnValue(1991);
-
-NOTE: 
-Argument and Parameter is NOT the same!!!
-"Functions can ->receive data and -> return data back to us."
-
 
 -> if we call the function everything between the {  "function body"  } will be executed
 
@@ -507,6 +495,22 @@ doThis();
 doThis();
 
 -> we can call as often we want
+
+
+
+EXAMPLE:
+function returnValue(birthYear) {
+  return 2037 - birthYear;
+};
+            Argument (= is the actual Input-Values that we fill in the placeholder that is the parameter)
+             ⬇️
+const age = returnValue(1991); -> we need to safe in a variable (the we can use it or log it to console)
+console.log(age);
+
+
+NOTE: 
+Argument and Parameter is NOT the same!!!
+"Functions can ->receive data and -> return data back to us."
 
 
 
@@ -529,6 +533,54 @@ console.log(orangeJuice);
 
 const appleOrangeJuice = fruitProcessor(4, 4);
 console.log(appleOrangeJuice);
+
+
+
+FUNCTION TYPES
+______________
+
+used by personal preferences -> but bouth has to be known
+
+
+FUNCTION TYPE 1 -> function declaration
+_______________
+
+//               'Parameter'
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+};
+//     'Argument'
+const age1 = calcAge1(1991);
+console.log(age1);
+
+
+FUNCTION TYPE 2 -> function expression (expression produces values)
+_______________
+
+const calcAge2 = function(birthYear) {
+  return 2037 - birthYear;
+};
+
+const age2 = calcAge2(1991);
+console.log(age1, age2);
+
+
+// function type 3 -> arrow functions
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+
+// Example
+const yearsUntilRetirement = (birthYear, firstname) => {
+  const age = 2037 - birthYear;
+  const retirement = 65 - age;
+  // return retirement;
+  return `${firstname} retires in ${retirement} years.`;
+};
+
+console.log(yearsUntilRetirement(1991, 'Jonas'));
+console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 
@@ -625,55 +677,7 @@ Redirect:
  if (err) {
       return res.redirect('/reset');  ---> This Line
     }
-    
-    
-
-FUNCTION TYPES
-______________
-
-used by personal preferences -> but bouth has to be known
-
-
-FUNCTION TYPE 1 -> function declaration
-_______________
-
-//               'Parameter'
-function calcAge1(birthYear) {
-  return 2037 - birthYear;
-};
-//     'Argument'
-const age1 = calcAge1(1991);
-console.log(age1);
-
-
-FUNCTION TYPE 2 -> function expression (expression produces values)
-_______________
-
-const calcAge2 = function(birthYear) {
-  return 2037 - birthYear;
-};
-
-const age2 = calcAge2(1991);
-console.log(age1, age2);
-
-
-// function type 3 -> arrow functions
-const calcAge3 = birthYear => 2037 - birthYear;
-const age3 = calcAge3(1991);
-console.log(age3);
-
-
-// Example
-const yearsUntilRetirement = (birthYear, firstname) => {
-  const age = 2037 - birthYear;
-  const retirement = 65 - age;
-  // return retirement;
-  return `${firstname} retires in ${retirement} years.`;
-};
-
-console.log(yearsUntilRetirement(1991, 'Jonas'));
-console.log(yearsUntilRetirement(1980, 'Bob'));
-
+        
 
 
 CALLING A FUNCTION INSIDE OF ANOTHER FUNCTION
