@@ -461,9 +461,13 @@ ___________________
           FUNCTIONS
           _________
 
+Lecture 33
+
 NOTE: Functions are a special kind of Objects
       -> So they have access to some methods and properties
       -> Call, bind, and apply are some of the methods that every function inherits
+      -> Not all functions need to return something! -> look at FAB example Syntax
+      -> Not all functions need to accept parameters! -> look at FAB example Syntax
 
 
 SYNTAX:
@@ -477,7 +481,7 @@ function doThis( ) {
   serie of instruction     (
   ...                        FUNCTION BODY
   ...                                      )
-  return;
+  return; -> OPTIONAL
 }
 
 -> if we call the function everything between the {  "function body"  } will be executed
