@@ -475,14 +475,27 @@ SYNTAX:
 FAB: function foo() {}
 
 
-Keyword   Name  Parameters: -> for Input-Values
+Keyword   Name  Parameters: -> for Input-Values (= is a kind of placeholder)
    ↓       ↓    ↓ 
 function doThis( ) {
   serie of instruction     (
   ...                        FUNCTION BODY
   ...                                      )
-  return; -> OPTIONAL
+  return; -> OPTIONAL -> if we wanna take out a value we have to use it!
 }
+
+EXAMPLE:
+function returnValue(birthYear) {
+  return 2037 - birthYear;
+};
+            Argument (= is the actual Input-Values that we fill in the placeholder that is the parameter)
+             ⬇️
+returnValue(1991);
+
+NOTE: 
+Argument and Parameter is NOT the same!!!
+"Functions can ->receive data and -> return data back to us."
+
 
 -> if we call the function everything between the {  "function body"  } will be executed
 
@@ -496,7 +509,7 @@ doThis();
 -> we can call as often we want
 
 
-"Functions can ->receive data and ->return data back to us"
+
 "Functions are like a maschines, where we put something in (parameter) and then the maschine is processing the input (data) and gives us an new output."
 
 
