@@ -762,7 +762,12 @@ lektion 129  nicht kapiert
 CALLBACK FUNCTIONS
 __________________
 
-.....
+Will be called when 'exit' in this case is done. 
+
+
+EXAMPLE: process.on('exit', function() {
+                                 ↑
+}):                           CALLBACK
 
 
 
