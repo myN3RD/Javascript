@@ -771,6 +771,10 @@ EXAMPLE: process.on('exit', function() {
 
 
 
+() <- we call something
+
+
+
 CALL & APPLY & BIND (FUNCTION) METHODS
 ______________________________________
 
