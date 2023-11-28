@@ -10,7 +10,8 @@ DATA TYPES - 255
 * VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
 * FUNCTIONS - 463
-OPERATORS - 752
+ASYNC AWAIT 767
+OPERATORS - 782
 NUMBERS - 960
 TEMPLATE LITERALS ``(ES6) - 841
 IF and ELSE STATEMENTS - 869
@@ -272,9 +273,6 @@ NOTE:
 
 PATCH "is for partial update" and the rest what is not defined will be the same like before! -> we just update the properties were passing in.
 PUT "trys to replace the existing resource" and the rest what is not defined will jest be removed!
-
-
-
 
 
 
@@ -770,8 +768,27 @@ EXAMPLE: process.on('exit', function() {
 }):                           CALLBACK
 
 
-
 () <- we call something
+
+
+
+
+          ASYNC AWAIT
+          ___________
+
+its to avoid the "callback hell"
+
+so that we have asynchronous code (for this we also use PROMISES -> promises means that we expect to GET (.get method) something in the future)
+.get() returns a promise.
+
+cause we exspect something that we get back somehting, we use -> 
+
+.then(result => {               .then() method, which gives us the data
+  console.log();
+})
+.catch(err => {                 to catch errors, we use -> .catch() method
+  console.log(err.message);
+});
 
 
 
@@ -951,7 +968,7 @@ NOTE: to fully understand closures, its neccessary to understand -> execution co
       -> closures brings all these conceps kind of together!
       
 
-  
+
 
           OPERATORS
           _________
