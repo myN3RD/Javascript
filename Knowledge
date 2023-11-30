@@ -1457,14 +1457,14 @@ ________
 
 i is just a long used counter name
 
-   (CONDITION)
-    Start End   Change
-      ↓    ↓    ↓ 
-for (i=0; i<5; i++;) {
+     (CONDITION)
+     Start   End   Change
+       ↓      ↓     ↓ 
+for (i = 0; i < 5; i++;) {
   // do something
 }
 
-for (let i=0; i<5; i++;) {
+for (let i = 0; i < 5; i++;) {
   console.log(i);
 }
 
@@ -1493,10 +1493,15 @@ const jonas = [
 // console.log(jonas[4]);
 // console.log(jonas[5]); // 5 does NOT exist -> the CONDITION ends here
 
-                  (dynamicly lenght of the loop)
-for (let i=0; i < jonas.lenght; i++) {
+
+
+LOOPING - AS LONG AS THE ARRAY IS (and we dont know the length)
+_________________________________
+
+                  (dynamicly length of the loop)
+for (let i = 0; i < jonas.length; i++) {
 console.log(jonas[i]);
-}
+};
 
 
 for of loop
