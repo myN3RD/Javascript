@@ -777,6 +777,8 @@ EXAMPLE: process.on('exit', function() {
           ___________
 
 its to avoid the "callback hell"
+asynch await needs a try catch block!
+
 
 so that we have asynchronous code (for this we also use PROMISES -> promises means that we expect to GET (.get method) something in the future)
 .get() returns a promise.
