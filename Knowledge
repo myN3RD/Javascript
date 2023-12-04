@@ -2358,13 +2358,14 @@ DOM (API) = Is the INTERFACE (Schnittstelle) between JS and the BROWSER
     -> so we use the DOM to let JS interact with the BROWSER 
     -> the DOM cointains a ton of METHODS and PROPERTIES which we use to INTERACT with the DOM TREE
 
+
                                         METHODS                                                            PROPERTIES
     like:      (.querySelector() / .addEventlistener() / .createElement() /           .innerHTML / .textContent / .children / etc.... )
     = HTML Documents are REDERED IN and BY the BROWSER
 
-- the dom is created -> by the code and creates a tree structure (the DOM)
+- the DOM is created -> by our code and creates a 'tree structure' (the DOM)
 
-- document is the highest rank in the tree structure -> serves as a entry point to the DOM
+- document - is the highest rank in the tree structure -> serves as a entry point to the DOM
 
 
 
@@ -2380,8 +2381,7 @@ ____________
            ..........
            etc...
 
-
-which has parents and children and so one
+-> which has parents and children and so one
 
 - allows javascript to access html elements and css style to manipulate them
 
@@ -2420,6 +2420,7 @@ NOTE:
 
     document.querySelector('.body').style.backgroundColor = 'green';
     document.querySelector('.number').style.width = '30rem';
+
 
 
 
