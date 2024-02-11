@@ -10,10 +10,10 @@ DATA TYPES - 255
 * VARIABLES - 211
 EXECTION CONTEXT (EC) - 275
 * FUNCTIONS - 463
-ASYNC AWAIT 767
+ASYNC AWAIT 767      - REACT
 OPERATORS - 782
 NUMBERS - 960
-TEMPLATE LITERALS ``(ES6) - 841
+TEMPLATE LITERALS ``(ES6) - 1300      - REACT
 IF and ELSE STATEMENTS - 869
 * STATEMENTS and EXPRESSIONS - 971   * CONDITIONALS ??
 TRUTHY and FALSY - 981
@@ -25,7 +25,8 @@ MAPS - 1900
 OTHER OPERATORS - 1937
 REST PATTERN - 1990
 AND and OR OPERATORS - 1936
-..
+METHODS -> FOR DATA TRANSFORMATIONS - 1980      - REACT (.map .filter .reduce .sort)
+DESTRUCTORING (OBJECTS) - 2030      - REACT
 ....
 REGULAR EXPRESSIONS (most hard thing to understand in JS) -
 REST PATTERN - 2220
@@ -103,6 +104,8 @@ What are the list of iterables in JavaScript?
 String , Array , TypedArray , Map and Set are all built-in iterables, because their prototype objects all have a Symbol.
 
 -> they can be converted to real arrays -> using  Array.from()
+
+
 
 
 
@@ -260,10 +263,10 @@ Example: Please input a number between 5 and 10:
 
 
 
-          CRUD Operarations
-          _________________
+          CRUD OPERATIONS
+          _______________
 
-LETTER	   OPERATION	   HTTP REQUEST                               SQL FUNCTION
+LETTER	   OPERATION	     HTTP REQUEST                               SQL FUNCTION
 
 C          Create          POST                                       INSERT
 R          Read            GET                                        SELECT
@@ -299,7 +302,8 @@ ____________________ MOST IMPORTANT DATA TYPES
 
 
 
-                                   DATA TYPES
+                                  DATA TYPES
+                                  __________
                      /                                   \
                 Primitives                                Non Primitives
         /                      \                                 |
@@ -322,7 +326,7 @@ const str = number + '';
 
 
 
-Type Coercion
+TYPE COERSION
 _____________
 
 Converting strings to numbers and others:
@@ -340,10 +344,6 @@ console.log(inputYear + 18);
 console.log(Number(inputYear), inputYear);  // converting a string 
 console.log(Number(inputYear) + 18);
 
-
-
-TYPE COERSION
-_____________
 
 let n = '1' + 1;    // '11'   -> string
 n = n - 1;
@@ -775,7 +775,7 @@ EXAMPLE: process.on('exit', function() {
 
 
 
-          ASYNC AWAIT
+          ASYNC AWAIT      - REACT
           ___________
 
 its to avoid the "callback hell"
@@ -1111,7 +1111,6 @@ Math.ceil rounds up
 CREATE A RANDOM NUMBER
 ______________________
 
-
 (Math.floor(Math.random()*100) + d.properties.mag))
 
 Math.floor() static method always rounds numbers down (not with negativ numbers) and returns the largest integer less than or equal to a given number. + type coersion
@@ -1295,7 +1294,7 @@ we should use a date library like: moment dot js.
 
 
 
-          TEMPLATE LITERALS `` (ES6)
+          TEMPLATE LITERALS `` (ES6)      - REACT
           __________________________
                     
 NOTE: in Template Literals we can just use EXPRESSIONS! NO Statements!
@@ -1971,7 +1970,7 @@ console.log(main, secondary);
 
 
 
-METHODS -> FOR DATA TRANSFORMATIONS
+METHODS -> FOR DATA TRANSFORMATIONS      - REACT
 ___________________________________
 
 .map
@@ -2025,8 +2024,8 @@ const jonas = {
 
 
 
-DESTRUCTORING OBJECTS
-_____________________
+DESTRUCTORING (OBJECTS)      - REACT
+_______________________
 
 - the order of elements does NOT matter
 - really useful for api calls
@@ -2110,7 +2109,7 @@ to delete a elements -> .delete
 
 
 
-                    has is actually amethod
+                    has is actually a method
 console.log(ordersSet.has('Pizza'));          -> true
 console.log(ordersSet.has('Buritto'));        -> false
 
@@ -2738,6 +2737,7 @@ console.log(message3.padEnd(35, '+'));
 
 
 USEFUL
+
 MASKING NUMBERS
 _______________
 
