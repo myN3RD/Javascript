@@ -1912,7 +1912,7 @@ movements.forEach(function (movement, index, array) {
 
 
 
-DESTRUCTURING ARRAYS
+DESTRUCTURING ARRAYS      - REACT
 ____________________
 
 const arr = [1, 2, 3];
@@ -2157,26 +2157,27 @@ METHODS:
 ________________________________________
 
 
-          SPREAD OPERATOR
-          _______________
+          SPREAD/REST OPERATOR ...
+          ____________________
 
 - the spread operator basically EXPAND an array into all its elements
 
-- so basically unpacking all the array elements at one
-
-NOTE: spread operator does NOT work inside/with template lterals!   ` ${var} ....   ` 
-
-
-->
-
-... to expand the array to all individual elements
-
+- so basically unpacking all the array elements
 - its like taking out all the elements of the array!
+
+- ... has to be always at the end insode the []
+-> const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+
+
+NOTE: 
+- spread operator does NOT work inside/with template lterals!   ` ${var} ....   ` 
+
 
 const arr = [7, 8, 9];
 const newArray = [1, 2, ...arr]; -> using the spread operator
 console.log(newArray);        -> [1, 2, 7, 8, 9]
 console.log(...newArr);       -> 1 2 7 8 9
+
 
 
 NICE EXAMPLE: merge two arrays + spread operator
