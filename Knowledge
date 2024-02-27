@@ -18,8 +18,8 @@ IF and ELSE STATEMENTS - 869
 * STATEMENTS and EXPRESSIONS - 971   * CONDITIONALS ??
 TRUTHY and FALSY - 981
 * LOOPS - 1000
-ARRAYS - 1290
-OBJECTS - 1620
+ARRAYS - 1620
+OBJECTS - 2010
 SETS - 1864
 MAPS - 1900
 OTHER OPERATORS - 1937
@@ -1974,18 +1974,22 @@ METHODS -> FOR DATA TRANSFORMATIONS      - REACT
 ___________________________________
 
 .map
+
 similar as the forEach method
--> for looping
--> creates a NEW array
--> we CAN ADD more methods, cause we get back a an arr
+-> for looping over an array -> creates a NEW array
+-> we CAN ADD more methods, cause we get back an new array
+
 
 .filter
+
 Like: value > 2
       [3, 1, 4, 3, 2] -> [3, 4, 3]
 -> returns a new array
 -> we CAN ADD more methods, cause we get back a an arr
 
+
 .reduce
+
 -> reduces all array elements to ONE SINGLE value
 -> gives us NO new array, just the reduced single value
 Like: value > 2
@@ -1995,7 +1999,7 @@ Like: value > 2
 
 
 -> we can chain this methods together or after another
--> at least, dont over do
+-> at least, dont over do it
 -> its bad practice, to mutate the underlying original array (with the splice or reverse method for example) 
 
 
