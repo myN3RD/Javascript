@@ -468,6 +468,7 @@ NOTE: Functions are a special kind of Objects
       -> Call, bind, and apply are some of the methods that every function inherits
       -> Not all functions need to return something! -> look at FAB example Syntax
       -> Not all functions need to accept parameters! -> look at FAB example Syntax
+      -> when using this keyword -> we use a regular and NO arrow function!
 
 
 SYNTAX:
@@ -736,7 +737,7 @@ return a + 1
 "Wenn du über mehrere Zeilen schreibst, ist das ein Block Statement und du musst return machen."
 
 
-NOTE: NEVER use arrow functions as a method!
+NOTE: NEVER use arrow functions as a method! + when using this keyword -> we use a regular and NO arrow function!
 
 
 fetch(url)
