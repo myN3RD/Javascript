@@ -28,7 +28,7 @@ AND and OR OPERATORS - 1936
 METHODS -> FOR DATA TRANSFORMATIONS - 1980      - REACT (.map .filter .reduce .sort)
 DESTRUCTORING (OBJECTS) - 2030      - REACT
 ....
-REGULAR EXPRESSIONS (most hard thing to understand in JS) -
+REGULAR EXPRESSIONS (most hard thing to understand in JS) - 2160
 REST PATTERN - 2220
 DOM - 2338
 EVENT LISTENERS - 2135
@@ -2158,6 +2158,14 @@ METHODS:
 
 
 
+          REGULAR EXPRESSIONS
+          ___________________
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+
+
+
+
 ----------OTHER OPERATORS---------------
 ________________________________________
 
@@ -2329,7 +2337,7 @@ console.log(restaurant.openingHours.mon?.open));
 console.log(restaurant.openingHours?.mon?.open));          -> if opening does not exists , then the mon propertie will not be read
 
 
-THATS REALLY USEFUL TO PreveNT ALL KIND OF BUGS
+THATS REALLY USEFUL TO Prevent ALL KIND OF BUGS
 
 
 // example
