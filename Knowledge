@@ -1622,8 +1622,8 @@ if (dice === 6) console.log('Loop is about to end, cause you rolled a 6');
 
 TOP ZUSAMMENFASSUNG @ Lektion 165
 
-arrays are objects, thats why they have methods too
-JS is "zero based" -> means it starts counting from 0 and not 1
+- arrays are objects -> thats why they have methods too
+
 
                    position(s)  
                    ⬇️ ⬇️ ⬇️
@@ -1635,7 +1635,7 @@ const dataArray = [4, 15, 34];  // array without objects
 dataArray[1] = 22;  // -> [4, 22, 34];
 
 
-              | we need the new keyword to use an array function      
+              ⬇️ we need the new keyword to use an array function      
 const years = new Array(1991, 1994, 2008, 2020);  // array function
 
 // array with objects inside of the array
@@ -1670,7 +1670,8 @@ ARRAY METHODS
 _____________
 
 // Add Elements
-array.push      -> adds elements to the end of an array
+array.push -> adds elements to the end of an array
+.shift     -> adds elements to the end of an array
 .unshift   -> adds elements to the beginning of an array
 
 // Remove Elements
