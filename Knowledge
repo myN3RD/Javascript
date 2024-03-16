@@ -1578,9 +1578,11 @@ console.log(`---STARTING EXERCISE--- ${exercise}`);
 while loop
 __________
 
-while = is checking a condition -> infinite loop until it turns from true to false -> will run while the condition is true
--> in a while loop we can ONLY specific a CONDITION
--> perfect to use if DONT KNOW how many iteration we have
+a while loop reapeats an action as long (infinite loop) as a condition (is checking a condition) is true
+->  until it turns from true to false
+
+-> in a while loop we can ONLY specify a CONDITION
+-> perfect to use if we DONT KNOW how many iteration we have
 
 var i = 1;
 
